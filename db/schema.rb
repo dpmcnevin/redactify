@@ -9,7 +9,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091210130916) do
+ActiveRecord::Schema.define(:version => 20091210165153) do
+
+  create_table "spoilers", :force => true do |t|
+    t.integer  "user_id"
+    t.text     "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "twitter_id"
