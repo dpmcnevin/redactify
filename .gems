@@ -1,2 +1,2 @@
-twitter-auth --lib 'twitter_auth'
+twitter-auth
 oauth --version '>= 0.3.1'
