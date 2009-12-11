@@ -21,7 +21,8 @@ a {
   -moz-border-radius: 1em;
   -webkit-border-radius: 1em;
   border-radius: 1em;
-  margin: 1em auto 0.5em; }
+  margin: 1em auto 0.5em; 
+}
 
 #footer {
   text-align: center;
@@ -64,3 +65,8 @@ div.notice {
   background: #cfc;
   border-color: #191;
   color: #131; }
+
+.redacted {
+	background: red;
+	color: white;
+}

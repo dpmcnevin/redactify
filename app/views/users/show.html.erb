@@ -1,16 +1,40 @@
 <%= twitter_name(@user, :link) %> (<%= @user.location %>)
+
 <p />
-<h2>Timeline</h2>
-<% for tweet in @user.timeline %>
-  <p class="tweet">
-    <%= link_to image_tag(tweet["user"]["profile_image_url"]), "http://twitter.com/#{tweet["user"]["screen_name"]}" %>
-    <%= link_to tweet["user"]["screen_name"], "http://twitter.com/#{tweet["user"]["screen_name"]}"%>
-    <div class="tweet_text">
-      <%= tweet["text"] %>
-    </div>
-  </p>
-<% end %>
 
 <div id="spoiler_list">
-  <%= render "spoilers/list", :params => {:user_id => @user.id} %>
+  <% form_for [@user, Spoiler.new] do |f| %>
+    <%= f.label :name, "Add Spoiler Tag" %>
+    <%= f.text_field :name %>
+  <% end %>
+  
+  <% for spoiler in @user.spoilers %>
+    <%= spoiler.name %>
+    <small><%= link_to "remove", [@user,spoiler], :method => :delete, :confirm => "really delete?" %></small>
+    <br />
+  <% end %>
 </div>
+
+<p />
+
+<div id="timeline">
+  <h2>Timeline</h2>
+  <% for tweet in @user.spoiler_free_timeline %>
+    <p class="tweet">
+      <div class="tweet_text">
+        <% if tweet.is_a? Redacted %>
+          <%= link_to image_tag(tweet.tweet["user"]["profile_image_url"]), "http://twitter.com/#{tweet.tweet["user"]["screen_name"]}" %>
+          <%= link_to tweet.tweet["user"]["screen_name"], "http://twitter.com/#{tweet.tweet["user"]["screen_name"]}"%>
+          <span class="redacted">REDACTED</span><br />
+          <small>matched tags: <%= tweet.tags.collect(&:name).join(",") %></small>
+        <% else %>
+          <%= link_to image_tag(tweet["user"]["profile_image_url"]), "http://twitter.com/#{tweet["user"]["screen_name"]}" %>
+          <%= link_to tweet["user"]["screen_name"], "http://twitter.com/#{tweet["user"]["screen_name"]}"%>
+          <%= tweet["text"] %>
+        <% end %>
+      </div>
+    </p>
+  <% end %>
+</div>
+
+
