@@ -13,7 +13,7 @@ module TwitterHelper
 
   def profile_image(user, options = {})
     alt = "#{user.name} (@#{user.login})"
-    image_tag(user.profile_image_url, :alt => alt, :title => alt)
+    image_tag(user.profile_image_url, :alt => alt, :title => alt, :size => "50x50")
   end
   
 end
