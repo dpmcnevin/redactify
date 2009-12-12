@@ -9,9 +9,15 @@ class SpoilersController < ApplicationController
   end
   
   def create
-    @user.spoilers.create(params[:spoiler])
+    @spoiler = @user.spoilers.new(params[:spoiler])
+    if @spoiler.save
+      flash[:notice] = "Tag Created"
+    else
+      flash[:error] = "There was a problem creating the tag"
+    end
+    
     respond_to do |format|
-      format.html { redirect_to @user }
+      format.html { redirect_to root_path }
     end
   end
   
@@ -22,7 +28,7 @@ class SpoilersController < ApplicationController
     else
       flash[:error] = "There was a problem removing the tag"
     end
-    redirect_to @user
+    redirect_to root_path
   end
   
   private
