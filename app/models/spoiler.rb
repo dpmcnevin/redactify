@@ -5,6 +5,6 @@ class Spoiler < ActiveRecord::Base
   validates_format_of :name, :with => /^[\w\d\s]+$/, :on => :create, :message => "is invalid", :allow_blank => false
   
   def self.popular
-    all(:group => :name)
+    all(:select => "id, name", :group => :name)
   end
 end
