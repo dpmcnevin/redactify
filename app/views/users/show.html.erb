@@ -1,4 +1,4 @@
-<%= twitter_name(@user, :link) %> (<%= @user.location %>)
+<%= twitter_name(@user, :link) %>
 
 <p />
 
@@ -13,6 +13,10 @@
     <small><%= link_to "remove", [@user,spoiler], :method => :delete, :confirm => "really delete?" %></small>
     <br />
   <% end %>
+
+	<div id="popular_spoilers">
+		<%= render "spoilers/popular"%>
+	</div>
 </div>
 
 <p />

@@ -1,0 +1,7 @@
+<h3>Popular Tags</h3>
+
+<% for spoiler in Spoiler.popular.reject {|s| @user.spoilers.include? s } %>
+	<%= spoiler.name %>
+	<small><%= link_to "add", [@user,"spoilers"], "spoiler[name]" => spoiler.name, :method => :post %></small>
+	<br />
+<% end %>

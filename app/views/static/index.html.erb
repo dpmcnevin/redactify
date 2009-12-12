@@ -7,6 +7,6 @@
 <% if @users.any? %>
   <h2>Recently Joined</h2>
   <% for user in @users %>
-    <%= link_to profile_image(user), user %>
+    <%= link_to profile_image(user), twitter_profile_url(user) %>
   <% end %>
 <% end %>
