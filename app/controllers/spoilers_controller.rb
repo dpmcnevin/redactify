@@ -17,7 +17,7 @@ class SpoilersController < ApplicationController
     end
     
     respond_to do |format|
-      format.html { redirect_to root_path }
+      format.html { redirect_to timeline_path }
     end
   end
   
@@ -28,7 +28,7 @@ class SpoilersController < ApplicationController
     else
       flash[:error] = "There was a problem removing the tag"
     end
-    redirect_to root_path
+    redirect_to timeline_path
   end
   
   private

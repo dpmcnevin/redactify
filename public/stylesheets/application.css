@@ -15,20 +15,26 @@ a {
   clear: both; }
 
 #wrapper {
-  background: white;
   padding: 1.5em 2em;
   width: 55em;
-  -moz-border-radius: 1em;
-  -webkit-border-radius: 1em;
-  border-radius: 1em;
   margin: 1em auto 0.5em; 
 }
 
 #footer {
+  clear: both;
   text-align: center;
   font-size: 0.8em;
   color: #666;
   padding-bottom: 1.5em; }
+
+#header {
+  background: white;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  margin-bottom: 2em;
+  padding: 5px;
+}
 
 #header h1 {
   float: left;
@@ -69,4 +75,16 @@ div.notice {
 .redacted {
 	background: red;
 	color: white;
+}
+
+#spoiler_list {
+  background: white;
+  float: right;
+  width: 240px;
+  padding: 5px;
+}
+
+#timeline {
+  float: left;
+  width: 600px;
 }
