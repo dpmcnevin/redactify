@@ -99,10 +99,13 @@ div.notice {
 }
 
 .tweet {
-  border-bottom: 1px soild #f1f1f1;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
   float: left;
   clear: both;
+	margin-bottom:10px;
+	padding-bottom:4px;
+	width:100%;
 }
 
 .tweet img {
