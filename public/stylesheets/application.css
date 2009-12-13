@@ -77,14 +77,35 @@ div.notice {
 	color: white;
 }
 
+#contents {
+  background: white;
+}
+
 #spoiler_list {
   background: white;
+  border: 1px solid #ccc;
   float: right;
   width: 240px;
   padding: 5px;
 }
 
 #timeline {
+  background: white;
+  border: 1px solid #ccc;
   float: left;
   width: 600px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.tweet {
+  border-bottom: 1px soild #f1f1f1;
+  margin-bottom: 10px;
+  float: left;
+  clear: both;
+}
+
+.tweet img {
+  float: left;
+  margin-right: 5px;
 }
