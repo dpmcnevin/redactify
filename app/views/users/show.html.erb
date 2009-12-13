@@ -1,4 +1,3 @@
-<div id="content">
 	<div id="spoiler_list">
 	  <% form_for [@user, Spoiler.new] do |f| %>
 	    <%= f.label :name, "Add Spoiler Tag" %>
@@ -21,8 +20,7 @@
 	<div id="timeline">
 	  <h2>Timeline</h2>
 	  <% for tweet in @user.spoiler_free_timeline %>
-	    <p class="tweet">
-	      <div class="tweet_text">
+	      <div class="tweet">
 	        <% if tweet.is_a? Redacted %>
 	          <%= link_to image_tag(tweet.tweet["user"]["profile_image_url"], :size => "50x50"), "http://twitter.com/#{tweet.tweet["user"]["screen_name"]}" %>
 	          <%= link_to tweet.tweet["user"]["screen_name"], "http://twitter.com/#{tweet.tweet["user"]["screen_name"]}"%>
@@ -34,8 +32,6 @@
 	          <%= tweet["text"] %>
 	        <% end %>
 	      </div>
-	    </p>
 	  <% end %>
 	</div>
-</div>
 
