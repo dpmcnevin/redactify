@@ -1,0 +1,2 @@
+page["tweet_text_#{@tweet["id"]}"].replace_html :inline => @tweet["text"]
+page["tweet_text_#{@tweet["id"]}"].highlight
