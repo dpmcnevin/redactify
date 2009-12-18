@@ -112,3 +112,10 @@ div.notice {
   float: left;
   margin-right: 5px;
 }
+
+.tweet .tweet_text {
+}
+
+.tweet .action {
+  font-size: 0.75em;
+}
