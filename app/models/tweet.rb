@@ -22,4 +22,12 @@ class Tweet
     @tweet["user"]["profile_image_url"]
   end
   
+  def protected?
+    @tweet["user"]["protected"]
+  end
+  
+  def created_at
+    @tweet["created_at"]
+  end
+  
 end

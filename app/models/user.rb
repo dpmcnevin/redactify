@@ -27,6 +27,10 @@ class User < TwitterAuth::GenericUser
     Tweet.new(twitter.get("/statuses/show/#{id}.json"))
   end
   
+  def rate_limit_status
+    twitter.get("http://twitter.com/account/rate_limit_status.json")
+  end
+  
   def spoiler?(tweet)
     spoilers.each do |spoiler|
       return true if tweet =~ /#{spoiler.name}/i
@@ -37,5 +41,9 @@ class User < TwitterAuth::GenericUser
   def spoiled_on(tweet)
     spoilers.reject {|spoiler| tweet !~ /#{spoiler.name}/i}
   end
+  
+  # def other_popular_tags
+  #   Spoiler
+  # end
   
 end

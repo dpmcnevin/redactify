@@ -22,17 +22,19 @@
         </div>
         <div class='clearfix'></div>
       </div>
+      
+      <% if flash[:error] %>
+        <div id="flash" class='flash error'><%= flash[:error] %></div>
+      <% end %><% if flash[:notice] %>
+        <div id="flash" class='flash notice'><%= flash[:notice] %></div>
+      <% end %>
+      
       <div id='contents'>
-        <% if flash[:error] %>
-          <div id="flash" class='flash error'><%= flash[:error] %></div>
-        <% end %><% if flash[:notice] %>
-          <div id="flash" class='flash notice'><%= flash[:notice] %></div>
-        <% end %>
         <%= yield %>
       </div>
 
 	    <div id='footer'>
-	      Copyright &copy; <%= link_to "redactify", "mailto:dpmcnevin@redactify.com" %>.
+	      Copyright &copy; <%= link_to "redactify", "mailto:dpmcnevin@redactify.com" %> | <%= link_to_unless_current "about", static_url("about") %>
 	    </div>
 
     </div>
