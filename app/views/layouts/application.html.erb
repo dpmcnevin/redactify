@@ -36,5 +36,8 @@
 	    </div>
 
     </div>
+    
+    <%= render "static/google_analytics" if RAILS_ENV == "production" %>
+
   </body>
 </html>
