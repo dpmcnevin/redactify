@@ -109,6 +109,10 @@ div.notice {
 	margin-bottom: 2px;
 }
 
+.tweet a {
+	text-decoration: none;
+}
+
 .tweet img {
   float: left;
   margin-right: 5px;

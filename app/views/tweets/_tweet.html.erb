@@ -1,5 +1,5 @@
 <div id="<%= "tweet_#{tweet.id}" %>" class="tweet">
   <%= link_to image_tag(tweet.profile_image_url, :size => "50x50"), "http://twitter.com/#{tweet.screen_name}" %>
   <%= link_to tweet.screen_name, "http://twitter.com/#{tweet.screen_name}"%>
-  <%= auto_link(tweet.text, :link => :urls, :html => { :target => '_blank'} ) %>
+  <%= auto_link_twitter(auto_link(tweet.text, :link => :urls, :html => { :target => '_blank'} )) %>
 </div>
