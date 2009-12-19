@@ -1,12 +1,18 @@
-<h2>Welcome to redactify!</h2>
+<div id="welcome">
+  <p class="warning">
+    This is a <strong>super pre-alpha</strong> service, don't expect to have any acceptable level of service, security, or functionality yet.
+  </p>
 
-<p>
-  This is a super pre-alpha service, don't expect to have any acceptable level of service, security, or functionality.
-</p>
-
-<% if @users.any? %>
-  <h2>Recently Joined</h2>
-  <% for user in @users %>
-    <%= link_to profile_image(user), twitter_profile_url(user) %>
+  <% if logged_in? %>
+  <p>
+    <%= render "users/form", :user => current_user %> or <%= link_to "go to my timeline", timeline_path %>
+  </p>
   <% end %>
-<% end %>
+
+  <% if @users.any? %>
+    <h2>Recently Joined</h2>
+    <% for user in @users %>
+      <%= link_to profile_image(user), twitter_profile_url(user) %>
+    <% end %>
+  <% end %>
+</div>

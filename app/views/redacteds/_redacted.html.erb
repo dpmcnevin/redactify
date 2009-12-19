@@ -1,8 +1,14 @@
 <div id="<%= "tweet_#{redacted.id}" %>" class="redacted tweet">
-  <%= link_to image_tag(redacted.profile_image_url, :size => "50x50"), "http://twitter.com/#{redacted.screen_name}" %>
-  <%= link_to redacted.screen_name, "http://twitter.com/#{redacted.screen_name}"%>
-	<span class="redacted">REDACTED</span>
-	<%= link_to_remote "show", :url => tweet_path(redacted.id), :method => :get, :html => { :class => :action } %>
-	<br />
-	<small>matched tags: <%= redacted.tags.collect(&:name).join(", ") %></small>
+  <span class="user_info">
+    <%= link_to image_tag(redacted.profile_image_url, :size => "50x50", :class => "user_image"), "http://twitter.com/#{redacted.screen_name}" %>
+  </span>
+  
+  <span class="tweet_text">
+    <%= image_tag("lock.png") if redacted.protected? %>
+    <%= link_to redacted.screen_name, "http://twitter.com/#{redacted.screen_name}"%>
+  	<span class="redacted">REDACTED</span>
+  	<%= link_to_remote "show", :url => tweet_path(redacted.id), :method => :get, :html => { :class => :action } %>
+  	<br />
+  	<small><strong>matched tags</strong>: <%= redacted.tags.collect(&:name).join(", ") %></small>
+	</span>
 </div>

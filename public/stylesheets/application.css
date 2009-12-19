@@ -14,6 +14,10 @@ a {
 .clearfix {
   clear: both; }
 
+#about {
+	padding: 10px;
+}
+
 #wrapper {
   padding: 1.5em 2em;
   width: 55em;
@@ -30,10 +34,12 @@ a {
 #header {
   background: white;
   border-radius: 1em;
-  -moz-border-radius: 1em;
-  -webkit-border-radius: 1em;
-  margin-bottom: 2em;
+  -moz-border-radius: .5em .5em 0 0;
+  -webkit-border-radius: .5em .5em 0 0;
+  margin-bottom: 10px;
   padding: 5px;
+	border: 1px solid;
+	border-color: #888;
 }
 
 #header h1 {
@@ -72,6 +78,16 @@ div.notice {
   border-color: #191;
   color: #131; }
 
+.warning {
+	border: 2px dashed red;
+	background: #fcc;
+  border-color: #911;
+  color: #311;
+	margin: 5px;
+	padding: 5px;
+	font-size: 1.2em;
+}
+
 .tweet.redacted {
 	border: 2px solid;
   background: #fcc;
@@ -83,13 +99,36 @@ div.notice {
   background: white;
 }
 
-#spoiler_list {
+#side {
   background: white;
   border: 1px solid #ccc;
   float: right;
   width: 240px;
-  padding: 5px;
 }
+
+.side_content {
+	padding: 5px;
+}
+
+#spoiler_name {
+	font-size: 1.25em;
+	width: 225px;
+	border: 1px solid #888;
+}
+
+#spoiler_name.blurred {
+	color: #aaa;
+}
+
+#rate_limit {
+	border-top: 1px dashed #888;
+	color: #666;
+	background: #ddd;
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 0.6em;
+}
+
 
 #timeline {
   background: white;
@@ -109,11 +148,27 @@ div.notice {
 	margin-bottom: 2px;
 }
 
+.tweet .user_info {
+	display:block;
+	height:50px;
+	margin:0 10px 0 0;
+	overflow:hidden;
+	position:absolute;
+	width:50px;
+}
+
+.tweet .tweet_text {
+	display:block;
+	margin-left:56px;
+	min-height:48px;
+	overflow:hidden;
+}
+
 .tweet a {
 	text-decoration: none;
 }
 
-.tweet img {
+.tweet .user_image {
   float: left;
   margin-right: 5px;
 	margin-left: 2px;
