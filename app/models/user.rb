@@ -18,13 +18,13 @@ class User < TwitterAuth::GenericUser
       if spoiler?(tweet["text"])
         Redacted.new(tweet,spoiled_on(tweet["text"]))
       else
-        tweet
+        Tweet.new(tweet)
       end
     end
   end
   
   def get_tweet(id)
-    twitter.get("/statuses/show/#{id}.json")
+    Tweet.new(twitter.get("/statuses/show/#{id}.json"))
   end
   
   def spoiler?(tweet)

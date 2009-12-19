@@ -1,4 +1,4 @@
-class Redacted
+class Redacted < Tweet
 
   attr_accessor :tweet, :tags
   

@@ -20,24 +20,7 @@
 	<div id="timeline">
 	  <h2>Timeline</h2>
 	  <% for tweet in @user.spoiler_free_timeline %>
-	      <div class="tweet">
-	        <% if tweet.is_a? Redacted %>
-	          <%= link_to image_tag(tweet.tweet["user"]["profile_image_url"], :size => "50x50"), "http://twitter.com/#{tweet.tweet["user"]["screen_name"]}" %>
-	          <%= link_to tweet.tweet["user"]["screen_name"], "http://twitter.com/#{tweet.tweet["user"]["screen_name"]}"%>
-	          <div id="<%= "tweet_text_#{tweet.tweet["id"]}" %>" class="tweet_text">
-		 					<span class="redacted">REDACTED</span>
-							<%= link_to_remote "show", :url => tweet_path(tweet.tweet["id"]), :method => :get, :html => { :class => :action } %>
-							<br />
-	          	<small>matched tags: <%= tweet.tags.collect(&:name).join(", ") %></small>
-						</div>
-	        <% else %>
-	          <%= link_to image_tag(tweet["user"]["profile_image_url"], :size => "50x50"), "http://twitter.com/#{tweet["user"]["screen_name"]}" %>
-	          <%= link_to tweet["user"]["screen_name"], "http://twitter.com/#{tweet["user"]["screen_name"]}"%>
-	          <div id="<%= "tweet_text_#{tweet["id"]}" %>" class="tweet_text">
-	          	<%= tweet["text"] %>
-						</div>
-	        <% end %>
-	      </div>
+      <%= render tweet %>
 	  <% end %>
 	</div>
 
