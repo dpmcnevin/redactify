@@ -1,4 +1,4 @@
-<div id="<%= "tweet_#{redacted.id}" %>" class="tweet">
+<div id="<%= "tweet_#{redacted.id}" %>" class="redacted tweet">
   <%= link_to image_tag(redacted.profile_image_url, :size => "50x50"), "http://twitter.com/#{redacted.screen_name}" %>
   <%= link_to redacted.screen_name, "http://twitter.com/#{redacted.screen_name}"%>
 	<span class="redacted">REDACTED</span>

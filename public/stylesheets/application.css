@@ -72,9 +72,11 @@ div.notice {
   border-color: #191;
   color: #131; }
 
-.redacted {
-	background: red;
-	color: white;
+.tweet.redacted {
+	border: 2px solid;
+  background: #fcc;
+  border-color: #911;
+  color: #311;
 }
 
 #contents {
@@ -100,17 +102,17 @@ div.notice {
 
 .tweet {
   border-bottom: 1px solid #ccc;
-  margin-bottom: 10px;
   float: left;
   clear: both;
-	margin-bottom:10px;
-	padding-bottom:4px;
+	padding: 10px 0px;
 	width:100%;
+	margin-bottom: 2px;
 }
 
 .tweet img {
   float: left;
   margin-right: 5px;
+	margin-left: 2px;
 }
 
 .tweet .tweet_text {
