@@ -34,7 +34,6 @@ class SpoilersController < ApplicationController
   private
   
   def get_user
-    # @user = User.find(params[:user_id])
     @user = current_user
   end
 end
