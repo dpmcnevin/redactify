@@ -6,7 +6,7 @@ module ApplicationHelper
   	  if match[1] == "#"
   	    txt.gsub!(match.last, link_to(match.last, "http://twitter.com/search/?q=##{match.last}", :target => "_blank"))
 	    elsif match[1] == "@"
-  		  txt.gsub!(match.last, '<a href="http://twitter.com/' + match.last + '">' + match.last + '</a>')
+	      txt.gsub!(match.last, link_to(match.last, "http://twitter.com/match.last", :target => "_blank"))
 		  end
   	end
   	txt
