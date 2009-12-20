@@ -2,9 +2,12 @@
 module ApplicationHelper
 
   def auto_link_twitter(txt)
-  	if match = txt.match(/.*?(@)((?:[a-z][a-z]+))(:|\s)/i)
-  		user = match[2]
-  		txt.gsub!(user, '<a href="http://twitter.com/' + user + '">' + user + '</a>')
+  	txt.scan(/(^|\s+)(#|@)(\w{1,15})/).each do |match|
+  	  if match[1] == "#"
+  	    txt.gsub!(match.last, link_to(match.last, "http://twitter.com/search/?q=##{match.last}", :target => "_blank"))
+	    elsif match[1] == "@"
+  		  txt.gsub!(match.last, '<a href="http://twitter.com/' + match.last + '">' + match.last + '</a>')
+		  end
   	end
   	txt
   end

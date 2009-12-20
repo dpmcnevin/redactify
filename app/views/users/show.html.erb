@@ -6,7 +6,7 @@
   
   	  <% for spoiler in @user.spoilers %>
   	    <%= spoiler.name %>
-  	    <small><%= link_to "remove", [@user,spoiler], :method => :delete, :confirm => "really delete?" %></small>
+  	    <small><%= link_to "remove", [@user,spoiler], :method => :delete, :confirm => "really delete \"#{spoiler.name}\"?" %></small>
   	    <br />
   	  <% end %>
 	  </div>

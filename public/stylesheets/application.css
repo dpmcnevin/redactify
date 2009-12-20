@@ -14,6 +14,14 @@ a {
 .clearfix {
   clear: both; }
 
+#welcome {
+  padding: 5px;
+}
+
+#welcome form {
+  display: inline;
+}
+
 #about {
 	padding: 10px;
 }
@@ -93,6 +101,10 @@ div.notice {
   background: #fcc;
   border-color: #911;
   color: #311;
+}
+
+.tweet small {
+  color: #888;
 }
 
 #contents {
