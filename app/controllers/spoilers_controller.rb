@@ -11,7 +11,7 @@ class SpoilersController < ApplicationController
   def create
     @spoiler = @user.spoilers.new(params[:spoiler])
     if @spoiler.save
-      flash[:notice] = "Tag Created"
+      flash[:notice] = "Tag Created for: #{@spoiler.name}"
     else
       flash[:error] = "There was a problem creating the tag"
     end
@@ -24,7 +24,7 @@ class SpoilersController < ApplicationController
   def destroy
     @spoiler = @user.spoilers.find(params[:id])
     if @spoiler.destroy
-      flash[:notice] = "Tag Removed"
+      flash[:notice] = "Tag Removed for: #{@spoiler.name}"
     else
       flash[:error] = "There was a problem removing the tag"
     end

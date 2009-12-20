@@ -1,8 +1,4 @@
 <div id="welcome">
-  <p class="warning">
-    This is a <strong>super pre-alpha</strong> service, don't expect to have any acceptable level of service, security, or functionality yet.
-  </p>
-
   <% if logged_in? %>
   <p>
     <%= render "users/form", :user => current_user %> or <%= link_to "go to my timeline", timeline_path %>
@@ -10,9 +6,11 @@
   <% end %>
 
   <% if @users.any? %>
-    <h2>Recently Joined</h2>
-    <% for user in @users %>
-      <%= link_to profile_image(user), twitter_profile_url(user) %>
-    <% end %>
+		<div id="recent_users">
+	    <h2>Recently Joined</h2>
+	    <% for user in @users %>
+	      <%= link_to profile_image(user), twitter_profile_url(user) %>
+	    <% end %>
+		</div>
   <% end %>
 </div>
