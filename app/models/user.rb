@@ -50,7 +50,7 @@ class User < TwitterAuth::GenericUser
       :conditions => conditions, 
       :order => "count DESC",
       :limit => 5,
-      :group => :name)
+      :group => "name, #{cols}")
   end
   
   private
