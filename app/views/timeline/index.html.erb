@@ -23,8 +23,6 @@
 
 	<div id="timeline">
 	  <h2>Timeline</h2>
-	  <% for tweet in @user.spoiler_free_timeline %>
-      <%= render tweet %>
-	  <% end %>
+    <%= render "tweets" %>
 	</div>
 

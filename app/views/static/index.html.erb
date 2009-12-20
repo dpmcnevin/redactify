@@ -1,7 +1,7 @@
 <div id="welcome">
   <% if logged_in? %>
   <p>
-    <%= render "users/form", :user => current_user %> or <%= link_to "go to my timeline", timeline_path %>
+    <%= render "timeline/form", :user => current_user %> or <%= link_to "go to my timeline", timeline_path %>
   </p>
   <% end %>
 
