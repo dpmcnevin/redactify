@@ -43,9 +43,10 @@ class User < TwitterAuth::GenericUser
     my_spoilers = spoilers.collect(&:name)
     conditions = []
     conditions = ["name NOT IN (?)", my_spoilers] unless my_spoilers.empty?
+    cols = Spoiler.column_names.collect {|c| "spoilers.#{c}"}.join(",")
     
     Spoiler.find(:all, 
-      :select => "*,count(*) as count", 
+      :select => "#{cols},count(*) as count", 
       :conditions => conditions, 
       :order => "count DESC",
       :limit => 5,
