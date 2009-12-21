@@ -4,8 +4,13 @@ class User < TwitterAuth::GenericUser
     
   def update_test_data
     if RAILS_ENV == "development"
+      # tweets
       yaml = twitter.get("/statuses/home_timeline.json").to_yaml
       File.open("#{RAILS_ROOT}/db/test_tweets.yml", "w") { |file| file << yaml }
+      
+      #listst
+      yaml = twitter.get("/1/#{login}/lists.json").to_yaml
+      File.open("#{RAILS_ROOT}/db/test_lists.yml", "w") { |file| file << yaml }
     end
   end
   
@@ -17,6 +22,14 @@ class User < TwitterAuth::GenericUser
       else
         Tweet.new(tweet)
       end
+    end
+  end
+  
+  def get_lists
+    if RAILS_ENV == "development"
+      YAML::load_file "#{RAILS_ROOT}/db/test_lists.yml"
+    else  
+      twitter.get("/1/#{login}/lists.json")
     end
   end
   

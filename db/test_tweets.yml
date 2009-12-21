@@ -1,46 +1,46 @@
 --- 
-- created_at: Sun Dec 20 16:59:22 +0000 2009
+- created_at: Mon Dec 21 15:39:29 +0000 2009
   favorited: false
   truncated: false
-  text: Haven't had Canadian bacon in a while. O Canada!
-  id: 6864770560
+  text: "I may be missing out on snow photo ops at home, but I'm ok, as this is my view:  http://twitpic.com/ui8ha"
+  id: 6896452596
   geo: 
   in_reply_to_user_id: 
   in_reply_to_screen_name: 
   user: 
-    name: ignignokt_
-    profile_sidebar_border_color: BDDCAD
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
+    name: snidegrrl
+    profile_sidebar_border_color: 6C1C00
+    profile_sidebar_fill_color: F8E78A
+    profile_background_tile: true
+    created_at: Mon Aug 06 14:35:17 +0000 2007
+    location: Laurel, MD
+    profile_image_url: http://a1.twimg.com/profile_images/60372284/iconworthy_normal.jpg
+    profile_link_color: A100FF
+    favourites_count: 63
+    url: http://www.prosaicparadise.com/
     utc_offset: -18000
-    id: 14129926
-    followers_count: 69
-    profile_text_color: "333333"
-    protected: true
-    geo_enabled: false
-    verified: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    description: ""
+    id: 7993742
+    profile_text_color: 6C1C00
+    protected: false
+    followers_count: 339
     notifications: false
-    statuses_count: 5319
-    friends_count: 100
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
-    screen_name: ignignokt_
+    geo_enabled: false
+    time_zone: Quito
+    profile_background_color: C4FDD7
+    verified: false
+    description: I'm a non-techie techie who drums and wants to help people.
+    friends_count: 263
+    statuses_count: 3903
+    profile_background_image_url: http://a1.twimg.com/profile_background_images/385492/wallpaper-trick.jpg
+    screen_name: snidegrrl
     following: false
-  source: <a href="http://phalangesoftware.com/attneveryone" rel="nofollow">attneveryone</a>
+  source: <a href="http://www.stone.com/Twittelator" rel="nofollow">Twittelator</a>
   in_reply_to_status_id: 
-- created_at: Sun Dec 20 16:59:20 +0000 2009
+- created_at: Mon Dec 21 15:28:43 +0000 2009
   favorited: false
   truncated: false
-  text: Katie was out rumbling in the snow with her best friend. Courted frostbite in the process. Now huddled up and waiting for hot cocoa.
-  id: 6864769995
+  text: Commencing Avatar.
+  id: 6896150383
   geo: 
   in_reply_to_user_id: 
   in_reply_to_screen_name: 
@@ -59,25 +59,395 @@
     id: 2332761
     profile_text_color: "000000"
     protected: false
-    followers_count: 77
-    notifications: 
+    followers_count: 78
     geo_enabled: false
+    verified: false
+    notifications: 
     time_zone: Eastern Time (US & Canada)
     profile_background_color: 9ae4e8
-    verified: false
     description: ""
     friends_count: 108
-    statuses_count: 2030
+    statuses_count: 2034
     profile_background_image_url: http://s.twimg.com/a/1260229822/images/themes/theme1/bg.png
     screen_name: ect
     following: 
   source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
   in_reply_to_status_id: 
-- created_at: Sun Dec 20 16:16:38 +0000 2009
+- created_at: Mon Dec 21 15:14:22 +0000 2009
   favorited: false
   truncated: false
-  text: Woke up with stressful thoughts about work cheating me. WTF. Maybe I made a mistake. But while asleep, I should realize I can walk whenever.
-  id: 6863738043
+  text: "RT @wycats: New blog post: Generic actions in Rails 3: http://bit.ly/55ZvJJ Check it out!"
+  id: 6895755255
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: Ryan Bates
+    profile_sidebar_border_color: b3b3b3
+    profile_sidebar_fill_color: f2f2f2
+    profile_background_tile: false
+    created_at: Fri Mar 28 19:10:25 +0000 2008
+    location: Southern Oregon
+    profile_image_url: http://a1.twimg.com/profile_images/52189024/ryan_bates_cropped_normal.jpg
+    profile_link_color: 1c95c4
+    favourites_count: 51
+    url: http://railscasts.com
+    utc_offset: -28800
+    id: 14246143
+    profile_text_color: "000000"
+    protected: false
+    followers_count: 3593
+    geo_enabled: false
+    verified: false
+    notifications: false
+    time_zone: Pacific Time (US & Canada)
+    profile_background_color: C6E2EE
+    description: Producer of Railscasts - Free Ruby on Rails Screencasts
+    friends_count: 235
+    statuses_count: 2711
+    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme2/bg.gif
+    screen_name: rbates
+    following: false
+  source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 14:50:30 +0000 2009
+  favorited: false
+  truncated: false
+  text: It is possible to get to the theatre too early. Doors still locked.
+  id: 6895108389
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: Eric Thornber
+    profile_sidebar_border_color: 87bc44
+    profile_sidebar_fill_color: e0ff92
+    profile_background_tile: false
+    created_at: Mon Mar 26 18:12:40 +0000 2007
+    location: ""
+    profile_image_url: http://a1.twimg.com/profile_images/69501716/Eric_as_Vaklam_normal.png
+    profile_link_color: 0000ff
+    favourites_count: 2
+    url: 
+    utc_offset: -18000
+    id: 2332761
+    profile_text_color: "000000"
+    protected: false
+    followers_count: 78
+    geo_enabled: false
+    verified: false
+    notifications: false
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: 9ae4e8
+    description: ""
+    friends_count: 108
+    statuses_count: 2032
+    profile_background_image_url: http://s.twimg.com/a/1260229822/images/themes/theme1/bg.png
+    screen_name: ect
+    following: false
+  source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 14:10:53 +0000 2009
+  favorited: false
+  truncated: false
+  text: "@jwiv that's a huge good deed. Your Karma should be mighty now."
+  id: 6894088786
+  geo: 
+  in_reply_to_user_id: 14292072
+  in_reply_to_screen_name: jwiv
+  user: 
+    name: oontzgrrl
+    profile_sidebar_border_color: "000000"
+    profile_sidebar_fill_color: c2b494
+    profile_background_tile: false
+    created_at: Sat Dec 01 00:59:20 +0000 2007
+    location: Tehran
+    profile_image_url: http://a1.twimg.com/profile_images/516524666/Photo_109_normal.jpg
+    profile_link_color: b3201b
+    favourites_count: 0
+    url: http://oontzgrrl.livejournal.com/
+    utc_offset: 12600
+    id: 10755172
+    profile_text_color: "000000"
+    protected: true
+    followers_count: 84
+    geo_enabled: false
+    verified: false
+    notifications: false
+    time_zone: Tehran
+    profile_background_color: ffffff
+    description: I don't set out to offend or shock, but I also don't do anything to avoid it.
+    friends_count: 78
+    statuses_count: 1920
+    profile_background_image_url: http://a1.twimg.com/profile_background_images/52102466/nvRequiemForARobot.br.jpg
+    screen_name: oontzgrrl
+    following: false
+  source: <a href="http://echofon.com/" rel="nofollow">Echofon</a>
+  in_reply_to_status_id: 6893933365
+- created_at: Mon Dec 21 14:08:14 +0000 2009
+  favorited: false
+  truncated: false
+  text: The fed. gov't is closed, most of our clients are closed, & they're not quite done plowing the parking lot. But We! Are! Here! *zzz*
+  id: 6894024148
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: examorata
+    profile_sidebar_border_color: 87bc44
+    profile_sidebar_fill_color: e0ff92
+    profile_background_tile: false
+    created_at: Thu Sep 11 16:09:11 +0000 2008
+    location: Columbia, MD
+    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
+    profile_link_color: 0000ff
+    favourites_count: 4
+    url: 
+    utc_offset: -18000
+    id: 16242727
+    profile_text_color: "000000"
+    protected: false
+    followers_count: 311
+    geo_enabled: false
+    verified: false
+    notifications: 
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: F2D0FD
+    description: Loquacious. Trepidatious. Sesquipedalian.
+    friends_count: 434
+    statuses_count: 4477
+    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
+    screen_name: examorata
+    following: 
+  source: <a href="http://echofon.com/" rel="nofollow">Echofon</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 14:04:34 +0000 2009
+  favorited: false
+  truncated: false
+  text: Good deed completed for day - helped neighbor dig out car.
+  id: 6893933365
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: jwiv
+    profile_sidebar_border_color: 829D5E
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    favourites_count: 0
+    url: http://jwiv.livejournal.com
+    utc_offset: -18000
+    id: 14292072
+    profile_text_color: 3E4415
+    protected: false
+    followers_count: 120
+    geo_enabled: false
+    verified: false
+    notifications: false
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    friends_count: 142
+    statuses_count: 1887
+    profile_background_image_url: http://s.twimg.com/a/1261005104/images/themes/theme5/bg.gif
+    screen_name: jwiv
+    following: true
+  source: web
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 12:39:38 +0000 2009
+  favorited: false
+  truncated: false
+  text: Happy Radium Day, everyone! I am wearing an acid-green Science shirt in honor!
+  id: 6892066399
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: Eric Thornber
+    profile_sidebar_border_color: 87bc44
+    profile_sidebar_fill_color: e0ff92
+    profile_background_tile: false
+    created_at: Mon Mar 26 18:12:40 +0000 2007
+    location: ""
+    profile_image_url: http://a1.twimg.com/profile_images/69501716/Eric_as_Vaklam_normal.png
+    profile_link_color: 0000ff
+    url: 
+    favourites_count: 2
+    utc_offset: -18000
+    id: 2332761
+    profile_text_color: "000000"
+    followers_count: 78
+    protected: false
+    geo_enabled: false
+    notifications: false
+    verified: false
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: 9ae4e8
+    description: ""
+    statuses_count: 2031
+    friends_count: 108
+    profile_background_image_url: http://s.twimg.com/a/1260229822/images/themes/theme1/bg.png
+    screen_name: ect
+    following: true
+  source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 11:39:23 +0000 2009
+  favorited: false
+  truncated: false
+  text: Well, it was easy enough for me to get to work today, though I suspect it will be annoying trying to find parking again tonight at home.
+  id: 6890954034
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: oontzgrrl
+    profile_sidebar_border_color: "000000"
+    profile_sidebar_fill_color: c2b494
+    profile_background_tile: false
+    created_at: Sat Dec 01 00:59:20 +0000 2007
+    location: Tehran
+    profile_image_url: http://a1.twimg.com/profile_images/516524666/Photo_109_normal.jpg
+    profile_link_color: b3201b
+    url: http://oontzgrrl.livejournal.com/
+    favourites_count: 0
+    utc_offset: 12600
+    id: 10755172
+    profile_text_color: "000000"
+    protected: true
+    followers_count: 84
+    geo_enabled: false
+    time_zone: Tehran
+    profile_background_color: ffffff
+    verified: false
+    description: I don't set out to offend or shock, but I also don't do anything to avoid it.
+    notifications: false
+    friends_count: 78
+    statuses_count: 1919
+    profile_background_image_url: http://a1.twimg.com/profile_background_images/52102466/nvRequiemForARobot.br.jpg
+    screen_name: oontzgrrl
+    following: false
+  source: <a href="http://echofon.com/" rel="nofollow">Echofon</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 11:35:35 +0000 2009
+  favorited: false
+  truncated: false
+  text: And of course, office is open on time. Pfft. Heh, it's only a 3-day week this week for me.
+  id: 6890890333
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: examorata
+    profile_sidebar_border_color: 87bc44
+    profile_sidebar_fill_color: e0ff92
+    profile_background_tile: false
+    created_at: Thu Sep 11 16:09:11 +0000 2008
+    location: Columbia, MD
+    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
+    profile_link_color: 0000ff
+    favourites_count: 4
+    url: 
+    utc_offset: -18000
+    id: 16242727
+    profile_text_color: "000000"
+    protected: false
+    followers_count: 312
+    notifications: false
+    geo_enabled: false
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: F2D0FD
+    verified: false
+    description: Loquacious. Trepidatious. Sesquipedalian.
+    friends_count: 434
+    statuses_count: 4474
+    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
+    screen_name: examorata
+    following: false
+  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 09:03:32 +0000 2009
+  favorited: false
+  truncated: false
+  text: "Episode 193: Tableless Model http://bit.ly/6Mgkoa"
+  id: 6888517716
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: Railscasts
+    profile_sidebar_border_color: 87bc44
+    profile_sidebar_fill_color: e0ff92
+    profile_background_tile: false
+    created_at: Fri Feb 27 00:37:31 +0000 2009
+    location: ""
+    profile_image_url: http://a3.twimg.com/profile_images/83693421/logo_normal.png
+    profile_link_color: 0000ff
+    favourites_count: 0
+    url: http://railscasts.com
+    utc_offset: -28800
+    id: 22086312
+    profile_text_color: "000000"
+    protected: false
+    followers_count: 776
+    notifications: false
+    geo_enabled: false
+    time_zone: Pacific Time (US & Canada)
+    profile_background_color: 9ae4e8
+    verified: false
+    description: Free Ruby on Rails Screencasts
+    friends_count: 1
+    statuses_count: 29
+    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
+    screen_name: railscasts
+    following: false
+  source: <a href="http://twitterfeed.com" rel="nofollow">twitterfeed</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 06:01:32 +0000 2009
+  favorited: false
+  truncated: false
+  text: "Pro Tip: At my Christmas party and there's a line for the bathroom and you have to poo? The furnace is a bad choice. Thanks Alicia Keys."
+  id: 6885199054
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: Martin Sargent
+    profile_sidebar_border_color: BDDCAD
+    profile_sidebar_fill_color: DDFFCC
+    profile_background_tile: false
+    created_at: Wed Apr 30 05:57:08 +0000 2008
+    location: Old Fog Town
+    profile_image_url: http://a3.twimg.com/profile_images/570319473/Photo_2_normal.jpg
+    profile_link_color: 0084B4
+    favourites_count: 3
+    url: http://www.martinsargent.com
+    utc_offset: -28800
+    id: 14596798
+    profile_text_color: "333333"
+    protected: false
+    followers_count: 16032
+    geo_enabled: false
+    verified: false
+    notifications: false
+    time_zone: Pacific Time (US & Canada)
+    profile_background_color: 9AE4E8
+    description: I am Internet.
+    friends_count: 91
+    statuses_count: 843
+    profile_background_image_url: http://a1.twimg.com/profile_background_images/3845852/cool-pony.jpg
+    screen_name: martinsargent
+    following: false
+  source: web
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 05:35:57 +0000 2009
+  favorited: false
+  truncated: false
+  text: photo.jpg http://flic.kr/p/7piMvx
+  id: 6884635500
   geo: 
   in_reply_to_user_id: 
   in_reply_to_screen_name: 
@@ -97,24 +467,61 @@
     profile_text_color: "333333"
     protected: true
     followers_count: 69
-    notifications: false
     geo_enabled: false
+    verified: false
+    notifications: false
     time_zone: Eastern Time (US & Canada)
     profile_background_color: ffffff
-    verified: false
     description: ""
     friends_count: 100
-    statuses_count: 5318
+    statuses_count: 5326
+    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
+    screen_name: ignignokt_
+    following: false
+  source: <a href="http://flickr.com/services/twitter/" rel="nofollow">Flickr</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 05:06:14 +0000 2009
+  favorited: false
+  truncated: false
+  text: "'In 1985, when Time magazine called Keillor the funniest man in America, Bill Cosby reportedly said, \"That's true if you're a pilgrim.\"'"
+  id: 6883951385
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: ignignokt_
+    profile_sidebar_border_color: BDDCAD
+    profile_sidebar_fill_color: DDFFCC
+    profile_background_tile: false
+    created_at: Wed Mar 12 04:09:51 +0000 2008
+    location: Somerville, MA, USA
+    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+    profile_link_color: 0084B4
+    url: http://chaos.corrupt.net
+    favourites_count: 3
+    utc_offset: -18000
+    id: 14129926
+    profile_text_color: "333333"
+    protected: true
+    followers_count: 69
+    geo_enabled: false
+    verified: false
+    time_zone: Eastern Time (US & Canada)
+    notifications: false
+    profile_background_color: ffffff
+    description: ""
+    friends_count: 100
+    statuses_count: 5325
     profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
     screen_name: ignignokt_
     following: false
   source: <a href="http://phalangesoftware.com/attneveryone" rel="nofollow">attneveryone</a>
   in_reply_to_status_id: 
-- created_at: Sun Dec 20 15:54:32 +0000 2009
+- created_at: Mon Dec 21 05:00:45 +0000 2009
   favorited: false
   truncated: false
-  text: US government = world's biggest troll. Aggravates all its citizens and mocks/invades other countries.
-  id: 6863209608
+  text: There are 5 http://superpoop.com comics this week, on account of Christmas. If you hate Christmas DON'T READ THEM.
+  id: 6883825516
   geo: 
   in_reply_to_user_id: 
   in_reply_to_screen_name: 
@@ -127,438 +534,31 @@
     location: columbus, OH
     profile_image_url: http://a3.twimg.com/profile_images/57937961/Photo_13_normal.jpg
     profile_link_color: 08269e
-    url: http://toothpastefordinner.com
     favourites_count: 0
+    url: http://toothpastefordinner.com
     utc_offset: -18000
     id: 14248784
+    followers_count: 12674
     profile_text_color: 100d09
-    followers_count: 12669
     protected: false
     geo_enabled: false
-    time_zone: Eastern Time (US & Canada)
     verified: false
+    time_zone: Eastern Time (US & Canada)
     profile_background_color: c1e6c1
-    notifications: 
     description: Author of Toothpaste For Dinner, Married To The Sea, Super Poop. Dot com.
-    statuses_count: 452
+    notifications: false
+    statuses_count: 454
     friends_count: 29
     profile_background_image_url: http://a3.twimg.com/profile_background_images/37736429/twitter-bg-jul09-2.jpg
     screen_name: drewtoothpaste
-    following: 
-  source: web
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 15:33:40 +0000 2009
-  favorited: false
-  truncated: false
-  text: why am I sneezing so much this morning?
-  id: 6862721458
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: Cecily is me!
-    profile_sidebar_border_color: 4f0bbc
-    profile_sidebar_fill_color: b97aee
-    profile_background_tile: true
-    created_at: Thu Sep 11 13:39:51 +0000 2008
-    location: I live in the town of Columbia
-    profile_image_url: http://a1.twimg.com/profile_images/530276944/Bald_Beauty_Smaller_normal.JPG
-    profile_link_color: 890b0e
-    favourites_count: 14
-    url: http://ceciskittle.livejournal.com/
-    utc_offset: -18000
-    id: 16240139
-    profile_text_color: 3D1957
-    protected: false
-    followers_count: 119
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Quito
-    profile_background_color: 642D8B
-    description: "I am eclectic and eccentric.  I am a mother and a lover.  I am artsy in almost every way.  I am a hippie and a pagan.  I am what I am.  "
-    friends_count: 114
-    statuses_count: 3426
-    profile_background_image_url: http://a1.twimg.com/profile_background_images/3512406/Willy_Wonka_2.jpg
-    screen_name: CeciTart
-    following: true
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 15:31:03 +0000 2009
-  favorited: false
-  truncated: false
-  text: Going through the guide on Tivo, show called "Last Minute Jewelry Gifts" is shortened to "Last Minute Jew..." LMAO
-  id: 6862659763
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: Cecily is me!
-    profile_sidebar_border_color: 4f0bbc
-    profile_sidebar_fill_color: b97aee
-    profile_background_tile: true
-    created_at: Thu Sep 11 13:39:51 +0000 2008
-    location: I live in the town of Columbia
-    profile_image_url: http://a1.twimg.com/profile_images/530276944/Bald_Beauty_Smaller_normal.JPG
-    profile_link_color: 890b0e
-    favourites_count: 14
-    url: http://ceciskittle.livejournal.com/
-    utc_offset: -18000
-    id: 16240139
-    profile_text_color: 3D1957
-    protected: false
-    followers_count: 119
-    geo_enabled: false
-    verified: false
-    notifications: 
-    time_zone: Quito
-    profile_background_color: 642D8B
-    description: "I am eclectic and eccentric.  I am a mother and a lover.  I am artsy in almost every way.  I am a hippie and a pagan.  I am what I am.  "
-    friends_count: 114
-    statuses_count: 3425
-    profile_background_image_url: http://a1.twimg.com/profile_background_images/3512406/Willy_Wonka_2.jpg
-    screen_name: CeciTart
-    following: 
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 15:14:09 +0000 2009
-  favorited: false
-  truncated: false
-  text: Suitin' up to go out to the car. I'll take pictures. Also try to get some sort of depth estimate but I don't have a yardstick. Guesswork.
-  id: 6862275056
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: examorata
-    profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Thu Sep 11 16:09:11 +0000 2008
-    location: Columbia, MD
-    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
-    profile_link_color: 0000ff
-    favourites_count: 4
-    url: 
-    utc_offset: -18000
-    id: 16242727
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 312
-    notifications: false
-    geo_enabled: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: F2D0FD
-    verified: false
-    description: Loquacious. Trepidatious. Sesquipedalian.
-    friends_count: 434
-    statuses_count: 4463
-    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
-    screen_name: examorata
-    following: true
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 15:09:31 +0000 2009
-  favorited: false
-  truncated: false
-  text: "Yep, goin' for it: Luna bar now then out into the snow! Also have to try to get food up to feral colony. Poor guys."
-  id: 6862172313
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: examorata
-    profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Thu Sep 11 16:09:11 +0000 2008
-    location: Columbia, MD
-    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
-    profile_link_color: 0000ff
-    favourites_count: 4
-    url: 
-    utc_offset: -18000
-    id: 16242727
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 312
-    geo_enabled: false
-    verified: false
-    notifications: 
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: F2D0FD
-    description: Loquacious. Trepidatious. Sesquipedalian.
-    friends_count: 434
-    statuses_count: 4461
-    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
-    screen_name: examorata
-    following: 
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 15:00:16 +0000 2009
-  favorited: false
-  truncated: false
-  text: "And #bacon. I mean, I got it for the storm, I'd better use it."
-  id: 6861964655
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: examorata
-    profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Thu Sep 11 16:09:11 +0000 2008
-    location: Columbia, MD
-    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
-    profile_link_color: 0000ff
-    favourites_count: 4
-    url: 
-    utc_offset: -18000
-    id: 16242727
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 312
-    notifications: false
-    geo_enabled: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: F2D0FD
-    verified: false
-    description: Loquacious. Trepidatious. Sesquipedalian.
-    friends_count: 434
-    statuses_count: 4457
-    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
-    screen_name: examorata
-    following: true
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 14:59:48 +0000 2009
-  favorited: false
-  truncated: false
-  text: Do I eat huge hearty breakfast then shovel out? I have energy now, I think maybe Luna bar then shovel then come in and pig out. Pancakes!
-  id: 6861952313
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: examorata
-    profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Thu Sep 11 16:09:11 +0000 2008
-    location: Columbia, MD
-    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
-    profile_link_color: 0000ff
-    favourites_count: 4
-    url: 
-    utc_offset: -18000
-    id: 16242727
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 312
-    geo_enabled: false
-    verified: false
-    notifications: 
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: F2D0FD
-    description: Loquacious. Trepidatious. Sesquipedalian.
-    friends_count: 434
-    statuses_count: 4456
-    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
-    screen_name: examorata
-    following: 
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 14:00:03 +0000 2009
-  favorited: false
-  truncated: false
-  text: "Townhouse = small driveway = awesome. However\xE2\x80\xA6 Townhouse = small yard = logistical issue when relocating snow."
-  id: 6860765546
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: Shawn Mole
-    profile_sidebar_border_color: D3D2CF
-    profile_sidebar_fill_color: E3E2DE
-    profile_background_tile: false
-    created_at: Thu May 17 01:57:48 +0000 2007
-    location: ""
-    profile_image_url: http://a1.twimg.com/profile_images/499159862/Photo_on_2009-10-30_at_10.30_normal.jpg
-    profile_link_color: 088253
-    favourites_count: 3
-    url: 
-    utc_offset: -18000
-    id: 6094582
-    profile_text_color: "634047"
-    protected: true
-    followers_count: 21
-    geo_enabled: false
-    verified: false
-    notifications: true
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: EDECE9
-    description: ""
-    friends_count: 18
-    statuses_count: 1087
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme3/bg.gif
-    screen_name: shawnmole
     following: true
   source: web
   in_reply_to_status_id: 
-- created_at: Sun Dec 20 13:58:33 +0000 2009
+- created_at: Mon Dec 21 04:17:56 +0000 2009
   favorited: false
   truncated: false
-  text: "Final snow tally at our house, non-drift, non-covered: 25 inches."
-  id: 6860737880
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: Shawn Mole
-    profile_sidebar_border_color: D3D2CF
-    profile_sidebar_fill_color: E3E2DE
-    profile_background_tile: false
-    created_at: Thu May 17 01:57:48 +0000 2007
-    location: ""
-    profile_image_url: http://a1.twimg.com/profile_images/499159862/Photo_on_2009-10-30_at_10.30_normal.jpg
-    profile_link_color: 088253
-    favourites_count: 3
-    url: 
-    utc_offset: -18000
-    id: 6094582
-    profile_text_color: "634047"
-    protected: true
-    followers_count: 21
-    geo_enabled: false
-    verified: false
-    notifications: true
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: EDECE9
-    description: ""
-    friends_count: 18
-    statuses_count: 1087
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme3/bg.gif
-    screen_name: shawnmole
-    following: true
-  source: web
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 13:37:40 +0000 2009
-  favorited: false
-  truncated: false
-  text: "Investment in heavy rock salting paid off.  Shoveling completed.  #snOMG2009"
-  id: 6860353202
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: jwiv
-    profile_sidebar_border_color: 829D5E
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    favourites_count: 0
-    url: http://jwiv.livejournal.com
-    utc_offset: -18000
-    id: 14292072
-    profile_text_color: 3E4415
-    protected: false
-    followers_count: 120
-    geo_enabled: false
-    verified: false
-    notifications: 
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    friends_count: 142
-    statuses_count: 1883
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme5/bg.gif
-    screen_name: jwiv
-    following: 
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 11:50:07 +0000 2009
-  favorited: false
-  truncated: false
-  text: http://twitpic.com/ubzdo - My street
-  id: 6858560832
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: jwiv
-    profile_sidebar_border_color: 829D5E
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    favourites_count: 0
-    url: http://jwiv.livejournal.com
-    utc_offset: -18000
-    id: 14292072
-    profile_text_color: 3E4415
-    protected: false
-    followers_count: 120
-    notifications: false
-    geo_enabled: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    verified: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    friends_count: 142
-    statuses_count: 1882
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme5/bg.gif
-    screen_name: jwiv
-    following: false
-  source: <a href="http://twitpic.com/" rel="nofollow">TwitPic</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 11:22:35 +0000 2009
-  favorited: false
-  truncated: false
-  text: "Tell us how you wave: share your Google Wave stories with wave.stories@googlewave.com http://bit.ly/5i02ge"
-  id: 6858124563
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: Google Wave
-    profile_sidebar_border_color: C0DEED
-    profile_sidebar_fill_color: DDEEF6
-    profile_background_tile: false
-    created_at: Wed May 27 21:48:11 +0000 2009
-    location: ""
-    profile_image_url: http://a1.twimg.com/profile_images/462061338/wavelogo_normal.png
-    profile_link_color: 0084B4
-    favourites_count: 0
-    url: http://wave.google.com
-    utc_offset: -28800
-    id: 42975474
-    profile_text_color: "333333"
-    protected: false
-    followers_count: 33967
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Pacific Time (US & Canada)
-    profile_background_color: C0DEED
-    description: News, tips and tales of Google Wave
-    friends_count: 10
-    statuses_count: 44
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme13/bg.gif
-    screen_name: googlewave
-    following: true
-  source: web
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 06:49:57 +0000 2009
-  favorited: false
-  truncated: false
-  text: Noooo upon unpacking the thing I thought was an iPhone cable turned out to not be that at all!
-  id: 6853940368
+  text: I forgot people my dad's age can tell what's up with a furnace by just looking at it. Problems that can't be solved by rebooting - crazy!
+  id: 6882732775
   geo: 
   in_reply_to_user_id: 
   in_reply_to_screen_name: 
@@ -571,31 +571,142 @@
     location: Somerville, MA, USA
     profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
     profile_link_color: 0084B4
-    favourites_count: 3
     url: http://chaos.corrupt.net
+    favourites_count: 3
     utc_offset: -18000
     id: 14129926
     profile_text_color: "333333"
+    followers_count: 69
     protected: true
-    followers_count: 68
-    notifications: false
     geo_enabled: false
+    notifications: false
+    verified: false
     time_zone: Eastern Time (US & Canada)
     profile_background_color: ffffff
-    verified: false
     description: ""
-    friends_count: 99
-    statuses_count: 5314
+    statuses_count: 5324
+    friends_count: 100
     profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
     screen_name: ignignokt_
     following: false
   source: <a href="http://phalangesoftware.com/attneveryone" rel="nofollow">attneveryone</a>
   in_reply_to_status_id: 
-- created_at: Sun Dec 20 06:21:08 +0000 2009
+- created_at: Mon Dec 21 02:06:56 +0000 2009
   favorited: false
   truncated: false
-  text: photo.jpg http://flic.kr/p/7p6DC7
-  id: 6853363083
+  text: Playing some Rock Band with the new xbox that I won at the Child's Play auction @johntdrake. I love it!  :) (via @karajanae)
+  id: 6879095009
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: cwgabriel
+    profile_sidebar_border_color: 829D5E
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Mon Apr 21 17:18:28 +0000 2008
+    location: "iPhone: 44.925713,-124.018112"
+    profile_image_url: http://a3.twimg.com/profile_images/53101189/gabe_head_normal.jpg
+    profile_link_color: D02B55
+    favourites_count: 0
+    url: 
+    utc_offset: -28800
+    id: 14464369
+    profile_text_color: 3E4415
+    protected: false
+    followers_count: 37204
+    geo_enabled: false
+    verified: false
+    notifications: false
+    time_zone: Pacific Time (US & Canada)
+    profile_background_color: "352726"
+    description: 
+    friends_count: 24
+    statuses_count: 789
+    profile_background_image_url: http://s.twimg.com/a/1261005104/images/themes/theme5/bg.gif
+    screen_name: cwgabriel
+    following: false
+  source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 00:56:20 +0000 2009
+  favorited: false
+  truncated: false
+  text: Great way to give the game away Green Bay.  Stupid stupid penalties.
+  id: 6877078893
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: jwiv
+    profile_sidebar_border_color: 829D5E
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    favourites_count: 0
+    url: http://jwiv.livejournal.com
+    utc_offset: -18000
+    id: 14292072
+    profile_text_color: 3E4415
+    protected: false
+    followers_count: 120
+    geo_enabled: false
+    verified: false
+    notifications: false
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    friends_count: 142
+    statuses_count: 1885
+    profile_background_image_url: http://s.twimg.com/a/1261005104/images/themes/theme5/bg.gif
+    screen_name: jwiv
+    following: true
+  source: web
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 00:43:15 +0000 2009
+  favorited: false
+  truncated: false
+  text: "Nice walk-through of the new Rails 3 DSL for declaring routes that @joshpeek and I have been working on wrapping up: http://bit.ly/6NKeKo"
+  id: 6876705689
+  geo: 
+  in_reply_to_user_id: 
+  in_reply_to_screen_name: 
+  user: 
+    name: DHH
+    profile_sidebar_border_color: 87bc44
+    profile_sidebar_fill_color: e0ff92
+    profile_background_tile: false
+    created_at: Sun Apr 27 20:19:25 +0000 2008
+    location: Chicago, USA
+    profile_image_url: http://a1.twimg.com/profile_images/67881828/headshot64_normal.jpg
+    profile_link_color: 0000ff
+    favourites_count: 1
+    url: http://www.loudthinking.com
+    utc_offset: -21600
+    id: 14561327
+    profile_text_color: "000000"
+    protected: false
+    followers_count: 15993
+    geo_enabled: false
+    verified: false
+    notifications: 
+    time_zone: Central Time (US & Canada)
+    profile_background_color: 9ae4e8
+    description: Creator of Ruby on Rails, Partner at 37signals
+    friends_count: 48
+    statuses_count: 811
+    profile_background_image_url: http://s.twimg.com/a/1261005104/images/themes/theme1/bg.png
+    screen_name: dhh
+    following: 
+  source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+  in_reply_to_status_id: 
+- created_at: Mon Dec 21 00:37:19 +0000 2009
+  favorited: false
+  truncated: false
+  text: photo.jpg http://flic.kr/p/7pj3t1
+  id: 6876544178
   geo: 
   in_reply_to_user_id: 
   in_reply_to_screen_name: 
@@ -608,134 +719,23 @@
     location: Somerville, MA, USA
     profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
     profile_link_color: 0084B4
-    url: http://chaos.corrupt.net
     favourites_count: 3
+    url: http://chaos.corrupt.net
     utc_offset: -18000
     id: 14129926
     profile_text_color: "333333"
     protected: true
-    followers_count: 68
+    followers_count: 69
     geo_enabled: false
     verified: false
-    time_zone: Eastern Time (US & Canada)
     notifications: false
+    time_zone: Eastern Time (US & Canada)
     profile_background_color: ffffff
     description: ""
-    friends_count: 99
-    statuses_count: 5313
+    friends_count: 100
+    statuses_count: 5322
     profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
     screen_name: ignignokt_
     following: false
   source: <a href="http://flickr.com/services/twitter/" rel="nofollow">Flickr</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 05:59:18 +0000 2009
-  favorited: false
-  truncated: false
-  text: ok...time for me to go to bed
-  id: 6852891811
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: Cecily is me!
-    profile_sidebar_border_color: 4f0bbc
-    profile_sidebar_fill_color: b97aee
-    profile_background_tile: true
-    created_at: Thu Sep 11 13:39:51 +0000 2008
-    location: I live in the town of Columbia
-    profile_image_url: http://a1.twimg.com/profile_images/530276944/Bald_Beauty_Smaller_normal.JPG
-    profile_link_color: 890b0e
-    favourites_count: 14
-    url: http://ceciskittle.livejournal.com/
-    utc_offset: -18000
-    id: 16240139
-    profile_text_color: 3D1957
-    protected: false
-    followers_count: 119
-    notifications: 
-    geo_enabled: false
-    time_zone: Quito
-    profile_background_color: 642D8B
-    verified: false
-    description: "I am eclectic and eccentric.  I am a mother and a lover.  I am artsy in almost every way.  I am a hippie and a pagan.  I am what I am.  "
-    friends_count: 114
-    statuses_count: 3424
-    profile_background_image_url: http://a1.twimg.com/profile_background_images/3512406/Willy_Wonka_2.jpg
-    screen_name: CeciTart
-    following: 
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 05:48:14 +0000 2009
-  favorited: false
-  truncated: false
-  text: Knackered after a long day of shopping, but not for gifts. Found plenty of bargains for myself. then dinner @ Eureka!Burger in Redlands.
-  id: 6852650836
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: Cindy Wong
-    profile_sidebar_border_color: C6E2EE
-    profile_sidebar_fill_color: DAECF4
-    profile_background_tile: false
-    created_at: Mon Mar 30 19:14:13 +0000 2009
-    location: "909"
-    profile_image_url: http://a1.twimg.com/profile_images/515601936/3Apples_normal.jpg
-    profile_link_color: 1F98C7
-    favourites_count: 0
-    url: 
-    utc_offset: -28800
-    id: 27706434
-    profile_text_color: 663B12
-    protected: false
-    followers_count: 48
-    notifications: 
-    geo_enabled: false
-    time_zone: Pacific Time (US & Canada)
-    profile_background_color: C6E2EE
-    verified: false
-    description: ""
-    friends_count: 144
-    statuses_count: 341
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme2/bg.gif
-    screen_name: soycube
-    following: 
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_status_id: 
-- created_at: Sun Dec 20 04:52:00 +0000 2009
-  favorited: false
-  truncated: false
-  text: My anxiety is running rampant tonight.  I hate it when I feel this way.
-  id: 6851309880
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: Cecily is me!
-    profile_sidebar_border_color: 4f0bbc
-    profile_sidebar_fill_color: b97aee
-    profile_background_tile: true
-    created_at: Thu Sep 11 13:39:51 +0000 2008
-    location: I live in the town of Columbia
-    profile_image_url: http://a1.twimg.com/profile_images/530276944/Bald_Beauty_Smaller_normal.JPG
-    profile_link_color: 890b0e
-    favourites_count: 14
-    url: http://ceciskittle.livejournal.com/
-    utc_offset: -18000
-    id: 16240139
-    profile_text_color: 3D1957
-    protected: false
-    followers_count: 118
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Quito
-    profile_background_color: 642D8B
-    description: "I am eclectic and eccentric.  I am a mother and a lover.  I am artsy in almost every way.  I am a hippie and a pagan.  I am what I am.  "
-    friends_count: 114
-    statuses_count: 3421
-    profile_background_image_url: http://a1.twimg.com/profile_background_images/3512406/Willy_Wonka_2.jpg
-    screen_name: CeciTart
-    following: true
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
   in_reply_to_status_id: 
