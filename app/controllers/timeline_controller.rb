@@ -5,13 +5,10 @@ class TimelineController < ApplicationController
   def index
     @user = current_user
     @rate_limit = @user.rate_limit_status
-    
-    if request.xhr? && params[:page]
-      @page = params[:page].to_i + 1
-      @timeline = @user.spoiler_free_timeline(:page => params[:page])
-    else
-      @timeline = @user.spoiler_free_timeline
-    end
+
+    @page = params[:page].to_i + 1 if params[:page]
+
+    @timeline = @user.spoiler_free_timeline(params)
   end
   
   private

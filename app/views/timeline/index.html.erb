@@ -5,7 +5,7 @@
 		<div id="lists" class="side_content">
 			<h3>Lists</h3>
 			<% for list in @user.get_lists["lists"] %>
-				<small><%= list["full_name"] %></small><br />
+				<small><%= link_to list["full_name"], timeline_path(:list_id => list["id"]) %></small><br />
 			<% end %>
 		</div>
 

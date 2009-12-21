@@ -1,6 +1,9 @@
 <% for tweet in @timeline %>
   <%= render tweet %>
 <% end %>
+
+<% unless params[:list_id] %>
 <div id="get_more">
   <%= link_to_remote "get more", :url => timeline_path(:page => @page || 2) %>
 </div>
+<% end %>
