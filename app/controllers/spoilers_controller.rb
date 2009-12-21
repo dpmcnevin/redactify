@@ -13,7 +13,7 @@ class SpoilersController < ApplicationController
     if @spoiler.save
       flash[:notice] = "Tag Created for: #{@spoiler.name}"
     else
-      flash[:error] = "There was a problem creating the tag"
+      flash[:error] = "There was a problem creating the tag<br />#{@spoiler.errors.full_messages.join("<br />")}"
     end
     
     respond_to do |format|
@@ -26,7 +26,7 @@ class SpoilersController < ApplicationController
     if @spoiler.destroy
       flash[:notice] = "Tag Removed for: #{@spoiler.name}"
     else
-      flash[:error] = "There was a problem removing the tag"
+      flash[:error] = "There was a problem removing the tag<br />#{@spoiler.errors.full_messages.join("<br />")}"
     end
     redirect_to timeline_path
   end

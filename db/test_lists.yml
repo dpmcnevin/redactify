@@ -1,0 +1,148 @@
+--- 
+previous_cursor: 0
+lists: 
+- name: Rails
+  slug: rails
+  uri: /mental_thinking/rails
+  subscriber_count: 0
+  member_count: 7
+  mode: public
+  id: 4392656
+  full_name: "@mental_thinking/rails"
+  description: ""
+  user: 
+    name: Dan
+    profile_sidebar_border_color: D9B17E
+    profile_sidebar_fill_color: EADEAA
+    profile_background_tile: false
+    created_at: Tue Jul 24 17:14:29 +0000 2007
+    location: Alexandria, VA
+    profile_image_url: http://a3.twimg.com/profile_images/60613421/IMG_6270_normal.JPG
+    profile_link_color: 9D582E
+    url: 
+    favourites_count: 2
+    utc_offset: -18000
+    id: 7689092
+    profile_text_color: "333333"
+    protected: false
+    followers_count: 48
+    geo_enabled: true
+    verified: false
+    time_zone: Eastern Time (US & Canada)
+    notifications: false
+    profile_background_color: 8B542B
+    description: ""
+    friends_count: 39
+    statuses_count: 414
+    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme8/bg.gif
+    screen_name: mental_thinking
+    following: false
+- name: Google
+  slug: google
+  uri: /mental_thinking/google
+  subscriber_count: 0
+  member_count: 3
+  mode: private
+  id: 2303962
+  full_name: "@mental_thinking/google"
+  description: ""
+  user: 
+    name: Dan
+    profile_sidebar_border_color: D9B17E
+    profile_sidebar_fill_color: EADEAA
+    profile_background_tile: false
+    created_at: Tue Jul 24 17:14:29 +0000 2007
+    location: Alexandria, VA
+    profile_image_url: http://a3.twimg.com/profile_images/60613421/IMG_6270_normal.JPG
+    profile_link_color: 9D582E
+    url: 
+    favourites_count: 2
+    utc_offset: -18000
+    id: 7689092
+    profile_text_color: "333333"
+    protected: false
+    followers_count: 48
+    geo_enabled: true
+    verified: false
+    time_zone: Eastern Time (US & Canada)
+    notifications: false
+    profile_background_color: 8B542B
+    description: ""
+    friends_count: 39
+    statuses_count: 414
+    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme8/bg.gif
+    screen_name: mental_thinking
+    following: false
+- name: Other People
+  slug: other-people
+  uri: /mental_thinking/other-people
+  subscriber_count: 0
+  member_count: 11
+  mode: private
+  id: 2303960
+  full_name: "@mental_thinking/other-people"
+  description: ""
+  user: 
+    name: Dan
+    profile_sidebar_border_color: D9B17E
+    profile_sidebar_fill_color: EADEAA
+    profile_background_tile: false
+    created_at: Tue Jul 24 17:14:29 +0000 2007
+    location: Alexandria, VA
+    profile_image_url: http://a3.twimg.com/profile_images/60613421/IMG_6270_normal.JPG
+    profile_link_color: 9D582E
+    url: 
+    favourites_count: 2
+    utc_offset: -18000
+    id: 7689092
+    profile_text_color: "333333"
+    protected: false
+    followers_count: 48
+    geo_enabled: true
+    verified: false
+    time_zone: Eastern Time (US & Canada)
+    notifications: false
+    profile_background_color: 8B542B
+    description: ""
+    friends_count: 39
+    statuses_count: 414
+    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme8/bg.gif
+    screen_name: mental_thinking
+    following: false
+- name: People I Actually Know
+  slug: people-i-actually-know
+  uri: /mental_thinking/people-i-actually-know
+  subscriber_count: 0
+  member_count: 10
+  mode: private
+  id: 2303956
+  full_name: "@mental_thinking/people-i-actually-know"
+  description: ""
+  user: 
+    name: Dan
+    profile_sidebar_border_color: D9B17E
+    profile_sidebar_fill_color: EADEAA
+    profile_background_tile: false
+    created_at: Tue Jul 24 17:14:29 +0000 2007
+    location: Alexandria, VA
+    profile_image_url: http://a3.twimg.com/profile_images/60613421/IMG_6270_normal.JPG
+    profile_link_color: 9D582E
+    url: 
+    favourites_count: 2
+    utc_offset: -18000
+    id: 7689092
+    profile_text_color: "333333"
+    protected: false
+    followers_count: 48
+    geo_enabled: true
+    verified: false
+    time_zone: Eastern Time (US & Canada)
+    notifications: false
+    profile_background_color: 8B542B
+    description: ""
+    friends_count: 39
+    statuses_count: 414
+    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme8/bg.gif
+    screen_name: mental_thinking
+    following: false
+next_cursor: 0
