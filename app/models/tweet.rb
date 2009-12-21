@@ -30,4 +30,8 @@ class Tweet
     @tweet["created_at"]
   end
   
+  def source
+    @tweet["source"]
+  end
+  
 end

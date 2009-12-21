@@ -7,6 +7,6 @@
     <%= image_tag("lock.png") if tweet.protected? %>
     <%= link_to tweet.screen_name, "http://twitter.com/#{tweet.screen_name}"%>
     <%= auto_link_twitter(auto_link(tweet.text, :link => :urls, :html => { :target => '_blank'} )) %><br />
-    <small><%= tweet.created_at %></small>
+    <small><%= tweet.created_at %> using <%= tweet.source %></small>
   </span>
 </div>
