@@ -10,8 +10,11 @@
   <body>
     <div id='wrapper'>
       <div id='header'>
-        <h1><%= link_to 'redactify', '/' %></h1>
-         
+				<div id="title">
+        	<h1><%= link_to 'redactify', '/' %></h1>
+					<span id="sub_heading">twitter updates without spoilers</span>
+        </div>
+
         <div id='user_bar'>
           <% if logged_in? %>
             <%= image_tag(current_user.profile_image_url, :width => 24, :height => 24) %> Logged in as <strong>@<%= current_user.login %></strong>. <br />
@@ -29,9 +32,11 @@
         <div id="flash" class='flash notice'><%= flash[:notice] %></div>
       <% end %>
       
-			<p class="warning">
-		    This is a <strong>super pre-alpha</strong> service, don't expect to have any acceptable level of service, security, or functionality yet.
-		  </p>
+			<% if RAILS_ENV == "production" %>
+				<p class="warning">
+			    This is a <strong>super pre-alpha</strong> service, don't expect to have any acceptable level of service, security, or functionality yet.
+			  </p>
+			<% end %>
 
       <div id='contents'>
         <%= yield %>
