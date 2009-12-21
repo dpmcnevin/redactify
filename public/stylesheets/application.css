@@ -118,14 +118,23 @@ div.notice {
 }
 
 #contents {
-  background: white;
+  float: left;
+  width: 880px;
+}
+
+#contents table {
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+#contents table tr {
+  vertical-align: top;
 }
 
 #side {
-  background: white;
-  border: 1px solid #ccc;
-  float: right;
-  width: 240px;
+  background: #f8f8f8 url(/images/side_bg.png) repeat-y scroll 0 0;
+  padding: 15px 0 0 10px;
 }
 
 #side .side_content {
@@ -138,9 +147,7 @@ div.notice {
 }
 
 #side #new_spoiler {
-  background: #f8f877;
   padding: 5px;
-  border-bottom: 2px dotted;
 }
 
 #side #lists a {
@@ -155,14 +162,13 @@ div.notice {
 
 #side #spoiler_name {
 	font-size: 1.25em;
-	width: 225px;
+	width: 210px;
 	border: 1px solid #888;
 }
 
 #side #rate_limit {
 	border-top: 1px dashed #888;
 	color: #666;
-	background: #ddd;
 	margin-top: 10px;
 	padding: 5px;
 	font-size: 0.6em;
@@ -171,10 +177,8 @@ div.notice {
 
 #timeline {
   background: white;
-  border: 1px solid #ccc;
-  float: left;
-  width: 600px;
-  padding: 5px;
+  width: 640px;
+  padding: 5px 10px 5px 10px;
   margin-bottom: 10px;
 }
 
