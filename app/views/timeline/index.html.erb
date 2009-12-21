@@ -1,13 +1,16 @@
 <table>
 	<tbody>
 		<tr>
-			<td id="timeline">
+			<td id="timeline" rowspan="2">
 				<div>
 				  <h2><%= link_to "Timeline", timeline_path %></h2>
 				  <%= render "tweets" %>
 				</div>
 			</td>
-			
+			<td id="top_row">&nbsp;</td>
+		</tr>
+		
+		<tr>	
 			<td id="side">
 					<div class="side_content">
 						<strong>Add New Spoiler</strong>
@@ -42,6 +45,7 @@
 					</div>
 			</td>
 		</tr>
+			
 	</tbody>
 </table>
 
