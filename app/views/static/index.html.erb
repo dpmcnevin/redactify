@@ -1,20 +1,18 @@
 <div id="welcome" class="static_page">
   <% if logged_in? %>
   <p>
-    Add new spoiler tag <%= render "timeline/form", :user => current_user %> or <%= link_to "go to my timeline", timeline_path %>
+    <h3>Add new spoiler tag</h3>
+		<%= render "timeline/form", :user => current_user %> or <%= link_to "go to my timeline", timeline_path %>
+		<h3>Your Current Tags</h3>
+		<%= render "spoilers/user", :user => current_user %>
   </p>
 	
 	<p>
+		<h3>Popular Tags</h3>
 		<%= render "spoilers/popular", :user => current_user %>
 	</p>
+	<% else %>
+		<%= link_to 'Login via Twitter', '/login' %>
   <% end %>
 
-  <% if @users.any? %>
-		<div id="recent_users">
-	    <h2>Recently Joined</h2>
-	    <% for user in @users %>
-	      <%= link_to profile_image(user), twitter_profile_url(user) %>
-	    <% end %>
-		</div>
-  <% end %>
 </div>
