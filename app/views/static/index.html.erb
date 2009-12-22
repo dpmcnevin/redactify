@@ -1,8 +1,12 @@
-<div id="welcome">
+<div id="welcome" class="static_page">
   <% if logged_in? %>
   <p>
-    <%= render "timeline/form", :user => current_user %> or <%= link_to "go to my timeline", timeline_path %>
+    Add new spoiler tag <%= render "timeline/form", :user => current_user %> or <%= link_to "go to my timeline", timeline_path %>
   </p>
+	
+	<p>
+		<%= render "spoilers/popular", :user => current_user %>
+	</p>
   <% end %>
 
   <% if @users.any? %>

@@ -1,42 +1,43 @@
 <table>
 	<tbody>
 		<tr>
-			<td id="timeline" rowspan="2">
+			<td id="timeline">
 				<div>
 				  <%= render "tweets" %>
 				</div>
 			</td>
-			<td id="top_row">&nbsp;</td>
-		</tr>
-		
-		<tr>	
+
 			<td id="side">
 					<div class="side_content">
-						<strong>Add New Spoiler</strong>
+						<h3>Add New Spoiler Tag</h3>
 			    	<%= render "form", :user => @user %>
 					</div>
 
 					<div id="lists" class="side_content">
 						<h3>Lists</h3>
-						<small><%= link_to "@#{current_user.login}", timeline_path %></small><br />
-						<% for list in @user.get_lists["lists"] %>
-							<small><%= link_to list["full_name"], timeline_path(:list_id => list["id"]) %></small><br />
-						<% end %>
+						<ul>
+							<li><%= link_to "@#{current_user.login}", timeline_path %></li>
+							<% for list in @user.get_lists["lists"] %>
+								<li><%= link_to list["full_name"], timeline_path(:list_id => list["id"]) %></li>
+							<% end %>
+						</ul>
 					</div>
 
 				  <div id="spoiler_tags" class="side_content">
 	
 			  		<h3>Your Spoiler Tags</h3>
-  
+  					<ul>
 			  	  <% for spoiler in @user.spoilers %>
-			  	    <%= spoiler.name %>
-			  	    <small><%= link_to "remove", [@user,spoiler], :method => :delete, :confirm => "really delete \"#{spoiler.name}\"?" %></small>
-			  	    <br />
+			  	    <li>
+								<%= spoiler.name %>
+			  	    	<small><%= link_to "remove", [@user,spoiler], :method => :delete, :confirm => "really delete \"#{spoiler.name}\"?" %></small>
+							</li>
 			  	  <% end %>
+						</ul>
 				  </div>
 
 					<div id="popular_spoilers" class="side_content">
-						<%= render "spoilers/popular"%>
+						<%= render "spoilers/popular", :user => @user %>
 					</div>
 		
 					<div id="rate_limit" class="side_content">
