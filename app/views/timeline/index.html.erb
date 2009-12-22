@@ -26,17 +26,11 @@
 				  <div id="spoiler_tags" class="side_content">
 	
 			  		<h3>Your Spoiler Tags</h3>
-  					<ul>
-			  	  <% for spoiler in @user.spoilers %>
-			  	    <li>
-								<%= spoiler.name %>
-			  	    	<small><%= link_to "remove", [@user,spoiler], :method => :delete, :confirm => "really delete \"#{spoiler.name}\"?" %></small>
-							</li>
-			  	  <% end %>
-						</ul>
+						<%= render "spoilers/user", :user => @user %>
 				  </div>
 
 					<div id="popular_spoilers" class="side_content">
+						<h3>Popular Tags</h3>
 						<%= render "spoilers/popular", :user => @user %>
 					</div>
 		

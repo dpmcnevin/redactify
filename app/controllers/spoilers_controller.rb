@@ -15,9 +15,9 @@ class SpoilersController < ApplicationController
     else
       flash[:error] = "There was a problem creating the tag<br />#{@spoiler.errors.full_messages.join("<br />")}"
     end
-    
+        
     respond_to do |format|
-      format.html { redirect_to timeline_path }
+      format.html { redirect_to request.env["HTTP_REFERER"] }
     end
   end
   
@@ -28,7 +28,7 @@ class SpoilersController < ApplicationController
     else
       flash[:error] = "There was a problem removing the tag<br />#{@spoiler.errors.full_messages.join("<br />")}"
     end
-    redirect_to timeline_path
+    redirect_to request.env["HTTP_REFERER"]
   end
   
   private

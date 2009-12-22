@@ -60,6 +60,15 @@ div.notice {
   border: 1px solid #bbb;
 }
 
+.static_page h3 {
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
+.static_page ul {
+  list-style: none;
+}
+
 #welcome {
   padding: 5px;
 }
