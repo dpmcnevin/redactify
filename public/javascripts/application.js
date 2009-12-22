@@ -2,8 +2,10 @@
 // This file is automatically included by javascript_include_tag :defaults
 
 Event.observe(window, 'load', function() {
-  var fade=setTimeout("fadeout()",3500);
-  var hide=setTimeout("$('flash').hide()",4800);
+  if ($("flash")) {
+    var fade=setTimeout("fadeout()",3500);
+    var hide=setTimeout("$('flash').hide()",4800);
+  }
 });
 
 function fadeout(){
