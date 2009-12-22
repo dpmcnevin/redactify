@@ -1,5 +1,6 @@
 body {
-  font-family: Verdana, sans-serif;
+  /* font-family: Verdana, sans-serif; */
+  font-family: sans-serif;
   background: #cef;
   margin: 0;
   padding: 0;
@@ -54,6 +55,10 @@ div.notice {
 	font-size: 1.2em;
 }
 
+.static_page {
+  background: white;
+}
+
 #welcome {
   padding: 5px;
 }
@@ -84,7 +89,7 @@ div.notice {
   margin-bottom: 10px;
   padding: 5px;
 	border: 1px solid;
-	border-color: #888;
+	border-color: #bbb;
 }
 
 #header #title {
@@ -117,15 +122,13 @@ div.notice {
 #contents {
   float: left;
   width: 880px;
+  margin-bottom: 20px;
 }
 
 #contents table {
   padding: 0;
   margin: 0;
   border-collapse: collapse;
-  /* border-width: 0 2px;
-  border-color: #888;
-  border-style: solid; */
 }
 
 #contents table #top_row {
@@ -138,7 +141,8 @@ div.notice {
 }
 
 #side {
-  background: #f8f8f8 url(/images/side_bg.png) repeat-y scroll 0 0;
+  /* background: #f8f8f8 url(/images/side_bg.png) repeat-y scroll 0 0; */
+  background: #f8f8f8;
   padding: 15px 0 0 10px;
   border-color: #bbb;
   border-style: solid solid solid none;
@@ -151,7 +155,17 @@ div.notice {
 
 #side h3 {
   text-decoration: underline;
-  margin: 10px 0;
+  margin: 5px 0;
+}
+
+#side ul {
+  margin: 0 0 0 5px;
+  padding: 0;
+  list-style: none;
+}
+
+#side ul li {
+  margin-bottom: 4px;
 }
 
 #side #new_spoiler {
@@ -162,10 +176,6 @@ div.notice {
   font-size: 0.8em;
   margin-bottom: 3px;
   font-weight: normal;
-}
-
-#side #lists a:hover {
-  text-decoration: underline;
 }
 
 #side #spoiler_name {
@@ -195,27 +205,25 @@ div.notice {
 
 .tweet {
   border-bottom: 1px solid #ccc;
-  float: left;
-  clear: both;
 	padding: 10px 0px;
 	width:100%;
 	margin-bottom: 2px;
 }
 
 .tweet .user_info {
-	display:block;
-	height:50px;
-	margin:0 10px 0 0;
-	overflow:hidden;
-	position:absolute;
-	width:50px;
+	display: block;
+	height: 50px;
+	margin: 0 10px 0 0;
+	overflow: hidden;
+	position: absolute;
+	width: 50px;
 }
 
 .tweet .tweet_text {
-	display:block;
-	margin-left:56px;
-	min-height:48px;
-	overflow:hidden;
+	display: block;
+	margin-left: 56px;
+	min-height: 48px;
+	overflow: hidden;
 }
 
 .tweet a {
@@ -238,8 +246,8 @@ div.notice {
 
 .tweet.redacted {
 	border: 2px solid;
-  background: #fcc;
-  border-color: #911;
+  background: #fee;
+  border-color: #fbb;
   color: #311;
 }
 
@@ -255,4 +263,5 @@ div.notice {
 
 #get_more {
   text-align: center;
+  padding: 20px;
 }

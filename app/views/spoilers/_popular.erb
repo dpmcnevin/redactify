@@ -1,7 +1,9 @@
 <h3>Popular Tags</h3>
-
-<% for spoiler in current_user.popular_tags %>
-	<%= spoiler.name %> <small>(<%= spoiler.count %>)</small>
-	<small><%= link_to "add", "/users/#{@user.id}/spoilers?spoiler[name]=#{spoiler.name}", :method => :post %></small>
-	<br />
+<ul>
+<% for spoiler in user.popular_tags %>
+	<li>
+		<%= spoiler.name %> <small>(<%= spoiler.count %>)</small>
+		<small><%= link_to "add", "/users/#{user.id}/spoilers?spoiler[name]=#{spoiler.name}", :method => :post %></small>
+	</li>
 <% end %>
+</ul>
