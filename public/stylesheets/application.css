@@ -57,6 +57,7 @@ div.notice {
 
 .static_page {
   background: white;
+  border: 1px solid #bbb;
 }
 
 #welcome {
@@ -261,7 +262,7 @@ div.notice {
   color: #777;
 }
 
-#get_more {
+#contents #get_more {
   text-align: center;
   padding: 20px;
 }
