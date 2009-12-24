@@ -19,7 +19,9 @@
           <% if logged_in? %>
             <%= image_tag(current_user.profile_image_url, :width => 24, :height => 24) %> Logged in as <strong>@<%= current_user.login %></strong>. <br />
 						<%= link_to_unless_current "My Timeline", timeline_path %> | <%= link_to 'Log out', '/logout' %>
-          <% end %>
+          <% else %>
+						<%= link_to 'Login via Twitter', '/login' %>
+					<% end %>
         </div>
         <div class='clearfix'></div>
       </div>

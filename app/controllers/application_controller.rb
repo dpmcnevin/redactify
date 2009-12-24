@@ -1,6 +1,12 @@
 class ApplicationController < ActionController::Base
   helper :all
     
+  rescue_from Net::HTTPFatalError do |exception|
+    # render "static/twitter_error"
+    flash[:error] = "There was an error connecting to Twitter"
+    redirect_to root_path
+  end  
+    
   private
   
   def check_login
