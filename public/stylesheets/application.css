@@ -1,3 +1,5 @@
+/* General Clases */
+
 body {
   /* font-family: Verdana, sans-serif; */
   font-family: sans-serif;
@@ -23,6 +25,8 @@ a img {
 .clearfix {
   clear: both; 
 }
+
+/* Flash Messages */
 
 div.flash {
   padding: 4px 8px;
@@ -55,40 +59,7 @@ div.notice {
 	font-size: 1.2em;
 }
 
-.static_page {
-  background: white;
-  border: 1px solid #bbb;
-}
-
-.static_page h3 {
-  text-decoration: underline;
-  margin: 10px 0;
-}
-
-.static_page ul {
-  list-style: none;
-}
-
-#welcome {
-  padding: 5px;
-}
-
-#welcome .login {
-  float: right;
-}
-
-#welcome form {
-  display: inline;
-}
-
-#welcome img.example {
-  clear: both;
-  width: 55%;
-}
-
-#about {
-	padding: 10px;
-}
+/* Global page elements */
 
 #wrapper {
   padding: 1.5em 2em;
@@ -138,6 +109,50 @@ div.notice {
   vertical-align: middle; 
 }
 
+/* Non-timeline page classes */
+
+.static_page {
+  background: white;
+  border: 1px solid #bbb;
+}
+
+.static_page h3 {
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
+.static_page ul {
+  list-style: none;
+}
+
+/* Welcome Page */
+
+#welcome {
+  padding: 5px;
+}
+
+#welcome .login {
+  float: right;
+}
+
+#welcome form {
+  display: inline;
+}
+
+#welcome img.example {
+  clear: both;
+  width: 55%;
+}
+
+/* About Page */
+
+#about {
+	padding: 10px;
+}
+
+
+/* Timeline */
+
 #contents {
   float: left;
   width: 880px;
@@ -158,6 +173,8 @@ div.notice {
 #contents table tr {
   vertical-align: top;
 }
+
+/* Side content */
 
 #side {
   /* background: #f8f8f8 url(/images/side_bg.png) repeat-y scroll 0 0; */
