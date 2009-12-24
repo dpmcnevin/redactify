@@ -68,7 +68,7 @@ class User < TwitterAuth::GenericUser
   
   def timeline(options)
     
-    if RAILS_ENV == "development"
+    if RAILS_ENV == "production"
       if options["page"] && options["page"] =~ /^\d+$/
         url = "/statuses/home_timeline.json?page=#{options["page"]}"
       elsif options["list_id"]
