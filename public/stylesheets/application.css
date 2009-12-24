@@ -160,8 +160,7 @@ div.notice {
 }
 
 #side {
-  /* background: #f8f8f8 url(/images/side_bg.png) repeat-y scroll 0 0; */
-  background: #f9f9f9;
+  background: #e8e8e8;
   padding: 15px 0 0 10px;
   border-color: #bbb;
   border-style: solid solid solid none;
