@@ -12,7 +12,19 @@
 		<%= render "spoilers/popular", :user => current_user %>
 	</p>
 	<% else %>
-		<%= link_to 'Login via Twitter', '/login' %>
+		<p>
+			Redactify is a service that will allow you to view your twitter updates spoiler-free.
+		</p>
+		
+		<p>
+			Simply login through <%= link_to "Twitter", "http://twitter.com" %> and set up tags that you want hidden by default.
+		</p>
+		
+		<p>
+			Example Screenshot of the application:<br />
+			<%= image_tag("sample_screen.png", :class => :example )%>
+		</p>
+		
   <% end %>
 
 </div>

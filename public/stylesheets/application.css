@@ -73,8 +73,17 @@ div.notice {
   padding: 5px;
 }
 
+#welcome .login {
+  float: right;
+}
+
 #welcome form {
   display: inline;
+}
+
+#welcome img.example {
+  clear: both;
+  width: 55%;
 }
 
 #about {
