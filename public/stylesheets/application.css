@@ -177,7 +177,7 @@ div.notice {
 /* Side content */
 
 #side {
-  background: #e8e8e8;
+  background: #eee;
   padding: 15px 0 0 10px;
   border-color: #bbb;
   border-style: solid solid solid none;
@@ -227,6 +227,7 @@ div.notice {
 	font-size: 0.6em;
 }
 
+/* Main timeline content */
 
 #timeline {
   background: white;
@@ -295,6 +296,8 @@ div.notice {
   text-decoration: none;
   color: #777;
 }
+
+/* Get more link */
 
 #contents #get_more {
   text-align: center;
