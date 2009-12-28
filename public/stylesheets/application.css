@@ -176,6 +176,10 @@ div.notice {
   background: #E2E2D6;
 }
 
+#welcome #other_tags a {
+  color: #7D7721;
+}
+
 #welcome #other_tags div {
   float: left;
   padding: 20px;
@@ -219,6 +223,10 @@ div.notice {
   border-color: #bbb;
   border-style: solid solid solid none;
   border-width: 1px 1px 1px 0;
+}
+
+#side a {
+  color: #7D7721;
 }
 
 #side .side_content {
