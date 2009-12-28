@@ -1,17 +1,21 @@
 <div id="welcome" class="static_page">
   <% if logged_in? %>
-  <p>
+  <div id="add_new_spoiler">
     <h3>Add new spoiler tag</h3>
-		<%= render "timeline/form", :user => current_user %> or <%= link_to "go to my timeline", timeline_path %>
+		<%= render "timeline/form", :user => current_user %> or <%= link_to "Go To My Timeline", timeline_path %>
+  </div>
+
+  <p>
 		<h3>Your Current Tags</h3>
-		<%= render "spoilers/user", :user => current_user %>
-  </p>
+		<%= render "spoilers/user", :user => current_user %> 
+	</p>
 	
 	<p>
 		<h3>Popular Tags</h3>
 		<%= render "spoilers/popular", :user => current_user %>
 	</p>
 	<% else %>
+	
 		<p>
 			Redactify is a service that will allow you to view your twitter updates spoiler-free.
 		</p>
