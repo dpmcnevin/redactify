@@ -1,385 +1,51 @@
 --- 
-- created_at: Mon Dec 21 22:58:50 +0000 2009
+- created_at: Mon Dec 28 02:21:43 +0000 2009
   favorited: false
   truncated: false
-  text: My dad's playing "how long can I leave Glenn Beck on TV before my daughter's head explodes". He doesn't get my tuning out skills are mighty.
-  id: 6908290807
+  text: "Rails 3 example of how the new Active Record query API will work now that it's running on ActiveRelation: http://bit.ly/4YcbbE (thx @lifo)"
+  id: 7108471754
   geo: 
   in_reply_to_user_id: 
-  in_reply_to_screen_name: 
   user: 
-    name: snidegrrl
-    profile_sidebar_border_color: 6C1C00
-    profile_sidebar_fill_color: F8E78A
-    profile_background_tile: true
-    created_at: Mon Aug 06 14:35:17 +0000 2007
-    location: Laurel, MD
-    profile_image_url: http://a1.twimg.com/profile_images/60372284/iconworthy_normal.jpg
-    profile_link_color: A100FF
-    favourites_count: 63
-    url: http://www.prosaicparadise.com/
-    utc_offset: -18000
-    id: 7993742
-    profile_text_color: 6C1C00
-    protected: false
-    followers_count: 340
-    notifications: false
-    geo_enabled: false
-    time_zone: Quito
-    profile_background_color: C4FDD7
-    verified: false
-    description: I'm a non-techie techie who drums and wants to help people.
-    friends_count: 264
-    statuses_count: 3907
-    profile_background_image_url: http://a1.twimg.com/profile_background_images/385492/wallpaper-trick.jpg
-    screen_name: snidegrrl
-    following: true
-  source: web
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 22:58:40 +0000 2009
-  favorited: false
-  truncated: false
-  text: Whoa. It's 5:56 on my computer, but it's 4:56 on my phone. Relativity!
-  id: 6908286743
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: ignignokt_
-    profile_sidebar_border_color: BDDCAD
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
-    utc_offset: -18000
-    id: 14129926
-    profile_text_color: "333333"
-    protected: true
-    followers_count: 69
-    notifications: false
-    geo_enabled: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    verified: false
-    description: ""
-    friends_count: 100
-    statuses_count: 5335
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://phalangesoftware.com/attneveryone" rel="nofollow">attneveryone</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 22:43:33 +0000 2009
-  favorited: false
-  truncated: false
-  text: These trixies sitting behind me were saying "OMG Macs they're sooo complicated!" Is Karl Rove behind this shift in public perception?
-  id: 6907878884
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: ignignokt_
-    profile_sidebar_border_color: BDDCAD
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
-    utc_offset: -18000
-    id: 14129926
-    profile_text_color: "333333"
-    protected: true
-    followers_count: 69
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    description: ""
-    friends_count: 100
-    statuses_count: 5333
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://phalangesoftware.com/attneveryone" rel="nofollow">attneveryone</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 22:02:29 +0000 2009
-  favorited: false
-  truncated: false
-  text: "\"OMG my classes are sooo hard\" is the least interesting kind of conversation to unwillingly overhear."
-  id: 6906783435
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: ignignokt_
-    profile_sidebar_border_color: BDDCAD
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
-    utc_offset: -18000
-    id: 14129926
-    profile_text_color: "333333"
-    protected: true
-    followers_count: 69
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    description: ""
-    friends_count: 100
-    statuses_count: 5332
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://phalangesoftware.com/attneveryone" rel="nofollow">attneveryone</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 21:31:14 +0000 2009
-  favorited: false
-  truncated: false
-  text: Ok, apartment may be plummeting in value, but it at least it's being kept in good shape.
-  id: 6905974658
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: ignignokt_
-    profile_sidebar_border_color: BDDCAD
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
-    utc_offset: -18000
-    id: 14129926
-    profile_text_color: "333333"
-    protected: true
-    followers_count: 69
-    notifications: false
-    geo_enabled: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    verified: false
-    description: ""
-    friends_count: 100
-    statuses_count: 5331
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 21:12:01 +0000 2009
-  favorited: false
-  truncated: false
-  text: "Optimize your app for free - view the archived webinar on New Relic & Heroku: http://bit.ly/7s9Bf3"
-  id: 6905499188
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: heroku
-    profile_sidebar_border_color: c1c0cc
-    profile_sidebar_fill_color: e3e2eb
-    profile_background_tile: false
-    created_at: Wed Nov 14 19:54:23 +0000 2007
-    location: San Francisco
-    profile_image_url: http://a1.twimg.com/profile_images/473641368/logo-twitter_normal.png
-    profile_link_color: 736fa8
-    favourites_count: 12
-    url: http://heroku.com
-    utc_offset: -32400
-    id: 10257182
-    profile_text_color: "494573"
-    protected: false
-    followers_count: 1440
-    notifications: 
-    geo_enabled: false
-    time_zone: Alaska
-    profile_background_color: 2c2c2c
-    verified: false
-    description: ""
-    friends_count: 333
-    statuses_count: 206
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
-    screen_name: heroku
-    following: 
-  source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 21:07:55 +0000 2009
-  favorited: false
-  truncated: false
-  text: "The language of staffing: http://37signals.com/svn/posts/2070-the-language-of-staffing"
-  id: 6905393573
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: DHH
     profile_sidebar_border_color: 87bc44
+    name: DHH
     profile_sidebar_fill_color: e0ff92
     profile_background_tile: false
     created_at: Sun Apr 27 20:19:25 +0000 2008
     location: Chicago, USA
     profile_image_url: http://a1.twimg.com/profile_images/67881828/headshot64_normal.jpg
     profile_link_color: 0000ff
-    favourites_count: 1
     url: http://www.loudthinking.com
+    favourites_count: 1
     utc_offset: -21600
     id: 14561327
-    profile_text_color: "000000"
     protected: false
-    followers_count: 16019
-    notifications: 
-    geo_enabled: false
+    followers_count: 16089
+    profile_text_color: "000000"
     time_zone: Central Time (US & Canada)
-    profile_background_color: 9ae4e8
+    notifications: 
     verified: false
+    profile_background_color: 9ae4e8
+    geo_enabled: false
     description: Creator of Ruby on Rails, Partner at 37signals
     friends_count: 48
-    statuses_count: 813
     profile_background_image_url: http://s.twimg.com/a/1261005104/images/themes/theme1/bg.png
+    statuses_count: 817
     screen_name: dhh
     following: 
   source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+  in_reply_to_screen_name: 
   in_reply_to_status_id: 
-- created_at: Mon Dec 21 20:32:15 +0000 2009
+- created_at: Mon Dec 28 02:04:02 +0000 2009
   favorited: false
   truncated: false
-  text: Cookie police / Arrest my wife / She put bacon in / Chocolate chip cookies
-  id: 6904467252
+  text: "Okay, visiting: check, groceries: check, cleaning: check (new pet hair vac is awesome), what'd I forget? Oh yeah. Dinner. Duh."
+  id: 7107971352
   geo: 
   in_reply_to_user_id: 
-  in_reply_to_screen_name: 
   user: 
-    name: drewtoothpaste
-    profile_sidebar_border_color: 64b377
-    profile_sidebar_fill_color: 6cd470
-    profile_background_tile: false
-    created_at: Sat Mar 29 02:33:11 +0000 2008
-    location: columbus, OH
-    profile_image_url: http://a3.twimg.com/profile_images/57937961/Photo_13_normal.jpg
-    profile_link_color: 08269e
-    url: http://toothpastefordinner.com
-    favourites_count: 0
-    utc_offset: -18000
-    id: 14248784
-    followers_count: 12685
-    profile_text_color: 100d09
-    protected: false
-    geo_enabled: false
-    time_zone: Eastern Time (US & Canada)
-    verified: false
-    profile_background_color: c1e6c1
-    notifications: 
-    description: Author of Toothpaste For Dinner, Married To The Sea, Super Poop. Dot com.
-    friends_count: 29
-    profile_background_image_url: http://a3.twimg.com/profile_background_images/37736429/twitter-bg-jul09-2.jpg
-    statuses_count: 455
-    screen_name: drewtoothpaste
-    following: 
-  source: web
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 20:02:58 +0000 2009
-  favorited: false
-  truncated: false
-  text: All y'all that panicked & went to the grocery store on Fri. night aren't going tonight, right? There's some stuff I gotta get. Thanks.
-  id: 6903716646
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: examorata
     profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Thu Sep 11 16:09:11 +0000 2008
-    location: Columbia, MD
-    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
-    profile_link_color: 0000ff
-    url: 
-    favourites_count: 4
-    utc_offset: -18000
-    id: 16242727
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 310
-    geo_enabled: false
-    verified: false
-    time_zone: Eastern Time (US & Canada)
-    notifications: false
-    profile_background_color: F2D0FD
-    description: Loquacious. Trepidatious. Sesquipedalian.
-    friends_count: 436
-    statuses_count: 4490
-    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
-    screen_name: examorata
-    following: false
-  source: <a href="http://echofon.com/" rel="nofollow">Echofon</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 19:57:22 +0000 2009
-  favorited: false
-  truncated: false
-  text: "\"...the first Super Mario and Zelda titles were made simultaneously, with the same staff.\" Holy shit. Greatest staff of all time!"
-  id: 6903570512
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: ignignokt_
-    profile_sidebar_border_color: BDDCAD
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
-    utc_offset: -18000
-    id: 14129926
-    profile_text_color: "333333"
-    protected: true
-    followers_count: 69
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    description: ""
-    friends_count: 100
-    statuses_count: 5330
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 19:43:51 +0000 2009
-  favorited: false
-  truncated: false
-  text: "RT @sarahlane ATTN Men: women hate it when you tell them to smile as they're walking past you on the street. I'll rip your face off, champ."
-  id: 6903226115
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
     name: examorata
-    profile_sidebar_border_color: 87bc44
     profile_sidebar_fill_color: e0ff92
     profile_background_tile: false
     created_at: Thu Sep 11 16:09:11 +0000 2008
@@ -390,218 +56,255 @@
     url: 
     utc_offset: -18000
     id: 16242727
-    profile_text_color: "000000"
     protected: false
     followers_count: 310
-    geo_enabled: false
+    profile_text_color: "000000"
     verified: false
-    notifications: false
     time_zone: Eastern Time (US & Canada)
+    notifications: false
     profile_background_color: F2D0FD
+    geo_enabled: false
     description: Loquacious. Trepidatious. Sesquipedalian.
-    friends_count: 436
-    statuses_count: 4487
+    friends_count: 439
+    statuses_count: 4567
     profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
     screen_name: examorata
-    following: false
-  source: <a href="http://echofon.com/" rel="nofollow">Echofon</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 19:43:05 +0000 2009
-  favorited: false
-  truncated: false
-  text: "Everyone who isn't at work or playing in the snow is shopping. Festive! But I got a few things checked off my list so: awesome."
-  id: 6903206959
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: examorata
-    profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Thu Sep 11 16:09:11 +0000 2008
-    location: Columbia, MD
-    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
-    profile_link_color: 0000ff
-    favourites_count: 4
-    url: 
-    utc_offset: -18000
-    id: 16242727
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 310
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: F2D0FD
-    description: Loquacious. Trepidatious. Sesquipedalian.
-    friends_count: 436
-    statuses_count: 4485
-    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
-    screen_name: examorata
-    following: false
-  source: <a href="http://echofon.com/" rel="nofollow">Echofon</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 19:39:34 +0000 2009
-  favorited: false
-  truncated: false
-  text: "@snidegrrl Awesome, wish I was there! Well, I sort of wish I was there and here simultaneously... =)"
-  id: 6903117516
-  geo: 
-  in_reply_to_user_id: 7993742
-  in_reply_to_screen_name: snidegrrl
-  user: 
-    name: examorata
-    profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Thu Sep 11 16:09:11 +0000 2008
-    location: Columbia, MD
-    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
-    profile_link_color: 0000ff
-    favourites_count: 4
-    url: 
-    utc_offset: -18000
-    id: 16242727
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 310
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: F2D0FD
-    description: Loquacious. Trepidatious. Sesquipedalian.
-    friends_count: 436
-    statuses_count: 4484
-    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
-    screen_name: examorata
-    following: false
-  source: <a href="http://echofon.com/" rel="nofollow">Echofon</a>
-  in_reply_to_status_id: 6902205001
-- created_at: Mon Dec 21 19:24:53 +0000 2009
-  favorited: false
-  truncated: false
-  text: "Pratik Naik (@lifo) joins 37signals: http://bit.ly/5uNgQC -- welcome on board!"
-  id: 6902738383
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: DHH
-    profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Sun Apr 27 20:19:25 +0000 2008
-    location: Chicago, USA
-    profile_image_url: http://a1.twimg.com/profile_images/67881828/headshot64_normal.jpg
-    profile_link_color: 0000ff
-    favourites_count: 1
-    url: http://www.loudthinking.com
-    utc_offset: -21600
-    id: 14561327
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 16018
-    notifications: 
-    geo_enabled: false
-    time_zone: Central Time (US & Canada)
-    profile_background_color: 9ae4e8
-    verified: false
-    description: Creator of Ruby on Rails, Partner at 37signals
-    friends_count: 48
-    statuses_count: 812
-    profile_background_image_url: http://s.twimg.com/a/1261005104/images/themes/theme1/bg.png
-    screen_name: dhh
-    following: 
-  source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 19:07:19 +0000 2009
-  favorited: false
-  truncated: false
-  text: Avatar'd
-  id: 6902282992
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: Eric Thornber
-    profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Mon Mar 26 18:12:40 +0000 2007
-    location: ""
-    profile_image_url: http://a1.twimg.com/profile_images/69501716/Eric_as_Vaklam_normal.png
-    profile_link_color: 0000ff
-    favourites_count: 2
-    url: 
-    utc_offset: -18000
-    id: 2332761
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 80
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: 9ae4e8
-    description: ""
-    friends_count: 108
-    statuses_count: 2035
-    profile_background_image_url: http://s.twimg.com/a/1260229822/images/themes/theme1/bg.png
-    screen_name: ect
-    following: false
-  source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
-  in_reply_to_status_id: 
-- created_at: Mon Dec 21 19:04:22 +0000 2009
-  favorited: false
-  truncated: false
-  text: Eating at a cafe in Duck and the music is like an epic Mellow Show skit from SNL. Hacky sack anyone?
-  id: 6902205001
-  geo: 
-  in_reply_to_user_id: 
-  in_reply_to_screen_name: 
-  user: 
-    name: snidegrrl
-    profile_sidebar_border_color: 6C1C00
-    profile_sidebar_fill_color: F8E78A
-    profile_background_tile: true
-    created_at: Mon Aug 06 14:35:17 +0000 2007
-    location: Laurel, MD
-    profile_image_url: http://a1.twimg.com/profile_images/60372284/iconworthy_normal.jpg
-    profile_link_color: A100FF
-    favourites_count: 63
-    url: http://www.prosaicparadise.com/
-    utc_offset: -18000
-    id: 7993742
-    profile_text_color: 6C1C00
-    protected: false
-    followers_count: 339
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Quito
-    profile_background_color: C4FDD7
-    description: I'm a non-techie techie who drums and wants to help people.
-    friends_count: 263
-    statuses_count: 3905
-    profile_background_image_url: http://a1.twimg.com/profile_background_images/385492/wallpaper-trick.jpg
-    screen_name: snidegrrl
     following: false
   source: <a href="http://www.stone.com/Twittelator" rel="nofollow">Twittelator</a>
+  in_reply_to_screen_name: 
   in_reply_to_status_id: 
-- created_at: Mon Dec 21 18:34:09 +0000 2009
+- created_at: Mon Dec 28 01:58:48 +0000 2009
   favorited: false
   truncated: false
-  text: I am not sure I will ever get used to seeing Olivia Munn show up on ONTD.
-  id: 6901403417
+  text: Rails 3 just got a default gitignore http://bit.ly/5hVMYT and Object#presence http://bit.ly/52G60V and get 'c/a' expand http://bit.ly/8Yw1pR
+  id: 7107817801
   geo: 
   in_reply_to_user_id: 
-  in_reply_to_screen_name: 
   user: 
-    name: jwiv
+    profile_sidebar_border_color: 87bc44
+    name: DHH
+    profile_sidebar_fill_color: e0ff92
+    profile_background_tile: false
+    created_at: Sun Apr 27 20:19:25 +0000 2008
+    location: Chicago, USA
+    profile_image_url: http://a1.twimg.com/profile_images/67881828/headshot64_normal.jpg
+    profile_link_color: 0000ff
+    favourites_count: 1
+    url: http://www.loudthinking.com
+    utc_offset: -21600
+    id: 14561327
+    protected: false
+    followers_count: 16089
+    profile_text_color: "000000"
+    notifications: false
+    verified: false
+    time_zone: Central Time (US & Canada)
+    profile_background_color: 9ae4e8
+    geo_enabled: false
+    description: Creator of Ruby on Rails, Partner at 37signals
+    friends_count: 48
+    statuses_count: 816
+    profile_background_image_url: http://s.twimg.com/a/1261005104/images/themes/theme1/bg.png
+    screen_name: dhh
+    following: false
+  source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Mon Dec 28 01:30:34 +0000 2009
+  favorited: false
+  truncated: false
+  text: Finding the new GitHub UI a little confusing. Maybe just because it's different. I'm sure I'll get used to it.
+  id: 7107026419
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: b3b3b3
+    name: Ryan Bates
+    profile_sidebar_fill_color: f2f2f2
+    profile_background_tile: false
+    created_at: Fri Mar 28 19:10:25 +0000 2008
+    location: Southern Oregon
+    profile_image_url: http://a1.twimg.com/profile_images/52189024/ryan_bates_cropped_normal.jpg
+    profile_link_color: 1c95c4
+    favourites_count: 52
+    url: http://railscasts.com
+    utc_offset: -28800
+    id: 14246143
+    protected: false
+    followers_count: 3605
+    profile_text_color: "000000"
+    notifications: false
+    time_zone: Pacific Time (US & Canada)
+    profile_background_color: C6E2EE
+    geo_enabled: false
+    verified: false
+    description: Producer of Railscasts - Free Ruby on Rails Screencasts
+    friends_count: 234
+    statuses_count: 2736
+    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme2/bg.gif
+    screen_name: rbates
+    following: false
+  source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Mon Dec 28 00:31:04 +0000 2009
+  favorited: false
+  truncated: false
+  text: photo.jpg http://flic.kr/p/7qY4ZE
+  id: 7105405485
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: BDDCAD
+    name: ignignokt_
+    profile_sidebar_fill_color: DDFFCC
+    profile_background_tile: false
+    created_at: Wed Mar 12 04:09:51 +0000 2008
+    location: Somerville, MA, USA
+    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+    profile_link_color: 0084B4
+    favourites_count: 3
+    url: http://chaos.corrupt.net
+    utc_offset: -18000
+    id: 14129926
+    protected: true
+    followers_count: 69
+    profile_text_color: "333333"
+    notifications: false
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: ffffff
+    geo_enabled: false
+    verified: false
+    description: ""
+    friends_count: 101
+    statuses_count: 5396
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
+    screen_name: ignignokt_
+    following: false
+  source: <a href="http://flickr.com/services/twitter/" rel="nofollow">Flickr</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Mon Dec 28 00:10:58 +0000 2009
+  favorited: false
+  truncated: false
+  text: "\"The utensils - the forks and stuff - are over there.\" Thanks, guy. This is good airport BBQ, though."
+  id: 7104871196
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: BDDCAD
+    name: ignignokt_
+    profile_sidebar_fill_color: DDFFCC
+    profile_background_tile: false
+    created_at: Wed Mar 12 04:09:51 +0000 2008
+    location: Somerville, MA, USA
+    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+    profile_link_color: 0084B4
+    favourites_count: 3
+    url: http://chaos.corrupt.net
+    utc_offset: -18000
+    id: 14129926
+    protected: true
+    followers_count: 69
+    profile_text_color: "333333"
+    notifications: false
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: ffffff
+    geo_enabled: false
+    verified: false
+    description: ""
+    friends_count: 101
+    statuses_count: 5395
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
+    screen_name: ignignokt_
+    following: false
+  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 23:30:42 +0000 2009
+  favorited: false
+  truncated: false
+  text: photo.jpg http://flic.kr/p/7qTnfK
+  id: 7103842862
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: BDDCAD
+    name: ignignokt_
+    profile_sidebar_fill_color: DDFFCC
+    profile_background_tile: false
+    created_at: Wed Mar 12 04:09:51 +0000 2008
+    location: Somerville, MA, USA
+    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+    profile_link_color: 0084B4
+    favourites_count: 3
+    url: http://chaos.corrupt.net
+    utc_offset: -18000
+    id: 14129926
+    followers_count: 69
+    protected: true
+    profile_text_color: "333333"
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: ffffff
+    notifications: false
+    geo_enabled: false
+    verified: false
+    description: ""
+    friends_count: 101
+    statuses_count: 5393
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
+    screen_name: ignignokt_
+    following: false
+  source: <a href="http://flickr.com/services/twitter/" rel="nofollow">Flickr</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 23:29:23 +0000 2009
+  favorited: false
+  truncated: false
+  text: Brunch at Ford's Filling Station, shopping at Target, and noew naptime!
+  id: 7103808452
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: C6E2EE
+    name: Cindy Wong
+    profile_sidebar_fill_color: DAECF4
+    profile_background_tile: false
+    created_at: Mon Mar 30 19:14:13 +0000 2009
+    location: "909"
+    profile_image_url: http://a1.twimg.com/profile_images/515601936/3Apples_normal.jpg
+    profile_link_color: 1F98C7
+    favourites_count: 0
+    url: 
+    utc_offset: -28800
+    id: 27706434
+    protected: false
+    followers_count: 47
+    profile_text_color: 663B12
+    notifications: false
+    time_zone: Pacific Time (US & Canada)
+    profile_background_color: C6E2EE
+    geo_enabled: false
+    verified: false
+    description: ""
+    friends_count: 148
+    statuses_count: 346
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme2/bg.gif
+    screen_name: soycube
+    following: true
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 21:09:05 +0000 2009
+  favorited: false
+  truncated: false
+  text: Jesus wept.  We gavethegame away.
+  id: 7100446560
+  geo: 
+  in_reply_to_user_id: 
+  user: 
     profile_sidebar_border_color: 829D5E
+    name: jwiv
     profile_sidebar_fill_color: 99CC33
     profile_background_tile: false
     created_at: Thu Apr 03 10:16:59 +0000 2008
@@ -612,33 +315,70 @@
     url: http://jwiv.livejournal.com
     utc_offset: -18000
     id: 14292072
-    profile_text_color: 3E4415
     protected: false
-    followers_count: 119
-    geo_enabled: false
-    verified: false
+    followers_count: 120
+    profile_text_color: 3E4415
     notifications: false
     time_zone: Eastern Time (US & Canada)
     profile_background_color: "352726"
+    geo_enabled: false
+    verified: false
     description: "Husband and father. Network engineer.  Grognard tendancies.  "
     friends_count: 142
-    statuses_count: 1888
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme5/bg.gif
+    statuses_count: 1919
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
     screen_name: jwiv
     following: true
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
   in_reply_to_status_id: 
-- created_at: Mon Dec 21 18:27:17 +0000 2009
+- created_at: Sun Dec 27 20:18:09 +0000 2009
   favorited: false
   truncated: false
-  text: I'm glad to see loudmouth liberal radio exists, but it's still almost as annoying to listen to as right wing radio.
-  id: 6901215998
+  text: If you live in Portland, look at http://www.obukanjudo.com/. I haven't been there, but it looks decent and $15/mo. is *insanely* cheap.
+  id: 7099241413
   geo: 
   in_reply_to_user_id: 
-  in_reply_to_screen_name: 
   user: 
-    name: ignignokt_
     profile_sidebar_border_color: BDDCAD
+    name: ignignokt_
+    profile_sidebar_fill_color: DDFFCC
+    profile_background_tile: false
+    created_at: Wed Mar 12 04:09:51 +0000 2008
+    location: Somerville, MA, USA
+    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+    profile_link_color: 0084B4
+    url: http://chaos.corrupt.net
+    favourites_count: 3
+    utc_offset: -18000
+    id: 14129926
+    followers_count: 69
+    protected: true
+    profile_text_color: "333333"
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: ffffff
+    verified: false
+    notifications: false
+    geo_enabled: false
+    description: ""
+    friends_count: 101
+    statuses_count: 5392
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
+    screen_name: ignignokt_
+    following: false
+  source: <a href="http://phalangesoftware.com/attneveryone" rel="nofollow">attneveryone</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 19:45:14 +0000 2009
+  favorited: false
+  truncated: false
+  text: So, after 300 pages of passing references to God in What Color Is My Parachute, the author lays down an all-out Bible storm!
+  id: 7098455488
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: BDDCAD
+    name: ignignokt_
     profile_sidebar_fill_color: DDFFCC
     profile_background_tile: false
     created_at: Wed Mar 12 04:09:51 +0000 2008
@@ -649,93 +389,353 @@
     url: http://chaos.corrupt.net
     utc_offset: -18000
     id: 14129926
-    profile_text_color: "333333"
     protected: true
     followers_count: 69
+    profile_text_color: "333333"
     notifications: false
-    geo_enabled: false
     time_zone: Eastern Time (US & Canada)
     profile_background_color: ffffff
+    geo_enabled: false
     verified: false
     description: ""
-    friends_count: 100
-    statuses_count: 5329
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme1/bg.png
+    friends_count: 101
+    statuses_count: 5391
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
     screen_name: ignignokt_
     following: false
   source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
+  in_reply_to_screen_name: 
   in_reply_to_status_id: 
-- created_at: Mon Dec 21 18:02:59 +0000 2009
+- created_at: Sun Dec 27 19:19:42 +0000 2009
   favorited: false
   truncated: false
-  text: "@snidegrrl ...the \"Wildfire\" guy!?"
-  id: 6900544223
-  geo: 
-  in_reply_to_user_id: 7993742
-  in_reply_to_screen_name: snidegrrl
-  user: 
-    name: examorata
-    profile_sidebar_border_color: 87bc44
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Thu Sep 11 16:09:11 +0000 2008
-    location: Columbia, MD
-    profile_image_url: http://a1.twimg.com/profile_images/421320658/406177_normal.jpg
-    profile_link_color: 0000ff
-    favourites_count: 4
-    url: 
-    utc_offset: -18000
-    id: 16242727
-    profile_text_color: "000000"
-    protected: false
-    followers_count: 311
-    geo_enabled: false
-    verified: false
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: F2D0FD
-    description: Loquacious. Trepidatious. Sesquipedalian.
-    friends_count: 435
-    statuses_count: 4483
-    profile_background_image_url: http://a3.twimg.com/profile_background_images/37744337/000gbapb.jpg
-    screen_name: examorata
-    following: false
-  source: <a href="http://echofon.com/" rel="nofollow">Echofon</a>
-  in_reply_to_status_id: 6899961983
-- created_at: Mon Dec 21 17:42:04 +0000 2009
-  favorited: false
-  truncated: false
-  text: "New favorite Christmas song: Michael Martin Murphy's \"Two-Step 'round the Christmas Tree\" @geniealisa go get it now!"
-  id: 6899961983
+  text: Come on Suggs!
+  id: 7097851560
   geo: 
   in_reply_to_user_id: 
-  in_reply_to_screen_name: 
   user: 
-    name: snidegrrl
-    profile_sidebar_border_color: 6C1C00
-    profile_sidebar_fill_color: F8E78A
-    profile_background_tile: true
-    created_at: Mon Aug 06 14:35:17 +0000 2007
-    location: Laurel, MD
-    profile_image_url: http://a1.twimg.com/profile_images/60372284/iconworthy_normal.jpg
-    profile_link_color: A100FF
-    favourites_count: 63
-    url: http://www.prosaicparadise.com/
+    profile_sidebar_border_color: 829D5E
+    name: jwiv
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    url: http://jwiv.livejournal.com
+    favourites_count: 0
     utc_offset: -18000
-    id: 7993742
-    profile_text_color: 6C1C00
+    id: 14292072
+    followers_count: 120
     protected: false
-    followers_count: 339
-    geo_enabled: false
+    profile_text_color: 3E4415
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
     verified: false
     notifications: false
-    time_zone: Quito
-    profile_background_color: C4FDD7
-    description: I'm a non-techie techie who drums and wants to help people.
-    friends_count: 263
-    statuses_count: 3904
-    profile_background_image_url: http://a1.twimg.com/profile_background_images/385492/wallpaper-trick.jpg
-    screen_name: snidegrrl
-    following: false
-  source: <a href="http://www.stone.com/Twittelator" rel="nofollow">Twittelator</a>
+    geo_enabled: false
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    friends_count: 142
+    statuses_count: 1918
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+    screen_name: jwiv
+    following: true
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 19:16:50 +0000 2009
+  favorited: false
+  truncated: false
+  text: "That'll work.  #Ravens"
+  id: 7097782898
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: 829D5E
+    name: jwiv
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    url: http://jwiv.livejournal.com
+    favourites_count: 0
+    utc_offset: -18000
+    id: 14292072
+    followers_count: 120
+    protected: false
+    profile_text_color: 3E4415
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
+    verified: false
+    notifications: 
+    geo_enabled: false
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    friends_count: 142
+    statuses_count: 1916
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+    screen_name: jwiv
+    following: 
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 19:16:04 +0000 2009
+  truncated: false
+  favorited: false
+  text: "Please do not fuck up this snap. #Ravens"
+  id: 7097764543
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_fill_color: 99CC33
+    name: jwiv
+    profile_background_tile: false
+    profile_sidebar_border_color: 829D5E
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    url: http://jwiv.livejournal.com
+    favourites_count: 0
+    utc_offset: -18000
+    id: 14292072
+    protected: false
+    followers_count: 120
+    profile_text_color: 3E4415
+    notifications: 
+    verified: false
+    profile_background_color: "352726"
+    geo_enabled: false
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    time_zone: Eastern Time (US & Canada)
+    friends_count: 142
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+    statuses_count: 1915
+    screen_name: jwiv
+    following: 
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 19:04:54 +0000 2009
+  favorited: false
+  truncated: false
+  text: "Damn it!  You can't give oppurtunities like that away. #Ravens"
+  id: 7097499266
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: 829D5E
+    name: jwiv
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    url: http://jwiv.livejournal.com
+    favourites_count: 0
+    utc_offset: -18000
+    id: 14292072
+    followers_count: 120
+    protected: false
+    profile_text_color: 3E4415
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
+    verified: false
+    notifications: 
+    geo_enabled: false
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+    friends_count: 142
+    statuses_count: 1914
+    screen_name: jwiv
+    following: 
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 18:59:07 +0000 2009
+  favorited: false
+  truncated: false
+  text: Heeeaaaapppp!!!!i
+  id: 7097356193
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: 829D5E
+    name: jwiv
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    favourites_count: 0
+    url: http://jwiv.livejournal.com
+    utc_offset: -18000
+    id: 14292072
+    protected: false
+    followers_count: 120
+    profile_text_color: 3E4415
+    notifications: false
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
+    geo_enabled: false
+    verified: false
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    friends_count: 142
+    statuses_count: 1913
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+    screen_name: jwiv
+    following: true
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 18:49:26 +0000 2009
+  favorited: false
+  truncated: false
+  text: would be rad if we didn't spot Pitt a billion points
+  id: 7097128442
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: 829D5E
+    name: jwiv
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    favourites_count: 0
+    url: http://jwiv.livejournal.com
+    utc_offset: -18000
+    id: 14292072
+    followers_count: 120
+    protected: false
+    profile_text_color: 3E4415
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
+    notifications: 
+    geo_enabled: false
+    verified: false
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    friends_count: 142
+    statuses_count: 1912
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+    screen_name: jwiv
+    following: 
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 18:43:18 +0000 2009
+  favorited: false
+  truncated: false
+  text: might have been a good idea to go with the back up long snapper.  Katula's injury is doing us no favors.
+  id: 7096982276
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: 829D5E
+    name: jwiv
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    favourites_count: 0
+    url: http://jwiv.livejournal.com
+    utc_offset: -18000
+    id: 14292072
+    protected: false
+    followers_count: 119
+    profile_text_color: 3E4415
+    notifications: 
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
+    geo_enabled: false
+    verified: false
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    friends_count: 142
+    statuses_count: 1911
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+    screen_name: jwiv
+    following: 
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 18:40:24 +0000 2009
+  favorited: false
+  truncated: false
+  text: Ravens O-line needs to do more than lay a red carpet for the blitz.
+  id: 7096913763
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: 829D5E
+    name: jwiv
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    favourites_count: 0
+    url: http://jwiv.livejournal.com
+    utc_offset: -18000
+    id: 14292072
+    followers_count: 119
+    protected: false
+    profile_text_color: 3E4415
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
+    notifications: false
+    verified: false
+    geo_enabled: false
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    statuses_count: 1910
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+    friends_count: 142
+    screen_name: jwiv
+    following: true
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
+  in_reply_to_status_id: 
+- created_at: Sun Dec 27 18:36:05 +0000 2009
+  favorited: false
+  truncated: false
+  text: "Dang! Ngata just ate Medenhall. #Ravens"
+  id: 7096813013
+  geo: 
+  in_reply_to_user_id: 
+  user: 
+    profile_sidebar_border_color: 829D5E
+    name: jwiv
+    profile_sidebar_fill_color: 99CC33
+    profile_background_tile: false
+    created_at: Thu Apr 03 10:16:59 +0000 2008
+    location: Baltimore, MD
+    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+    profile_link_color: D02B55
+    url: http://jwiv.livejournal.com
+    favourites_count: 0
+    utc_offset: -18000
+    id: 14292072
+    followers_count: 119
+    protected: false
+    profile_text_color: 3E4415
+    time_zone: Eastern Time (US & Canada)
+    profile_background_color: "352726"
+    verified: false
+    notifications: true
+    geo_enabled: false
+    description: "Husband and father. Network engineer.  Grognard tendancies.  "
+    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+    friends_count: 142
+    statuses_count: 1909
+    screen_name: jwiv
+    following: true
+  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+  in_reply_to_screen_name: 
   in_reply_to_status_id: 

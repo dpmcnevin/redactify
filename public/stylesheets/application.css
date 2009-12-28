@@ -128,7 +128,8 @@ div.notice {
 /* Welcome Page */
 
 #welcome {
-  padding: 5px;
+  float: left;
+  width: 55em;
 }
 
 #welcome .login {
@@ -145,18 +146,39 @@ div.notice {
 }
 
 #welcome #add_new_spoiler {
+  margin-top: 10px;
+  padding: 5px;
   clear: both;
 }
 
 #welcome #add_new_spoiler h3 {
   display: inline;
-  font-size: 1.2em;
+  font-size: 1.15em;
   padding: 5px 5px 5px 5px;
   text-decoration: none;
 }
 
 #welcome #add_new_spoiler input {
   font-size: 1.5em;
+}
+
+#welcome #add_new_spoiler #spoiler_explination {
+  font-size: 0.8em;
+  color: #888;
+  padding: 10px;
+}
+
+#welcome #other_tags {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid #aaa;
+  background: #E2E2D6;
+}
+
+#welcome #other_tags div {
+  float: left;
+  padding: 20px;
 }
 
 /* About Page */

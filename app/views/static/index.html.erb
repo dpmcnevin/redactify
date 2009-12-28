@@ -3,17 +3,21 @@
   <div id="add_new_spoiler">
     <h3>Add new spoiler tag</h3>
 		<%= render "timeline/form", :user => current_user %> or <%= link_to "Go To My Timeline", timeline_path %>
+		<div id="spoiler_explination">You can hide tweets in your timeline that match your tags. For example: #lost, MLB, oscars
+		</div>
   </div>
 
-  <p>
-		<h3>Your Current Tags</h3>
-		<%= render "spoilers/user", :user => current_user %> 
-	</p>
+	<div id="other_tags">
+	  <div>
+			<h3>Your Current Tags</h3>
+			<%= render "spoilers/user", :user => current_user %> 
+		</div>
 	
-	<p>
-		<h3>Popular Tags</h3>
-		<%= render "spoilers/popular", :user => current_user %>
-	</p>
+		<div>
+			<h3>Popular Tags</h3>
+			<%= render "spoilers/popular", :user => current_user %>
+		</div>
+	</div>
 	<% else %>
 	
 		<p>

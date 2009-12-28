@@ -35,8 +35,7 @@
 					</div>
 		
 					<div id="rate_limit" class="side_content">
-					  Twitter API Calls Remaining: <%= "#{@rate_limit["remaining_hits"]}/#{@rate_limit["hourly_limit"]}" %><br />
-					  Resets: <%= @rate_limit["reset_time"] %>
+						<%= render "users/rate_limit", :rate_limit => @user.rate_limit_status %>
 					</div>
 			</td>
 		</tr>
