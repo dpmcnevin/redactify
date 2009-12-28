@@ -1,2 +1,4 @@
 page["tweet_#{@tweet.id}"].replace :partial => @tweet
 page["tweet_#{@tweet.id}"].highlight
+page["rate_limit"].replace_html :partial => "users/rate_limit", :locals => { :rate_limit => @user.rate_limit_status }
+page["rate_limit"].highlight
