@@ -40,14 +40,11 @@ class User < TwitterAuth::GenericUser
   end
   
   def spoiler?(tweet)
-    spoilers.each do |spoiler|
-      return true if tweet =~ /#{spoiler.name}/i
-    end
-    return false
+    return spoilers.any? {|spoiler| tweet =~ Regexp.new(Regexp.escape(spoiler.name), Regexp::IGNORECASE)}
   end
   
   def spoiled_on(tweet)
-    spoilers.reject {|spoiler| tweet !~ /#{spoiler.name}/i}
+    spoilers.reject {|spoiler| tweet !~ Regexp.new(Regexp.escape(spoiler.name), Regexp::IGNORECASE)}
   end
   
   def popular_tags
