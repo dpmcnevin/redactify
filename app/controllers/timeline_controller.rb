@@ -7,6 +7,7 @@ class TimelineController < ApplicationController
     @timeline = @user.spoiler_free_timeline(params)
     respond_to do |format|
       format.html
+      format.js
       format.json { render :json => @timeline.to_json }
     end
   end
