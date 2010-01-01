@@ -1,6 +1,6 @@
 class Spoiler < ActiveRecord::Base
   
-  MAX_TAGS = 20
+  MAX_TAGS = 50
   
   belongs_to :user
   
