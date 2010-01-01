@@ -4,10 +4,12 @@ class Spoiler < ActiveRecord::Base
   
   belongs_to :user
   
+  attr_accessible :name
+  
   validate :maximum_tags, :on => :create
   validates_uniqueness_of :name, :on => :create, :message => "must be unique", :scope => :user_id
   validates_format_of :name, :with => /^.*$/, :on => :create, :message => "is invalid", :allow_blank => false
-  
+
   private 
   
   def maximum_tags

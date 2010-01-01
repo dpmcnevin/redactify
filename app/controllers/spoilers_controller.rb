@@ -3,11 +3,7 @@ class SpoilersController < ApplicationController
   before_filter :get_user
   
   layout false
-  
-  def index
-    @spoilers = @user.spoilers
-  end
-  
+
   def create
     @spoiler = @user.spoilers.new(params[:spoiler])
     if @spoiler.save
