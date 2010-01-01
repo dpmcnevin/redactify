@@ -1,6 +1,6 @@
 <div id="<%= "tweet_#{redacted.id}" %>" class="redacted tweet">
   <span class="user_info">
-    <%= link_to image_tag(redacted.profile_image_url, :size => "50x50", :class => "user_image"), "http://twitter.com/#{redacted.screen_name}" %>
+    <%= link_to image_tag(redacted.profile_image_url, :size => "50x50", :class => "user_image"), "http://twitter.com/#{redacted.screen_name}", :target => "_blank" %>
   </span>
   
   <span class="tweet_text">
