@@ -5,8 +5,11 @@
   
   <span class="tweet_text">
     <%= image_tag("lock.png") if tweet.protected? %>
-    <%= link_to tweet.screen_name, "http://twitter.com/#{tweet.screen_name}"%>
+    <%= link_to tweet.screen_name, timeline_path(:screen_name => tweet.screen_name)%>
     <%= auto_link_twitter(auto_link(tweet.text, :link => :urls, :html => { :target => '_blank'} )) %><br />
-    <small><%= tweet.created_at %> using <%= tweet.source %></small>
+    <small>
+			<%= link_to(tweet.created_at, "http://twitter.com/#{tweet.screen_name}/status/#{tweet.id}", :target => "_blank") %> using <%= tweet.source %>
+			<%= link_to("in reply to #{tweet.in_reply_to_screen_name}", "http://twitter.com/#{tweet.in_reply_to_screen_name}/status/#{tweet.in_reply_to_status_id}", :target => "_blank") unless tweet.in_reply_to_status_id.nil? %>
+		</small>
   </span>
 </div>

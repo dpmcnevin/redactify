@@ -1,2 +1,4 @@
 Twitter API Calls Remaining: <%= "#{rate_limit["remaining_hits"]}/#{rate_limit["hourly_limit"]}" %><br />
 Resets: <%= rate_limit["reset_time"] %>
+
+<%= javascript_tag "if (#{rate_limit["remaining_hits"]} < 15) { alert('You are running out of api calls. Twitter only allows #{rate_limit["hourly_limit"]} per hour.')}"%>
