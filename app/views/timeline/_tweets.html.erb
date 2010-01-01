@@ -5,5 +5,5 @@
 <% params.merge!(:page => @page || 2) %>
 
 <div id="get_more">
-  <%= link_to_remote "get more", :url => timeline_path(params) %>
+  <%= link_to_remote "get more", :url => timeline_path(params), :loading => "loading('get_more')" %>
 </div>
