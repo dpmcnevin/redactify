@@ -34,4 +34,12 @@ class Tweet
     @tweet["source"]
   end
   
+  def in_reply_to_screen_name
+    @tweet["in_reply_to_screen_name"]
+  end
+  
+  def in_reply_to_status_id
+    @tweet["in_reply_to_status_id"]
+  end
+  
 end

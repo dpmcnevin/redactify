@@ -2,8 +2,8 @@
   <%= render tweet %>
 <% end %>
 
-<% unless params[:list_id] %>
+<% params.merge!(:page => @page || 2) %>
+
 <div id="get_more">
-  <%= link_to_remote "get more", :url => timeline_path(:page => @page || 2) %>
+  <%= link_to_remote "get more", :url => timeline_path(params) %>
 </div>
-<% end %>

@@ -1,17 +1,7 @@
 class User < TwitterAuth::GenericUser
 
   has_many :spoilers
-    
-  def update_test_data
-    # tweets
-    yaml = twitter.get("/statuses/home_timeline.json").to_yaml
-    File.open("#{RAILS_ROOT}/db/test_tweets.yml", "w") { |file| file << yaml }
-    
-    #listst
-    yaml = twitter.get("/1/#{login}/lists.json").to_yaml
-    File.open("#{RAILS_ROOT}/db/test_lists.yml", "w") { |file| file << yaml }
-  end
-  
+
   def spoiler_free_timeline(options = {})
         
     timeline(options).map do |tweet|
@@ -24,11 +14,7 @@ class User < TwitterAuth::GenericUser
   end
   
   def get_lists
-    if RAILS_ENV == "production"
-      twitter.get("/1/#{login}/lists.json")
-    else
-      YAML::load_file "#{RAILS_ROOT}/db/test_lists.yml"  
-    end
+    twitter.get("/1/#{login}/lists.json")
   end
   
   def get_tweet(id)
@@ -68,20 +54,18 @@ class User < TwitterAuth::GenericUser
   
   def timeline(options)
     
-    if RAILS_ENV == "production"
-      if options["page"] && options["page"] =~ /^\d+$/
-        url = "/statuses/home_timeline.json?page=#{options["page"]}"
-      elsif options["list_id"]
-        url = "/1/#{login}/lists/#{options["list_id"]}/statuses.json"
-      else
-        url = "/statuses/home_timeline.json"
-      end
-      
-      twitter.get(url)
+    if options["list_id"]
+      url = "/1/#{login}/lists/#{options["list_id"]}/statuses.json"
+    elsif options["screen_name"]
+      url = "/statuses/user_timeline/#{options["screen_name"]}.json"
     else
-      ## test data so I don't keep pulling from twitter
-      YAML::load_file "#{RAILS_ROOT}/db/test_tweets.yml"
+      url = "/statuses/home_timeline.json"
     end
+
+    url << "?page=#{options["page"]}" if options["page"] && options["page"] =~ /^\d+$/
+            
+    twitter.get(url)
+
   end
   
 end
