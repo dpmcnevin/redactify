@@ -2,7 +2,7 @@ ActionController::Routing::Routes.draw do |map|
   
   map.resources :users, :only => [:show], :has_many => :spoilers
   map.resources :tweets, :only => [:show]
-  map.resources :timeline, :only => [:index]
+  map.resources :timeline, :only => [:index, :create]
   
   map.timeline "/timeline", :controller => "timeline", :action => :index
   

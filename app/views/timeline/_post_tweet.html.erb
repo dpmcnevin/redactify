@@ -1,0 +1,27 @@
+<div id="post_tweet">
+	<% form_tag({}, :id => "new_tweet_form") do %>
+		<%= text_area_tag :tweet, nil, :id => :new_tweet %>
+		<span id="remaining_characters">140</span>
+		<%= submit_tag "Post to Twitter" %>
+	<% end %>
+</div>
+
+<% javascript_tag do %>
+	$("new_tweet").observe("keyup", function() {
+		var tl = this.value.length;
+		$("remaining_characters").update(140 - tl);
+		
+		if (tl > 140) {
+			$("remaining_characters").addClassName("over");
+		} else if (tl <= 140 && $("remaining_characters").hasClassName("over")) {
+				$("remaining_characters").removeClassName("over");
+		}
+	});
+	
+	$("new_tweet_form").observe("submit", function(post_tweet) { 
+		if ($("new_tweet").value.length > 140) { 
+			alert("Status update is too long"); 
+			post_tweet.stop();
+		}
+	});
+<% end %>
