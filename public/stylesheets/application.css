@@ -284,6 +284,37 @@ div.notice {
   border-width: 1px 1px 1px 1px;
 }
 
+#timeline #post_tweet {
+  background: #f8f8f8;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#timeline #post_tweet textarea {
+  font-size: 1.2em;
+  height: 60px;
+  width: 98%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+
+#timeline #post_tweet #remaining_characters {
+  color: green;
+  font-size: 1.2em;
+}
+
+#timeline #post_tweet #remaining_characters.over {
+  color: red;
+}
+
+#timeline #post_tweet input[type=submit] {
+  float: right;
+  border: 1px solid #888;
+}
+
 .tweet {
   border-bottom: 1px solid #ccc;
 	padding: 10px 0px;

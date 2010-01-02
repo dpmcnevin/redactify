@@ -47,6 +47,14 @@ class User < TwitterAuth::GenericUser
       :group => "name, #{cols}")
   end
   
+  def post_tweet(tweet)
+    if tweet.length <= 140
+      twitter.post('/statuses/update.json', 'status' => tweet)
+    else
+      errors.add("tweet", "Status update over 140 characters")
+    end
+  end
+  
   private
   
   def timeline(options)

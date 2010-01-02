@@ -12,4 +12,14 @@ class TimelineController < ApplicationController
     end
   end
 
+  def create
+    current_user.post_tweet(params[:tweet])
+    if current_user.errors.empty?
+      flash[:notice] = "New Tweet Posted"
+    else
+      flash[:error] = "There was a problem posting the twitter update: #{current_user.errors[:tweet]}"
+    end
+    redirect_to timeline_path
+  end
+  
 end
