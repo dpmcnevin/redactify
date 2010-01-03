@@ -31,12 +31,6 @@
       <% end %><% if flash[:notice] %>
         <div id="flash" class='flash notice'><%= flash[:notice] %></div>
       <% end %>
-      
-			<% if RAILS_ENV == "something" %>
-				<p class="warning">
-			    This is a <strong>super pre-alpha</strong> service, don't expect to have any acceptable level of service, security, or functionality yet.
-			  </p>
-			<% end %>
 
       <div id='contents'>
         <%= yield %>
