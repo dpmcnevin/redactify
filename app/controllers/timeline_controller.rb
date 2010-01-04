@@ -13,6 +13,7 @@ class TimelineController < ApplicationController
   end
 
   def create
+    # debugger
     current_user.post_tweet(params[:tweet])
     if current_user.errors.empty?
       flash[:notice] = "New Tweet Posted"

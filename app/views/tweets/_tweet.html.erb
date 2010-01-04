@@ -11,5 +11,13 @@
 			<%= link_to(tweet.created_at, "http://twitter.com/#{tweet.screen_name}/status/#{tweet.id}", :target => "_blank") %> using <%= tweet.source %>
 			<%= link_to("in reply to #{tweet.in_reply_to_screen_name}", "http://twitter.com/#{tweet.in_reply_to_screen_name}/status/#{tweet.in_reply_to_status_id}", :target => "_blank") unless tweet.in_reply_to_status_id.nil? %>
 		</small>
+		<div class="hidden_controls" style="display: none;">
+			<%= link_to_function "reply", "reply_to_tweet('#{tweet.screen_name}', '#{tweet.id}')", :class => :reply %>
+		</div>
   </span>
 </div>
+
+<% unless tweet.screen_name == current_user.login %>
+	<%= javascript_tag "$('tweet_#{tweet.id}').observe('mouseover', function() { $$('#tweet_#{tweet.id} .hidden_controls').invoke('show')})" %>
+	<%= javascript_tag "$('tweet_#{tweet.id}').observe('mouseout', function() { $$('#tweet_#{tweet.id} .hidden_controls').invoke('hide')})" %>
+<% end %>

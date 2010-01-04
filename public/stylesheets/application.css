@@ -374,6 +374,15 @@ div.notice {
   color: #777;
 }
 
+.tweet .hidden_controls {
+  float: right;
+  font-size: 0.75em;
+}
+
+.tweet .reply {
+  
+}
+
 /* Get more link */
 
 #contents #get_more {

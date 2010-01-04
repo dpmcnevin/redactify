@@ -14,3 +14,9 @@ function loading(section) {
   $(section).update("loading...")
 }
 
+function reply_to_tweet(screen_name, tweet_id) {
+  $("new_tweet").value = "@" + screen_name + " ";
+  $("tweet_in_reply_to_status_id").value = tweet_id;
+  $("new_tweet").focus();
+}
+

@@ -1,8 +1,9 @@
 <div id="post_tweet">
-	<% form_tag({}, :id => "new_tweet_form") do %>
-		<%= text_area_tag :tweet, nil, :id => :new_tweet %>
+	<% form_for :tweet, :html => { :id => "new_tweet_form" } do |f| %>
+		<%= f.hidden_field :in_reply_to_status_id %>
+		<%= f.text_area :status, :id => :new_tweet %>
 		<span id="remaining_characters">140</span>
-		<%= submit_tag "Post to Twitter" %>
+		<%= f.submit "Post to Twitter" %>
 	<% end %>
 </div>
 
