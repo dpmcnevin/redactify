@@ -49,7 +49,7 @@ class User < TwitterAuth::GenericUser
   
   def post_tweet(tweet)
     if tweet.length <= 140
-      twitter.post('/statuses/update.json', 'status' => tweet)
+      twitter.post('/statuses/update.json', 'status' => tweet["status"], 'in_reply_to_status_id' => tweet["in_reply_to_status_id"]) 
     else
       errors.add("tweet", "Status update over 140 characters")
     end
