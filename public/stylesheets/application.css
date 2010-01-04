@@ -318,7 +318,8 @@ div.notice {
 .tweet {
   border-bottom: 1px solid #ccc;
 	padding: 10px 0px;
-	width:100%;
+	width: 575px;
+	overflow: hidden;
 	margin-bottom: 2px;
 }
 
