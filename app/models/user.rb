@@ -68,7 +68,8 @@ class User < TwitterAuth::GenericUser
     end
 
     url << "?page=#{options["page"]}" if options["page"] && options["page"] =~ /^\d+$/
-            
+    url << "?since_id=#{options["since_id"]}" if options["since_id"]
+                
     twitter.get(url)
 
   end
