@@ -315,6 +315,10 @@ div.notice {
   border: 1px solid #888;
 }
 
+#timeline #updated_tweets .tweet {
+  border: 1px solid yellow;
+}
+
 .tweet {
   border-bottom: 1px solid #ccc;
 	padding: 10px 0px;

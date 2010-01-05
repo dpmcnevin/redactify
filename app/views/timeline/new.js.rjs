@@ -1,0 +1,2 @@
+page.insert_html :top, 'updated_tweets', :partial => @new_tweets
+page["timeline"].highlight
