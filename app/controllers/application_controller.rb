@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
     flash[:error] = "There was an error connecting to Twitter"
     redirect_to root_path
   end  
-    
+      
   private
   
   def set_up_twitter_params
