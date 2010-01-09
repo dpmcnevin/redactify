@@ -3,9 +3,9 @@ class TimelineController < ApplicationController
   
   def index
     @user = current_user
-    @page = params[:page].to_i + 1 if params[:page]
-    @timeline = @user.spoiler_free_timeline(params)
-    session[:latest_id] = @timeline.first.id
+    @page = params[:twitter][:page].to_i + 1 if params[:twitter] && params[:twitter][:page]
+    @timeline = @user.spoiler_free_timeline(params[:twitter] || {})
+    session[:latest_id] = @timeline.first.id unless params[:twitter] && params[:twitter][:page]
     respond_to do |format|
       format.html
       format.js
@@ -26,7 +26,8 @@ class TimelineController < ApplicationController
   
   def new
     @user = current_user
-    @new_tweets = @user.spoiler_free_timeline("since_id" => session[:latest_id])
+    @new_tweets = @user.spoiler_free_timeline(params[:twitter].merge("since_id" => session[:latest_id]))
+    
     if @new_tweets.empty?
       render :nothing => true
     else

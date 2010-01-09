@@ -3,7 +3,9 @@
 		<tr>
 			<td id="timeline">
 					<%= render "post_tweet" %>
+					<div id="updated_tweets"></div>
 				  <%= render "tweets" %>
+					<%= periodically_call_remote(:url => new_timeline_path(:twitter => params[:twitter]), :frequency => '90', :method => :get) %>
 			</td>
 
 			<td id="side">
@@ -17,7 +19,7 @@
 						<ul>
 							<li><%= link_to "@#{current_user.login}", timeline_path %></li>
 							<% for list in @user.get_lists["lists"] %>
-								<li><%= link_to list["full_name"], timeline_path(:list_id => list["id"]) %></li>
+								<li><%= link_to list["full_name"], timeline_path(:twitter => {:list_id => list["id"]}) %></li>
 							<% end %>
 						</ul>
 					</div>

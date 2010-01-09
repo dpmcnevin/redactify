@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::Base
   helper :all
+  
+  before_filter :set_up_twitter_params
     
   rescue_from Net::HTTPFatalError do |exception|
     # render "static/twitter_error"
@@ -8,6 +10,10 @@ class ApplicationController < ActionController::Base
   end  
     
   private
+  
+  def set_up_twitter_params
+    params[:twitter] = {} unless params[:twitter]
+  end
   
   def check_login
     unless current_user

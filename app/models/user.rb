@@ -1,3 +1,5 @@
+require "yaml"
+
 class User < TwitterAuth::GenericUser
 
   has_many :spoilers
@@ -66,10 +68,12 @@ class User < TwitterAuth::GenericUser
     else
       url = "/statuses/home_timeline.json"
     end
-
-    url << "?page=#{options["page"]}" if options["page"] && options["page"] =~ /^\d+$/
-    url << "?since_id=#{options["since_id"]}" if options["since_id"]
-                
+    
+    url << "?#{options.to_query}" unless options.empty?
+    
+    # tweets = File.open("#{RAILS_ROOT}/db/test_tweets.yml") { |file| YAML.load(file) }
+    # tweets.first["text"] = url
+    # return tweets            
     twitter.get(url)
 
   end

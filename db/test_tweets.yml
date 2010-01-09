@@ -73,669 +73,669 @@
   source: <a href="http://www.stone.com/Twittelator" rel="nofollow">Twittelator</a>
   in_reply_to_screen_name: 
   in_reply_to_status_id: 
-- created_at: Mon Dec 28 01:58:48 +0000 2009
-  favorited: false
-  truncated: false
-  text: Rails 3 just got a default gitignore http://bit.ly/5hVMYT and Object#presence http://bit.ly/52G60V and get 'c/a' expand http://bit.ly/8Yw1pR
-  id: 7107817801
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 87bc44
-    name: DHH
-    profile_sidebar_fill_color: e0ff92
-    profile_background_tile: false
-    created_at: Sun Apr 27 20:19:25 +0000 2008
-    location: Chicago, USA
-    profile_image_url: http://a1.twimg.com/profile_images/67881828/headshot64_normal.jpg
-    profile_link_color: 0000ff
-    favourites_count: 1
-    url: http://www.loudthinking.com
-    utc_offset: -21600
-    id: 14561327
-    protected: false
-    followers_count: 16089
-    profile_text_color: "000000"
-    notifications: false
-    verified: false
-    time_zone: Central Time (US & Canada)
-    profile_background_color: 9ae4e8
-    geo_enabled: false
-    description: Creator of Ruby on Rails, Partner at 37signals
-    friends_count: 48
-    statuses_count: 816
-    profile_background_image_url: http://s.twimg.com/a/1261005104/images/themes/theme1/bg.png
-    screen_name: dhh
-    following: false
-  source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Mon Dec 28 01:30:34 +0000 2009
-  favorited: false
-  truncated: false
-  text: Finding the new GitHub UI a little confusing. Maybe just because it's different. I'm sure I'll get used to it.
-  id: 7107026419
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: b3b3b3
-    name: Ryan Bates
-    profile_sidebar_fill_color: f2f2f2
-    profile_background_tile: false
-    created_at: Fri Mar 28 19:10:25 +0000 2008
-    location: Southern Oregon
-    profile_image_url: http://a1.twimg.com/profile_images/52189024/ryan_bates_cropped_normal.jpg
-    profile_link_color: 1c95c4
-    favourites_count: 52
-    url: http://railscasts.com
-    utc_offset: -28800
-    id: 14246143
-    protected: false
-    followers_count: 3605
-    profile_text_color: "000000"
-    notifications: false
-    time_zone: Pacific Time (US & Canada)
-    profile_background_color: C6E2EE
-    geo_enabled: false
-    verified: false
-    description: Producer of Railscasts - Free Ruby on Rails Screencasts
-    friends_count: 234
-    statuses_count: 2736
-    profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme2/bg.gif
-    screen_name: rbates
-    following: false
-  source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Mon Dec 28 00:31:04 +0000 2009
-  favorited: false
-  truncated: false
-  text: photo.jpg http://flic.kr/p/7qY4ZE
-  id: 7105405485
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: BDDCAD
-    name: ignignokt_
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
-    utc_offset: -18000
-    id: 14129926
-    protected: true
-    followers_count: 69
-    profile_text_color: "333333"
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    geo_enabled: false
-    verified: false
-    description: ""
-    friends_count: 101
-    statuses_count: 5396
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://flickr.com/services/twitter/" rel="nofollow">Flickr</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Mon Dec 28 00:10:58 +0000 2009
-  favorited: false
-  truncated: false
-  text: "\"The utensils - the forks and stuff - are over there.\" Thanks, guy. This is good airport BBQ, though."
-  id: 7104871196
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: BDDCAD
-    name: ignignokt_
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
-    utc_offset: -18000
-    id: 14129926
-    protected: true
-    followers_count: 69
-    profile_text_color: "333333"
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    geo_enabled: false
-    verified: false
-    description: ""
-    friends_count: 101
-    statuses_count: 5395
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 23:30:42 +0000 2009
-  favorited: false
-  truncated: false
-  text: photo.jpg http://flic.kr/p/7qTnfK
-  id: 7103842862
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: BDDCAD
-    name: ignignokt_
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
-    utc_offset: -18000
-    id: 14129926
-    followers_count: 69
-    protected: true
-    profile_text_color: "333333"
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    notifications: false
-    geo_enabled: false
-    verified: false
-    description: ""
-    friends_count: 101
-    statuses_count: 5393
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://flickr.com/services/twitter/" rel="nofollow">Flickr</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 23:29:23 +0000 2009
-  favorited: false
-  truncated: false
-  text: Brunch at Ford's Filling Station, shopping at Target, and noew naptime!
-  id: 7103808452
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: C6E2EE
-    name: Cindy Wong
-    profile_sidebar_fill_color: DAECF4
-    profile_background_tile: false
-    created_at: Mon Mar 30 19:14:13 +0000 2009
-    location: "909"
-    profile_image_url: http://a1.twimg.com/profile_images/515601936/3Apples_normal.jpg
-    profile_link_color: 1F98C7
-    favourites_count: 0
-    url: 
-    utc_offset: -28800
-    id: 27706434
-    protected: false
-    followers_count: 47
-    profile_text_color: 663B12
-    notifications: false
-    time_zone: Pacific Time (US & Canada)
-    profile_background_color: C6E2EE
-    geo_enabled: false
-    verified: false
-    description: ""
-    friends_count: 148
-    statuses_count: 346
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme2/bg.gif
-    screen_name: soycube
-    following: true
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 21:09:05 +0000 2009
-  favorited: false
-  truncated: false
-  text: Jesus wept.  We gavethegame away.
-  id: 7100446560
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 829D5E
-    name: jwiv
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    favourites_count: 0
-    url: http://jwiv.livejournal.com
-    utc_offset: -18000
-    id: 14292072
-    protected: false
-    followers_count: 120
-    profile_text_color: 3E4415
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    geo_enabled: false
-    verified: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    friends_count: 142
-    statuses_count: 1919
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    screen_name: jwiv
-    following: true
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 20:18:09 +0000 2009
-  favorited: false
-  truncated: false
-  text: If you live in Portland, look at http://www.obukanjudo.com/. I haven't been there, but it looks decent and $15/mo. is *insanely* cheap.
-  id: 7099241413
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: BDDCAD
-    name: ignignokt_
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    url: http://chaos.corrupt.net
-    favourites_count: 3
-    utc_offset: -18000
-    id: 14129926
-    followers_count: 69
-    protected: true
-    profile_text_color: "333333"
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    verified: false
-    notifications: false
-    geo_enabled: false
-    description: ""
-    friends_count: 101
-    statuses_count: 5392
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://phalangesoftware.com/attneveryone" rel="nofollow">attneveryone</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 19:45:14 +0000 2009
-  favorited: false
-  truncated: false
-  text: So, after 300 pages of passing references to God in What Color Is My Parachute, the author lays down an all-out Bible storm!
-  id: 7098455488
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: BDDCAD
-    name: ignignokt_
-    profile_sidebar_fill_color: DDFFCC
-    profile_background_tile: false
-    created_at: Wed Mar 12 04:09:51 +0000 2008
-    location: Somerville, MA, USA
-    profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
-    profile_link_color: 0084B4
-    favourites_count: 3
-    url: http://chaos.corrupt.net
-    utc_offset: -18000
-    id: 14129926
-    protected: true
-    followers_count: 69
-    profile_text_color: "333333"
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: ffffff
-    geo_enabled: false
-    verified: false
-    description: ""
-    friends_count: 101
-    statuses_count: 5391
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
-    screen_name: ignignokt_
-    following: false
-  source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 19:19:42 +0000 2009
-  favorited: false
-  truncated: false
-  text: Come on Suggs!
-  id: 7097851560
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 829D5E
-    name: jwiv
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    url: http://jwiv.livejournal.com
-    favourites_count: 0
-    utc_offset: -18000
-    id: 14292072
-    followers_count: 120
-    protected: false
-    profile_text_color: 3E4415
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    verified: false
-    notifications: false
-    geo_enabled: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    friends_count: 142
-    statuses_count: 1918
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    screen_name: jwiv
-    following: true
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 19:16:50 +0000 2009
-  favorited: false
-  truncated: false
-  text: "That'll work.  #Ravens"
-  id: 7097782898
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 829D5E
-    name: jwiv
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    url: http://jwiv.livejournal.com
-    favourites_count: 0
-    utc_offset: -18000
-    id: 14292072
-    followers_count: 120
-    protected: false
-    profile_text_color: 3E4415
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    verified: false
-    notifications: 
-    geo_enabled: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    friends_count: 142
-    statuses_count: 1916
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    screen_name: jwiv
-    following: 
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 19:16:04 +0000 2009
-  truncated: false
-  favorited: false
-  text: "Please do not fuck up this snap. #Ravens"
-  id: 7097764543
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_fill_color: 99CC33
-    name: jwiv
-    profile_background_tile: false
-    profile_sidebar_border_color: 829D5E
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    url: http://jwiv.livejournal.com
-    favourites_count: 0
-    utc_offset: -18000
-    id: 14292072
-    protected: false
-    followers_count: 120
-    profile_text_color: 3E4415
-    notifications: 
-    verified: false
-    profile_background_color: "352726"
-    geo_enabled: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    time_zone: Eastern Time (US & Canada)
-    friends_count: 142
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    statuses_count: 1915
-    screen_name: jwiv
-    following: 
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 19:04:54 +0000 2009
-  favorited: false
-  truncated: false
-  text: "Damn it!  You can't give oppurtunities like that away. #Ravens"
-  id: 7097499266
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 829D5E
-    name: jwiv
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    url: http://jwiv.livejournal.com
-    favourites_count: 0
-    utc_offset: -18000
-    id: 14292072
-    followers_count: 120
-    protected: false
-    profile_text_color: 3E4415
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    verified: false
-    notifications: 
-    geo_enabled: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    friends_count: 142
-    statuses_count: 1914
-    screen_name: jwiv
-    following: 
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 18:59:07 +0000 2009
-  favorited: false
-  truncated: false
-  text: Heeeaaaapppp!!!!i
-  id: 7097356193
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 829D5E
-    name: jwiv
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    favourites_count: 0
-    url: http://jwiv.livejournal.com
-    utc_offset: -18000
-    id: 14292072
-    protected: false
-    followers_count: 120
-    profile_text_color: 3E4415
-    notifications: false
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    geo_enabled: false
-    verified: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    friends_count: 142
-    statuses_count: 1913
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    screen_name: jwiv
-    following: true
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 18:49:26 +0000 2009
-  favorited: false
-  truncated: false
-  text: would be rad if we didn't spot Pitt a billion points
-  id: 7097128442
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 829D5E
-    name: jwiv
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    favourites_count: 0
-    url: http://jwiv.livejournal.com
-    utc_offset: -18000
-    id: 14292072
-    followers_count: 120
-    protected: false
-    profile_text_color: 3E4415
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    notifications: 
-    geo_enabled: false
-    verified: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    friends_count: 142
-    statuses_count: 1912
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    screen_name: jwiv
-    following: 
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 18:43:18 +0000 2009
-  favorited: false
-  truncated: false
-  text: might have been a good idea to go with the back up long snapper.  Katula's injury is doing us no favors.
-  id: 7096982276
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 829D5E
-    name: jwiv
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    favourites_count: 0
-    url: http://jwiv.livejournal.com
-    utc_offset: -18000
-    id: 14292072
-    protected: false
-    followers_count: 119
-    profile_text_color: 3E4415
-    notifications: 
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    geo_enabled: false
-    verified: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    friends_count: 142
-    statuses_count: 1911
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    screen_name: jwiv
-    following: 
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 18:40:24 +0000 2009
-  favorited: false
-  truncated: false
-  text: Ravens O-line needs to do more than lay a red carpet for the blitz.
-  id: 7096913763
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 829D5E
-    name: jwiv
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    favourites_count: 0
-    url: http://jwiv.livejournal.com
-    utc_offset: -18000
-    id: 14292072
-    followers_count: 119
-    protected: false
-    profile_text_color: 3E4415
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    notifications: false
-    verified: false
-    geo_enabled: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    statuses_count: 1910
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    friends_count: 142
-    screen_name: jwiv
-    following: true
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
-- created_at: Sun Dec 27 18:36:05 +0000 2009
-  favorited: false
-  truncated: false
-  text: "Dang! Ngata just ate Medenhall. #Ravens"
-  id: 7096813013
-  geo: 
-  in_reply_to_user_id: 
-  user: 
-    profile_sidebar_border_color: 829D5E
-    name: jwiv
-    profile_sidebar_fill_color: 99CC33
-    profile_background_tile: false
-    created_at: Thu Apr 03 10:16:59 +0000 2008
-    location: Baltimore, MD
-    profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
-    profile_link_color: D02B55
-    url: http://jwiv.livejournal.com
-    favourites_count: 0
-    utc_offset: -18000
-    id: 14292072
-    followers_count: 119
-    protected: false
-    profile_text_color: 3E4415
-    time_zone: Eastern Time (US & Canada)
-    profile_background_color: "352726"
-    verified: false
-    notifications: true
-    geo_enabled: false
-    description: "Husband and father. Network engineer.  Grognard tendancies.  "
-    profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
-    friends_count: 142
-    statuses_count: 1909
-    screen_name: jwiv
-    following: true
-  source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
-  in_reply_to_screen_name: 
-  in_reply_to_status_id: 
+# - created_at: Mon Dec 28 01:58:48 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: Rails 3 just got a default gitignore http://bit.ly/5hVMYT and Object#presence http://bit.ly/52G60V and get 'c/a' expand http://bit.ly/8Yw1pR
+#   id: 7107817801
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 87bc44
+#     name: DHH
+#     profile_sidebar_fill_color: e0ff92
+#     profile_background_tile: false
+#     created_at: Sun Apr 27 20:19:25 +0000 2008
+#     location: Chicago, USA
+#     profile_image_url: http://a1.twimg.com/profile_images/67881828/headshot64_normal.jpg
+#     profile_link_color: 0000ff
+#     favourites_count: 1
+#     url: http://www.loudthinking.com
+#     utc_offset: -21600
+#     id: 14561327
+#     protected: false
+#     followers_count: 16089
+#     profile_text_color: "000000"
+#     notifications: false
+#     verified: false
+#     time_zone: Central Time (US & Canada)
+#     profile_background_color: 9ae4e8
+#     geo_enabled: false
+#     description: Creator of Ruby on Rails, Partner at 37signals
+#     friends_count: 48
+#     statuses_count: 816
+#     profile_background_image_url: http://s.twimg.com/a/1261005104/images/themes/theme1/bg.png
+#     screen_name: dhh
+#     following: false
+#   source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Mon Dec 28 01:30:34 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: Finding the new GitHub UI a little confusing. Maybe just because it's different. I'm sure I'll get used to it.
+#   id: 7107026419
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: b3b3b3
+#     name: Ryan Bates
+#     profile_sidebar_fill_color: f2f2f2
+#     profile_background_tile: false
+#     created_at: Fri Mar 28 19:10:25 +0000 2008
+#     location: Southern Oregon
+#     profile_image_url: http://a1.twimg.com/profile_images/52189024/ryan_bates_cropped_normal.jpg
+#     profile_link_color: 1c95c4
+#     favourites_count: 52
+#     url: http://railscasts.com
+#     utc_offset: -28800
+#     id: 14246143
+#     protected: false
+#     followers_count: 3605
+#     profile_text_color: "000000"
+#     notifications: false
+#     time_zone: Pacific Time (US & Canada)
+#     profile_background_color: C6E2EE
+#     geo_enabled: false
+#     verified: false
+#     description: Producer of Railscasts - Free Ruby on Rails Screencasts
+#     friends_count: 234
+#     statuses_count: 2736
+#     profile_background_image_url: http://s.twimg.com/a/1261078355/images/themes/theme2/bg.gif
+#     screen_name: rbates
+#     following: false
+#   source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Mon Dec 28 00:31:04 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: photo.jpg http://flic.kr/p/7qY4ZE
+#   id: 7105405485
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: BDDCAD
+#     name: ignignokt_
+#     profile_sidebar_fill_color: DDFFCC
+#     profile_background_tile: false
+#     created_at: Wed Mar 12 04:09:51 +0000 2008
+#     location: Somerville, MA, USA
+#     profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+#     profile_link_color: 0084B4
+#     favourites_count: 3
+#     url: http://chaos.corrupt.net
+#     utc_offset: -18000
+#     id: 14129926
+#     protected: true
+#     followers_count: 69
+#     profile_text_color: "333333"
+#     notifications: false
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: ffffff
+#     geo_enabled: false
+#     verified: false
+#     description: ""
+#     friends_count: 101
+#     statuses_count: 5396
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
+#     screen_name: ignignokt_
+#     following: false
+#   source: <a href="http://flickr.com/services/twitter/" rel="nofollow">Flickr</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Mon Dec 28 00:10:58 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: "\"The utensils - the forks and stuff - are over there.\" Thanks, guy. This is good airport BBQ, though."
+#   id: 7104871196
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: BDDCAD
+#     name: ignignokt_
+#     profile_sidebar_fill_color: DDFFCC
+#     profile_background_tile: false
+#     created_at: Wed Mar 12 04:09:51 +0000 2008
+#     location: Somerville, MA, USA
+#     profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+#     profile_link_color: 0084B4
+#     favourites_count: 3
+#     url: http://chaos.corrupt.net
+#     utc_offset: -18000
+#     id: 14129926
+#     protected: true
+#     followers_count: 69
+#     profile_text_color: "333333"
+#     notifications: false
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: ffffff
+#     geo_enabled: false
+#     verified: false
+#     description: ""
+#     friends_count: 101
+#     statuses_count: 5395
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
+#     screen_name: ignignokt_
+#     following: false
+#   source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 23:30:42 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: photo.jpg http://flic.kr/p/7qTnfK
+#   id: 7103842862
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: BDDCAD
+#     name: ignignokt_
+#     profile_sidebar_fill_color: DDFFCC
+#     profile_background_tile: false
+#     created_at: Wed Mar 12 04:09:51 +0000 2008
+#     location: Somerville, MA, USA
+#     profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+#     profile_link_color: 0084B4
+#     favourites_count: 3
+#     url: http://chaos.corrupt.net
+#     utc_offset: -18000
+#     id: 14129926
+#     followers_count: 69
+#     protected: true
+#     profile_text_color: "333333"
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: ffffff
+#     notifications: false
+#     geo_enabled: false
+#     verified: false
+#     description: ""
+#     friends_count: 101
+#     statuses_count: 5393
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
+#     screen_name: ignignokt_
+#     following: false
+#   source: <a href="http://flickr.com/services/twitter/" rel="nofollow">Flickr</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 23:29:23 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: Brunch at Ford's Filling Station, shopping at Target, and noew naptime!
+#   id: 7103808452
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: C6E2EE
+#     name: Cindy Wong
+#     profile_sidebar_fill_color: DAECF4
+#     profile_background_tile: false
+#     created_at: Mon Mar 30 19:14:13 +0000 2009
+#     location: "909"
+#     profile_image_url: http://a1.twimg.com/profile_images/515601936/3Apples_normal.jpg
+#     profile_link_color: 1F98C7
+#     favourites_count: 0
+#     url: 
+#     utc_offset: -28800
+#     id: 27706434
+#     protected: false
+#     followers_count: 47
+#     profile_text_color: 663B12
+#     notifications: false
+#     time_zone: Pacific Time (US & Canada)
+#     profile_background_color: C6E2EE
+#     geo_enabled: false
+#     verified: false
+#     description: ""
+#     friends_count: 148
+#     statuses_count: 346
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme2/bg.gif
+#     screen_name: soycube
+#     following: true
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 21:09:05 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: Jesus wept.  We gavethegame away.
+#   id: 7100446560
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 829D5E
+#     name: jwiv
+#     profile_sidebar_fill_color: 99CC33
+#     profile_background_tile: false
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     favourites_count: 0
+#     url: http://jwiv.livejournal.com
+#     utc_offset: -18000
+#     id: 14292072
+#     protected: false
+#     followers_count: 120
+#     profile_text_color: 3E4415
+#     notifications: false
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: "352726"
+#     geo_enabled: false
+#     verified: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     friends_count: 142
+#     statuses_count: 1919
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     screen_name: jwiv
+#     following: true
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 20:18:09 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: If you live in Portland, look at http://www.obukanjudo.com/. I haven't been there, but it looks decent and $15/mo. is *insanely* cheap.
+#   id: 7099241413
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: BDDCAD
+#     name: ignignokt_
+#     profile_sidebar_fill_color: DDFFCC
+#     profile_background_tile: false
+#     created_at: Wed Mar 12 04:09:51 +0000 2008
+#     location: Somerville, MA, USA
+#     profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+#     profile_link_color: 0084B4
+#     url: http://chaos.corrupt.net
+#     favourites_count: 3
+#     utc_offset: -18000
+#     id: 14129926
+#     followers_count: 69
+#     protected: true
+#     profile_text_color: "333333"
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: ffffff
+#     verified: false
+#     notifications: false
+#     geo_enabled: false
+#     description: ""
+#     friends_count: 101
+#     statuses_count: 5392
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
+#     screen_name: ignignokt_
+#     following: false
+#   source: <a href="http://phalangesoftware.com/attneveryone" rel="nofollow">attneveryone</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 19:45:14 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: So, after 300 pages of passing references to God in What Color Is My Parachute, the author lays down an all-out Bible storm!
+#   id: 7098455488
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: BDDCAD
+#     name: ignignokt_
+#     profile_sidebar_fill_color: DDFFCC
+#     profile_background_tile: false
+#     created_at: Wed Mar 12 04:09:51 +0000 2008
+#     location: Somerville, MA, USA
+#     profile_image_url: http://a3.twimg.com/profile_images/52796589/boss_crocomire_sm_normal.gif
+#     profile_link_color: 0084B4
+#     favourites_count: 3
+#     url: http://chaos.corrupt.net
+#     utc_offset: -18000
+#     id: 14129926
+#     protected: true
+#     followers_count: 69
+#     profile_text_color: "333333"
+#     notifications: false
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: ffffff
+#     geo_enabled: false
+#     verified: false
+#     description: ""
+#     friends_count: 101
+#     statuses_count: 5391
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme1/bg.png
+#     screen_name: ignignokt_
+#     following: false
+#   source: <a href="http://www.tweetdeck.com/" rel="nofollow">TweetDeck</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 19:19:42 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: Come on Suggs!
+#   id: 7097851560
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 829D5E
+#     name: jwiv
+#     profile_sidebar_fill_color: 99CC33
+#     profile_background_tile: false
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     url: http://jwiv.livejournal.com
+#     favourites_count: 0
+#     utc_offset: -18000
+#     id: 14292072
+#     followers_count: 120
+#     protected: false
+#     profile_text_color: 3E4415
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: "352726"
+#     verified: false
+#     notifications: false
+#     geo_enabled: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     friends_count: 142
+#     statuses_count: 1918
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     screen_name: jwiv
+#     following: true
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 19:16:50 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: "That'll work.  #Ravens"
+#   id: 7097782898
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 829D5E
+#     name: jwiv
+#     profile_sidebar_fill_color: 99CC33
+#     profile_background_tile: false
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     url: http://jwiv.livejournal.com
+#     favourites_count: 0
+#     utc_offset: -18000
+#     id: 14292072
+#     followers_count: 120
+#     protected: false
+#     profile_text_color: 3E4415
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: "352726"
+#     verified: false
+#     notifications: 
+#     geo_enabled: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     friends_count: 142
+#     statuses_count: 1916
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     screen_name: jwiv
+#     following: 
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 19:16:04 +0000 2009
+#   truncated: false
+#   favorited: false
+#   text: "Please do not fuck up this snap. #Ravens"
+#   id: 7097764543
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_fill_color: 99CC33
+#     name: jwiv
+#     profile_background_tile: false
+#     profile_sidebar_border_color: 829D5E
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     url: http://jwiv.livejournal.com
+#     favourites_count: 0
+#     utc_offset: -18000
+#     id: 14292072
+#     protected: false
+#     followers_count: 120
+#     profile_text_color: 3E4415
+#     notifications: 
+#     verified: false
+#     profile_background_color: "352726"
+#     geo_enabled: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     time_zone: Eastern Time (US & Canada)
+#     friends_count: 142
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     statuses_count: 1915
+#     screen_name: jwiv
+#     following: 
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 19:04:54 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: "Damn it!  You can't give oppurtunities like that away. #Ravens"
+#   id: 7097499266
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 829D5E
+#     name: jwiv
+#     profile_sidebar_fill_color: 99CC33
+#     profile_background_tile: false
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     url: http://jwiv.livejournal.com
+#     favourites_count: 0
+#     utc_offset: -18000
+#     id: 14292072
+#     followers_count: 120
+#     protected: false
+#     profile_text_color: 3E4415
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: "352726"
+#     verified: false
+#     notifications: 
+#     geo_enabled: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     friends_count: 142
+#     statuses_count: 1914
+#     screen_name: jwiv
+#     following: 
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 18:59:07 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: Heeeaaaapppp!!!!i
+#   id: 7097356193
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 829D5E
+#     name: jwiv
+#     profile_sidebar_fill_color: 99CC33
+#     profile_background_tile: false
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     favourites_count: 0
+#     url: http://jwiv.livejournal.com
+#     utc_offset: -18000
+#     id: 14292072
+#     protected: false
+#     followers_count: 120
+#     profile_text_color: 3E4415
+#     notifications: false
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: "352726"
+#     geo_enabled: false
+#     verified: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     friends_count: 142
+#     statuses_count: 1913
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     screen_name: jwiv
+#     following: true
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 18:49:26 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: would be rad if we didn't spot Pitt a billion points
+#   id: 7097128442
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 829D5E
+#     name: jwiv
+#     profile_sidebar_fill_color: 99CC33
+#     profile_background_tile: false
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     favourites_count: 0
+#     url: http://jwiv.livejournal.com
+#     utc_offset: -18000
+#     id: 14292072
+#     followers_count: 120
+#     protected: false
+#     profile_text_color: 3E4415
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: "352726"
+#     notifications: 
+#     geo_enabled: false
+#     verified: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     friends_count: 142
+#     statuses_count: 1912
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     screen_name: jwiv
+#     following: 
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 18:43:18 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: might have been a good idea to go with the back up long snapper.  Katula's injury is doing us no favors.
+#   id: 7096982276
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 829D5E
+#     name: jwiv
+#     profile_sidebar_fill_color: 99CC33
+#     profile_background_tile: false
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     favourites_count: 0
+#     url: http://jwiv.livejournal.com
+#     utc_offset: -18000
+#     id: 14292072
+#     protected: false
+#     followers_count: 119
+#     profile_text_color: 3E4415
+#     notifications: 
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: "352726"
+#     geo_enabled: false
+#     verified: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     friends_count: 142
+#     statuses_count: 1911
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     screen_name: jwiv
+#     following: 
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 18:40:24 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: Ravens O-line needs to do more than lay a red carpet for the blitz.
+#   id: 7096913763
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 829D5E
+#     name: jwiv
+#     profile_sidebar_fill_color: 99CC33
+#     profile_background_tile: false
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     favourites_count: 0
+#     url: http://jwiv.livejournal.com
+#     utc_offset: -18000
+#     id: 14292072
+#     followers_count: 119
+#     protected: false
+#     profile_text_color: 3E4415
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: "352726"
+#     notifications: false
+#     verified: false
+#     geo_enabled: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     statuses_count: 1910
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     friends_count: 142
+#     screen_name: jwiv
+#     following: true
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
+# - created_at: Sun Dec 27 18:36:05 +0000 2009
+#   favorited: false
+#   truncated: false
+#   text: "Dang! Ngata just ate Medenhall. #Ravens"
+#   id: 7096813013
+#   geo: 
+#   in_reply_to_user_id: 
+#   user: 
+#     profile_sidebar_border_color: 829D5E
+#     name: jwiv
+#     profile_sidebar_fill_color: 99CC33
+#     profile_background_tile: false
+#     created_at: Thu Apr 03 10:16:59 +0000 2008
+#     location: Baltimore, MD
+#     profile_image_url: http://a1.twimg.com/profile_images/280693044/4397_90941566659_575521659_2577951_3812663_s_normal.jpg
+#     profile_link_color: D02B55
+#     url: http://jwiv.livejournal.com
+#     favourites_count: 0
+#     utc_offset: -18000
+#     id: 14292072
+#     followers_count: 119
+#     protected: false
+#     profile_text_color: 3E4415
+#     time_zone: Eastern Time (US & Canada)
+#     profile_background_color: "352726"
+#     verified: false
+#     notifications: true
+#     geo_enabled: false
+#     description: "Husband and father. Network engineer.  Grognard tendancies.  "
+#     profile_background_image_url: http://s.twimg.com/a/1261519751/images/themes/theme5/bg.gif
+#     friends_count: 142
+#     statuses_count: 1909
+#     screen_name: jwiv
+#     following: true
+#   source: <a href="http://m.twitter.com/" rel="nofollow">mobile web</a>
+#   in_reply_to_screen_name: 
+#   in_reply_to_status_id: 
