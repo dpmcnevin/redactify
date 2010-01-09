@@ -11,5 +11,12 @@ module ApplicationHelper
   	end
   	txt
   end
-
+  
+  def update_rate_limit
+    update_page do |page|
+      page["rate_limit"].replace_html :partial => "users/rate_limit", :locals => { :rate_limit => @user.rate_limit_status }
+      page["rate_limit"].highlight
+    end
+  end
+  
 end

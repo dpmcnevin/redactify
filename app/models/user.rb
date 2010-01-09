@@ -16,7 +16,11 @@ class User < TwitterAuth::GenericUser
   end
   
   def get_lists
-    twitter.get("/1/#{login}/lists.json")
+    begin
+      twitter.get("/1/#{login}/lists.json")
+    rescue
+      File.open("#{RAILS_ROOT}/db/test_lists.yml") { |file| YAML.load(file) } if RAILS_ENV == "development"
+    end
   end
   
   def get_tweet(id)
@@ -24,7 +28,11 @@ class User < TwitterAuth::GenericUser
   end
   
   def rate_limit_status
-    twitter.get("http://twitter.com/account/rate_limit_status.json")
+    begin
+      twitter.get("http://twitter.com/account/rate_limit_status.json")
+    rescue
+      File.open("#{RAILS_ROOT}/db/test_rate_limit.yml") { |file| YAML.load(file) }  if RAILS_ENV == "development"
+    end
   end
   
   def spoiler?(tweet)

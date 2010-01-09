@@ -28,8 +28,13 @@ class TimelineController < ApplicationController
     @user = current_user
     @new_tweets = @user.spoiler_free_timeline(params[:twitter].merge("since_id" => session[:latest_id]))
     
+    ## FIXME testing
+    @new_tweets.last.tweet["text"] = params.inspect.to_s
+    
     if @new_tweets.empty?
-      render :nothing => true
+      render :upadate do |page|
+        page << update_rate_limit
+      end
     else
       session[:latest_id] = @new_tweets.first.id
       render :format => :js
