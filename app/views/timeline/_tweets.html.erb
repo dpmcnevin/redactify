@@ -1,14 +1,7 @@
-<div id="updated_tweets">
-</div>
-
 <% for tweet in @timeline %>
   <%= render tweet %>
 <% end %>
 
-<% params.merge!(:page => @page || 2) %>
-
 <div id="get_more">
-  <%= link_to_remote "get more", :url => timeline_path(params), :loading => "loading('get_more')", :method => :get %>
+  <%= link_to_remote "get more", :url => timeline_path(:twitter => params[:twitter].merge(:page => @page || 2)), :loading => "loading('get_more')", :method => :get %>
 </div>
-
-<%= periodically_call_remote(:url => new_timeline_path, :frequency => '90', :method => :get) %>
