@@ -10,6 +10,7 @@ Rails::Initializer.run do |config|
   config.gem 'twitter-auth', :lib => 'twitter_auth'
   config.gem 'oauth', :version => '>= 0.3.1'
   config.gem 'exceptional', :version => '2.0.0'
+  # config.gem 'nokogiri'
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
