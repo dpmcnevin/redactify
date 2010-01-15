@@ -5,7 +5,7 @@
   
   <span class="tweet_text">
     <%= image_tag("lock.png") if tweet.protected? %>
-    <%= link_to tweet.screen_name, timeline_path(:screen_name => tweet.screen_name)%>
+    <%= link_to tweet.screen_name, timeline_path(:twitter => { :screen_name => tweet.screen_name} )%>
     <%= tweet_output(tweet.text) %><br />
     <small>
 			<%= link_to(tweet.created_at, "http://twitter.com/#{tweet.screen_name}/status/#{tweet.id}", :target => "_blank") %> using <%= tweet.source %>

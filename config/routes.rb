@@ -3,8 +3,10 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :users, :only => [:show], :has_many => :spoilers
   map.resources :tweets, :only => [:show]
   map.resources :timeline, :only => [:index, :new, :create]
+  map.resources :lists, :only => [:show]
   
   map.timeline "/timeline", :controller => "timeline", :action => :index
+
   
   map.static '/:action', :controller => 'static'
 
