@@ -1,11 +1,13 @@
-class TimelineController < ApplicationController
+class TimelinesController < ApplicationController
   before_filter :check_login
   before_filter :load_user
+  after_filter :update_latest_tweet, :only => :show
   
-  def index
-    @page = params[:twitter][:page].to_i + 1 if params[:twitter] && params[:twitter][:page]
-    @timeline = @user.spoiler_free_timeline(params[:twitter] || {})
-    session[:latest_id] = @timeline.first.id unless params[:twitter] && params[:twitter][:page]
+  def show
+    @page = params[:page] ||= 1
+    @get_more_url = timeline_path(:page => @page.to_i + 1)
+    @update_tweets_url = timeline_path
+    @timeline = @user.spoiler_free_timeline(:page => @page)
     respond_to do |format|
       format.html
       format.js
@@ -23,8 +25,8 @@ class TimelineController < ApplicationController
     redirect_to timeline_path
   end
   
-  def new
-    @new_tweets = @user.spoiler_free_timeline(params[:twitter].merge("since_id" => session[:latest_id]))
+  def update
+    @new_tweets = @user.spoiler_free_timeline(:since_id => session[:latest_id])
     
     if @new_tweets.empty?
       render :update do |page|
@@ -32,15 +34,8 @@ class TimelineController < ApplicationController
       end
     else
       session[:latest_id] = @new_tweets.first.id
-      render :format => :js
+      render
     end
   end
-  
-  private
-  
-  def load_user
-    @user = current_user
-    
-  end
-  
+
 end

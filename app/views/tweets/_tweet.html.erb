@@ -5,7 +5,7 @@
   
   <span class="tweet_text">
     <%= image_tag("lock.png") if tweet.protected? %>
-    <%= link_to tweet.screen_name, timeline_path(:twitter => { :screen_name => tweet.screen_name} )%>
+    <%= link_to tweet.screen_name, user_path(:id => tweet.screen_name)%>
     <%= tweet_output(tweet.text) %><br />
     <small>
 			<%= link_to(tweet.created_at, "http://twitter.com/#{tweet.screen_name}/status/#{tweet.id}", :target => "_blank") %> using <%= tweet.source %>
@@ -17,7 +17,7 @@
   </span>
 </div>
 
-<% unless tweet.screen_name == current_user.login %>
+<% unless tweet.screen_name == @user.login %>
 	<%= javascript_tag "$('tweet_#{tweet.id}').observe('mouseover', function() { $$('#tweet_#{tweet.id} .hidden_controls').invoke('show')})" %>
 	<%= javascript_tag "$('tweet_#{tweet.id}').observe('mouseout', function() { $$('#tweet_#{tweet.id} .hidden_controls').invoke('hide')})" %>
 <% end %>

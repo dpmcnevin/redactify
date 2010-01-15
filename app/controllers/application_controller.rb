@@ -25,4 +25,12 @@ class ApplicationController < ActionController::Base
     end
   end
   
+  def load_user
+    @user = current_user
+  end
+  
+  def update_latest_tweet
+    session[:latest_id] = @timeline.first.id unless params[:page]
+  end
+  
 end

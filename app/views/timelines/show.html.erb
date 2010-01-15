@@ -2,16 +2,17 @@
 	<tbody>
 		<tr>
 			<td id="timeline">
-					<%= render "timeline/post_tweet" %>
+					<%= render "timelines/post_tweet" %>
+					<%= link_to_remote "update", :url => @update_tweets_url, :method => :put %>
 					<div id="updated_tweets"></div>
-				  <%= render "timeline/tweets" %>
-					<%= periodically_call_remote(:url => new_timeline_path(:twitter => params[:twitter]), :frequency => '90', :method => :get) %>
+				  <%= render "timelines/tweets" %>
+					<% periodically_call_remote(:url => @update_tweets_url, :frequency => '10', :method => :put) %>
 			</td>
 
 			<td id="side">
 					<div class="side_content">
 						<h3>Add New Spoiler Tag</h3>
-			    	<%= render "timeline/form", :user => @user %>
+			    	<%= render "timelines/form", :user => @user %>
 					</div>
 
 					<div id="lists" class="side_content">
