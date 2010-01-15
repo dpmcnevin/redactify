@@ -1,2 +1,0 @@
-page["get_more"].replace :partial => "tweets"
-page << update_rate_limit

@@ -1,7 +1,0 @@
-<% for tweet in @timeline %>
-  <%= render tweet %>
-<% end %>
-
-<div id="get_more">
-  <%= link_to_remote "get more", :url => timeline_path(:twitter => params[:twitter].merge(:page => @page || 2)), :loading => "loading('get_more')", :method => :get %>
-</div>

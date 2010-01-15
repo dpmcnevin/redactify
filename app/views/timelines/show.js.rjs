@@ -1,0 +1,2 @@
+page["get_more"].replace :partial => "timelines/tweets"
+page << update_rate_limit
