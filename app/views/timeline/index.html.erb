@@ -2,16 +2,16 @@
 	<tbody>
 		<tr>
 			<td id="timeline">
-					<%= render "post_tweet" %>
+					<%= render "timeline/post_tweet" %>
 					<div id="updated_tweets"></div>
-				  <%= render "tweets" %>
+				  <%= render "timeline/tweets" %>
 					<%= periodically_call_remote(:url => new_timeline_path(:twitter => params[:twitter]), :frequency => '90', :method => :get) %>
 			</td>
 
 			<td id="side">
 					<div class="side_content">
 						<h3>Add New Spoiler Tag</h3>
-			    	<%= render "form", :user => @user %>
+			    	<%= render "timeline/form", :user => @user %>
 					</div>
 
 					<div id="lists" class="side_content">
@@ -19,7 +19,7 @@
 						<ul>
 							<li><%= link_to "@#{current_user.login}", timeline_path %></li>
 							<% for list in @user.get_lists["lists"] %>
-								<li><%= link_to list["full_name"], timeline_path(:twitter => {:list_id => list["id"]}) %></li>
+								<li><%= link_to list["full_name"], list_path(list["id"]) %></li>
 							<% end %>
 						</ul>
 					</div>

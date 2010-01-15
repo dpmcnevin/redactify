@@ -4,10 +4,14 @@ class ApplicationController < ActionController::Base
   before_filter :set_up_twitter_params
     
   rescue_from Net::HTTPFatalError do |exception|
-    # render "static/twitter_error"
-    flash[:error] = "There was an error connecting to Twitter"
+    flash.now[:error] = "There was an error connecting to Twitter"
     redirect_to root_path
   end  
+  
+  rescue_from TwitterAuth::Dispatcher::Error do |exception|
+    flash.now[:error] = "There was an error connecting to Twitter"
+    redirect_to root_path
+  end
       
   private
   

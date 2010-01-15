@@ -69,6 +69,8 @@ class User < TwitterAuth::GenericUser
   
   def timeline(options)
     
+    options = HashWithIndifferentAccess.new(options)
+    
     if options["list_id"]
       url = "/1/#{login}/lists/#{options["list_id"]}/statuses.json"
     elsif options["screen_name"]
@@ -78,7 +80,7 @@ class User < TwitterAuth::GenericUser
     end
     
     url << "?#{options.to_query}" unless options.empty?
-    
+        
     # tweets = File.open("#{RAILS_ROOT}/db/test_tweets.yml") { |file| YAML.load(file) }
     # tweets.first["text"] = url
     # return tweets            
