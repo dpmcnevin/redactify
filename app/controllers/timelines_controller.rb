@@ -34,7 +34,7 @@ class TimelinesController < ApplicationController
       end
     else
       session[:latest_id] = @new_tweets.first.id
-      render
+      render :controller => "timelines", :action => "update", :format => :js
     end
   end
 
