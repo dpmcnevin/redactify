@@ -33,4 +33,8 @@ class ApplicationController < ActionController::Base
     session[:latest_id] = @timeline.first.id unless params[:page]
   end
   
+  def load_new_tweets(new_tweets)
+    
+  end
+  
 end
