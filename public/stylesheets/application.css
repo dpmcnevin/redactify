@@ -258,7 +258,7 @@ div.notice {
   font-weight: normal;
 }
 
-#side #spoiler_name {
+#side input[type=text] {
 	font-size: 1.25em;
 	width: 210px;
 	border: 1px solid #888;
