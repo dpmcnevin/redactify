@@ -3,5 +3,5 @@
 <% end %>
 
 <div id="get_more">
-  <%= link_to_remote "get more", :url => @get_more_url, :loading => "loading('get_more')", :method => :get %>
+  <%= link_to_remote "get more", :url => @get_more_url, :loading => "loading('get_more')", :method => :get if @get_more_url %>
 </div>

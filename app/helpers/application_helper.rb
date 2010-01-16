@@ -2,7 +2,7 @@
 module ApplicationHelper
 
   def auto_link_twitter(txt, options = {:target => "_blank"})
-  	txt.scan(/(^|\W|\s+)(#|@)(\w{1,25})/).each do |match|
+  	txt.scan(/(^|\W|\s+)(#|@)(\w{1,40})/).each do |match|
   	  if match[1] == "#"
   	    txt.gsub!(/##{match.last}/, link_to("##{match.last}", "http://twitter.com/search/?q=##{match.last}", options))
 	    elsif match[1] == "@"

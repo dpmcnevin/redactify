@@ -3,10 +3,10 @@
 		<tr>
 			<td id="timeline">
 					<%= render "timelines/post_tweet" %>
-					<%= link_to_remote "update", :url => @update_tweets_url, :method => :put %>
+					<% link_to_remote "update", :url => @update_tweets_url, :method => :put if @update_tweets_url%>
 					<div id="updated_tweets"></div>
 				  <%= render "timelines/tweets" %>
-					<% periodically_call_remote(:url => @update_tweets_url, :frequency => '10', :method => :put) %>
+					<%= periodically_call_remote(:url => @update_tweets_url, :frequency => '90', :method => :put) if @update_tweets_url%>
 			</td>
 
 			<td id="side">
@@ -34,6 +34,11 @@
 					<div id="popular_spoilers" class="side_content">
 						<h3>Popular Tags</h3>
 						<%= render "spoilers/popular", :user => @user %>
+					</div>
+		
+					<div id="twitter_search" class="side_content">
+						<h3>Search Twitter</h3>
+						<%= render "searches/form" %>
 					</div>
 		
 					<div id="rate_limit" class="side_content">

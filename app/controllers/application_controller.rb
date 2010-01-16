@@ -1,8 +1,6 @@
 class ApplicationController < ActionController::Base
   helper :all
-  
-  before_filter :set_up_twitter_params
-    
+      
   rescue_from Net::HTTPFatalError do |exception|
     flash.now[:error] = "There was an error connecting to Twitter"
     redirect_to root_path
@@ -15,10 +13,6 @@ class ApplicationController < ActionController::Base
       
   private
   
-  def set_up_twitter_params
-    params[:twitter] = {} unless params[:twitter]
-  end
-  
   def check_login
     unless current_user
       redirect_to :controller => :static, :action => :index
@@ -30,7 +24,7 @@ class ApplicationController < ActionController::Base
   end
   
   def update_latest_tweet
-    session[:latest_id] = @timeline.first.id if params[:page] == 1
+    session[:latest_id] = @timeline.first.id if !@timeline.empty? && params[:page] == 1
   end
   
   def load_new_tweets(new_tweets)

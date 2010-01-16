@@ -1,16 +1,25 @@
 require "yaml"
+require "cgi"
 
 class User < TwitterAuth::GenericUser
 
   has_many :spoilers
 
   def spoiler_free_timeline(options = {})
-        
-    timeline(options).map do |tweet|
+    
+    if options[:search]
+      tweets = search(options)["results"]
+      type = :search
+    else
+      tweets = timeline(options)
+      type = :normal
+    end
+            
+    tweets.map do |tweet|
       if spoiler?(tweet["text"])
-        Redacted.new(tweet,spoiled_on(tweet["text"]))
+        Redacted.new(tweet,spoiled_on(tweet["text"]), type)
       else
-        Tweet.new(tweet)
+        Tweet.new(tweet, type)
       end
     end
   end
@@ -66,6 +75,16 @@ class User < TwitterAuth::GenericUser
   end
   
   private
+  
+  def search(options)
+    options = HashWithIndifferentAccess.new(options)
+    
+    url = "http://search.twitter.com/search.json?rpp=50&q=#{CGI.escape(options[:q])}"
+    # url << "?#{options.to_query}" unless options.empty?
+    
+    puts "TWITTER: Getting URL: #{url}"
+    twitter.get(url)
+  end
   
   def timeline(options)
     
