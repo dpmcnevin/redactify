@@ -40,7 +40,7 @@ class ApplicationController < ActionController::Base
       end
     else
       session[:latest_id] = new_tweets.first.id
-      render :controller => "timelines", :action => "update", :format => :js
+      render "timelines/update", :format => :js
     end
   end
   

@@ -9,7 +9,12 @@ class UsersController < ApplicationController
     @get_more_url = user_path(:id => params[:id], :page => @page.to_i + 1)
     @update_tweets_url = user_path(:id => params[:id])
     @timeline = @user.spoiler_free_timeline(:screen_name => params[:id], :page => @page)
-    render "timelines/index"
+    render "timelines/show"
+  end
+  
+  def update
+    @new_tweets = @user.spoiler_free_timeline(:screen_name => params[:id], :since_id => session[:latest_id])
+    load_new_tweets(@new_tweets)
   end
   
 end
