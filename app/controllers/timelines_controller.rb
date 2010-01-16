@@ -27,15 +27,7 @@ class TimelinesController < ApplicationController
   
   def update
     @new_tweets = @user.spoiler_free_timeline(:since_id => session[:latest_id])
-    
-    if @new_tweets.empty?
-      render :update do |page|
-        page << update_rate_limit
-      end
-    else
-      session[:latest_id] = @new_tweets.first.id
-      render :controller => "timelines", :action => "update", :format => :js
-    end
+    load_new_tweets(@new_tweets)
   end
 
 end
