@@ -1,12 +1,12 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 
-  def auto_link_twitter(txt, options = {:target => "_blank"})
+  def auto_link_twitter(txt, options = {})
   	txt.scan(/(^|\W|\s+)(#|@)(\w{1,40})/).each do |match|
   	  if match[1] == "#"
-  	    txt.gsub!(/##{match.last}/, link_to("##{match.last}", "http://twitter.com/search/?q=##{match.last}", options))
+  	    txt.gsub!(/##{match.last}/, link_to("##{match.last}", searches_path(:q => match.last), options.merge({:method => :post})))
 	    elsif match[1] == "@"
-	      txt.gsub!(/@#{match.last}/, link_to("@#{match.last}", "http://twitter.com/#{match.last}", options))
+	      txt.gsub!(/@#{match.last}/, link_to("@#{match.last}", user_path(match.last), options))
 		  end
   	end
   	txt
