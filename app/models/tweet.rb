@@ -38,7 +38,7 @@ class Tweet
   end
   
   def created_at
-    @tweet["created_at"]
+    Time.parse(@tweet["created_at"]).strftime("%a, %b %d, %Y %I:%M%p")
   end
   
   def source
