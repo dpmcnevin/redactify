@@ -1,0 +1,7 @@
+<ul>
+<% for trend in @user.trends %>
+	<li>
+		<%= link_to("#{trend["name"]}", searches_path(:q => trend["name"]), :method => :post) %>
+	</li>
+<% end %>
+</ul>
