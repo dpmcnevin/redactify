@@ -18,4 +18,10 @@ module ApplicationHelper
     end
   end
   
+  def update_trends
+    update_page do |page|
+      page["twitter_trends"].replace_html :partial => "users/trends"
+    end
+  end
+  
 end

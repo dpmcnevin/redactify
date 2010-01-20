@@ -35,6 +35,7 @@ class ApplicationController < ActionController::Base
   def load_new_tweets(new_tweets)
     if new_tweets.empty?
       render :update do |page|
+        # page << update_trends
         page << update_rate_limit
       end
     else
