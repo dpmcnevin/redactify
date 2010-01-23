@@ -2,17 +2,17 @@ class ApplicationController < ActionController::Base
   helper :all
       
   rescue_from Net::HTTPFatalError do |exception|
-    flash.now[:error] = "There was an error connecting to Twitter"
+    flash[:error] = "There was an error connecting to Twitter"
     redirect_to root_path
   end
   
   rescue_from SocketError do |exception|
-    flash.now[:errot] = "There was an error connecting to Twitter"
+    flash[:error] = "There was an error connecting to Twitter"
     redirect_to root_path
   end  
   
   rescue_from TwitterAuth::Dispatcher::Error do |exception|
-    flash.now[:error] = "There was an error connecting to Twitter"
+    flash[:error] = "There was an error connecting to Twitter"
     redirect_to root_path
   end
       
