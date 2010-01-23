@@ -1,6 +1,6 @@
 
 Event.observe(window, 'load', function() {
-  if ($("flash")) {
+  if ($("flash") && !$("flash").hasClassName("error")) {
     var fade=setTimeout("fadeout()",3500);
     var hide=setTimeout("$('flash').hide()",4800);
   }
