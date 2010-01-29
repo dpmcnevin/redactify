@@ -1,5 +1,6 @@
 require "yaml"
 require "cgi"
+require "open-uri"
 
 class User < TwitterAuth::GenericUser
 
