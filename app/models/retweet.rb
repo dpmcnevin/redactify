@@ -2,10 +2,14 @@ class Retweet < Tweet
   
   attr_accessor :original_tweet
   
-  def initialize(tweet,tags,type = :normal)
+  def initialize(tweet,type = :normal)
     @original_tweet = tweet
     @tweet = @original_tweet["retweeted_status"]
     @type = type
+  end
+  
+  def id
+    @original_tweet["id"]
   end
   
   def original_profile_image_url

@@ -28,6 +28,10 @@ class ApplicationController < ActionController::Base
     @user = current_user
   end
   
+  def load_trends
+    @trends = @user.trends
+  end
+  
   def update_latest_tweet
     session[:latest_id] = @timeline.first.id if !@timeline.empty? && params[:page] == 1
   end

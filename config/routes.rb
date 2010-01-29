@@ -4,7 +4,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :tweets, :only => [:show]
   map.resource :timeline, :only => [:show, :update, :create]
   map.resources :lists, :only => [:show, :update]
-  map.resources :searches, :only => [:create]
+  map.resources :searches, :only => [:index, :create]
   map.resource :trends, :only => [:show, :update]
 
   map.static '/:action', :controller => 'static'

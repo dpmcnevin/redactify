@@ -4,6 +4,9 @@ class SpoilersController < ApplicationController
   
   layout false
 
+  def index
+  end
+
   def create
     @spoiler = @user.spoilers.new(params[:spoiler])
     if @spoiler.save
@@ -11,7 +14,7 @@ class SpoilersController < ApplicationController
     else
       flash[:error] = "There was a problem creating the tag<br />#{@spoiler.errors.full_messages.join("<br />")}"
     end
-        
+            
     respond_to do |format|
       format.html { redirect_to request.env["HTTP_REFERER"] }
     end
