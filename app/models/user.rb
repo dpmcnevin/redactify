@@ -47,7 +47,8 @@ class User < TwitterAuth::GenericUser
   def trends
     url = "http://search.twitter.com/trends.json"
     puts "TWITTER: Getting URL: #{url}"
-    twitter.get(url)["trends"]
+    # twitter.get(url)["trends"]
+    []
   end
   
   def rate_limit_status
