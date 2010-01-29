@@ -1,0 +1,24 @@
+<div id="<%= "tweet_#{retweet.id}" %>" class="tweet retweet">
+  <span class="user_info">
+    <%= link_to image_tag(retweet.profile_image_url, :size => "50x50"), "http://twitter.com/#{retweet.screen_name}", :target => "_blank" %>
+		<%= link_to image_tag(retweet.original_profile_image_url, :size => "50x50"), "http://twitter.com/#{retweet.original_screen_name}", :target => "_blank" %>
+  </span>
+  
+  <span class="tweet_text">
+    <%= image_tag("lock.png") if retweet.protected? %>
+    <%= link_to retweet.screen_name, user_path(:id => retweet.screen_name)%>
+    <%= tweet_output(retweet.text) %><br />
+    <small>
+			<%= link_to(retweet.created_at, "http://twitter.com/#{retweet.screen_name}/status/#{retweet.id}", :target => "_blank") %> using <%= retweet.source %>
+			<%= link_to("in reply to #{retweet.in_reply_to_screen_name}", "http://twitter.com/#{retweet.in_reply_to_screen_name}/status/#{retweet.in_reply_to_status_id}", :target => "_blank") unless retweet.in_reply_to_status_id.nil? %>
+		</small>
+		<div class="hidden_controls" style="display: none;">
+			<%= link_to_function "reply", "reply_to_tweet('#{retweet.screen_name}', '#{retweet.id}')", :class => :reply %>
+		</div>
+  </span>
+</div>
+
+<% unless retweet.screen_name == @user.login %>
+	<%= javascript_tag "$('tweet_#{retweet.id}').observe('mouseover', function() { $$('#tweet_#{retweet.id} .hidden_controls').invoke('show')})" %>
+	<%= javascript_tag "$('tweet_#{retweet.id}').observe('mouseout', function() { $$('#tweet_#{retweet.id} .hidden_controls').invoke('hide')})" %>
+<% end %>

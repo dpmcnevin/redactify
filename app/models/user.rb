@@ -19,6 +19,8 @@ class User < TwitterAuth::GenericUser
     tweets.map do |tweet|
       if spoiler?(tweet["text"])
         Redacted.new(tweet,spoiled_on(tweet["text"]), type)
+      elsif tweet["retweeted_status"]
+        Retweet.new(tweet, type)
       else
         Tweet.new(tweet, type)
       end

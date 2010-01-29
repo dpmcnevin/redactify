@@ -347,6 +347,14 @@ div.notice {
 	overflow: hidden;
 }
 
+.tweet.retweet .user_info {
+  width: 110px;
+}
+
+.tweet.retweet .tweet_text {
+  margin-left: 116px;
+}
+
 .tweet a {
 	text-decoration: none;
 }
@@ -355,9 +363,6 @@ div.notice {
   float: left;
   margin-right: 5px;
 	margin-left: 2px;
-}
-
-.tweet .tweet_text {
 }
 
 .tweet .action {
