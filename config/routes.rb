@@ -5,6 +5,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resource :timeline, :only => [:show, :update, :create]
   map.resources :lists, :only => [:show, :update]
   map.resources :searches, :only => [:create]
+  map.resources :trends, :only => [:index]
 
   map.static '/:action', :controller => 'static'
 
