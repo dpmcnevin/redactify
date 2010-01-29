@@ -1,0 +1,2 @@
+page[:twitter_trends].replace_html :partial => "users/trends"
+page << update_rate_limit

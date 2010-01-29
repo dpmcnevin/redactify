@@ -234,8 +234,12 @@ div.notice {
 }
 
 #side h3 {
-  text-decoration: underline;
   margin: 5px 0;
+}
+
+#side h3 a {
+  font-size: 0.6em;
+  text-decoration: none;
 }
 
 #side ul {
