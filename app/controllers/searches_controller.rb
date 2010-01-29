@@ -2,10 +2,15 @@ class SearchesController < ApplicationController
 
   before_filter :check_login
   before_filter :load_user
+  before_filter :load_trends, :only => [:index, :create]
   after_filter :update_latest_tweet, :only => :create
   
+  def index
+    @timeline = @user.spoiler_free_timeline(:search => true, :q => params[:q])
+    render "timelines/show"
+  end
+  
   def create
-    @trends = @user.trends
     @timeline = @user.spoiler_free_timeline(:search => true, :q => params[:q])
     render "timelines/show"
   end
