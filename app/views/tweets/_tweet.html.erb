@@ -12,7 +12,8 @@
 			<%= link_to("in reply to #{tweet.in_reply_to_screen_name}", "http://twitter.com/#{tweet.in_reply_to_screen_name}/status/#{tweet.in_reply_to_status_id}", :target => "_blank") unless tweet.in_reply_to_status_id.nil? %>
 		</small>
 		<div class="hidden_controls" style="display: none;">
-			<%= link_to_function "reply", "reply_to_tweet('#{tweet.screen_name}', '#{tweet.id}')", :class => :reply %>
+			<%= link_to "retweet", retweet_path(:tweet_id => tweet.id), :method => :post %>
+			<%= link_to_function "reply", "reply_to_tweet('#{tweet.screen_name}', '#{tweet.id}')" %>
 		</div>
   </span>
 </div>
