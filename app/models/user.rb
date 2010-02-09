@@ -82,6 +82,11 @@ class User < TwitterAuth::GenericUser
     end
   end
   
+  def retweet(tweet_id)
+    url = "http://api.twitter.com/1/statuses/retweet/%s.json"
+    twitter.post(url % tweet_id)
+  end
+  
   private
   
   def search(options)

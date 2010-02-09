@@ -276,6 +276,10 @@ div.notice {
 	font-size: 0.6em;
 }
 
+#side #options label {
+  font-size: 0.7em;
+}
+
 /* Main timeline content */
 
 #timeline {
@@ -390,6 +394,10 @@ div.notice {
 .tweet .hidden_controls {
   float: right;
   font-size: 0.75em;
+}
+
+.tweet .hidden_controls a {
+  margin-left: 5px;
 }
 
 .tweet .reply {
