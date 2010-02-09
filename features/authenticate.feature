@@ -3,7 +3,6 @@ In order to create and edit games
 As a user
 I want to sign in with Twitter
 
-	@focus
   Scenario: Login via Twitter
     When I go to "the homepage"
     And I follow "Login via Twitter"
