@@ -1,6 +1,7 @@
 <div id="welcome" class="static_page">
   <% if logged_in? %>
   <div id="add_new_spoiler">
+		<h3>Add New Spoiler</h3>
 		<%= render "timelines/form", :user => current_user %> or <%= link_to "Go To My Timeline", timeline_path %>
 		<div id="spoiler_explination">You can hide tweets in your timeline that match your tags. For example: #lost, MLB, oscars
 		</div>
