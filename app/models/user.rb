@@ -36,11 +36,17 @@ class User < TwitterAuth::GenericUser
   end
   
   def get_tweet(id)
-    Tweet.new(twitter.get("/statuses/show/#{id}.json"))
+    tweet = twitter.get("/statuses/show/#{id}.json")
+    if tweet["retweeted_status"]
+      Retweet.new(tweet)
+    else
+      Tweet.new(tweet)
+    end
   end
   
   def trends
     url = "http://search.twitter.com/trends.json"
+    puts "TWITTER: Getting URL: #{url}"
     twitter.get(url)["trends"]
   end
   

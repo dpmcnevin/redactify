@@ -2,6 +2,7 @@ class ListsController < ApplicationController
 
   before_filter :check_login
   before_filter :load_user
+  before_filter :load_trends, :only => [:show]
   after_filter :update_latest_tweet, :only => :show
   
   def show
