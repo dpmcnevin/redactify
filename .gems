@@ -1,4 +1,3 @@
 twitter-auth
 oauth --version '>= 0.3.1'
 exceptional --version '= 2.0.0'
-twitter
