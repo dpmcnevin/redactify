@@ -1,0 +1,6 @@
+%ul
+  - for spoiler in user.popular_tags
+    %li
+      = spoiler.name
+      %small= "(#{spoiler.count})"
+      %small= link_to "add", "/users/#{user.id}/spoilers?spoiler[name]=#{spoiler.name}", :method => :post

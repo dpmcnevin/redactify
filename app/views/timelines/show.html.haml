@@ -1,0 +1,38 @@
+%table
+  %tbody
+    %tr
+      %td#timeline
+        = render "timelines/post_tweet"
+        = link_to_remote "update", :url => @update_tweets_url, :method => :put if @update_tweets_url && RAILS_ENV == "development"
+        #updated_tweets
+        = render "timelines/tweets"
+        = periodically_call_remote(:url => @update_tweets_url, :frequency => '90', :method => :put) if @update_tweets_url && RAILS_ENV == "production"
+
+      %td#side
+        %div.side_content
+          %h3 Add New Spoiler Tag
+          = render "timelines/form", :user => @user
+
+          #lists.side_content
+            %h3 Lists
+            %ul
+              %li= link_to "@#{current_user.login}", timeline_path
+              - for list in @user.get_lists["lists"]
+                %li= link_to list["full_name"], list_path(list["id"])
+
+          #spoiler_tags.side_content
+            %h3 Your Spoiler Tags
+            = render "spoilers/user", :user => @user
+          
+          %hr
+          
+          #twitter_search.side_content
+            %h3 Search Twitter
+            = render "searches/form"
+          
+          #twitter_trends.side_content
+            = render "users/trends"
+    
+          #rate_limit.side_content
+            = render "users/rate_limit", :rate_limit => @user.rate_limit_status
+
