@@ -1,0 +1,5 @@
+- for tweet in @timeline
+  = render tweet
+
+#get_more
+  = link_to_remote "get more", :url => @get_more_url, :loading => "loading('get_more')", :html => {:id => "get_more_link" }, :method => :get if @get_more_url && @page.to_i <= 10

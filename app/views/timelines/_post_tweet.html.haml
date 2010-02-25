@@ -1,13 +1,11 @@
-<div id="post_tweet">
-	<% form_for :tweet, :html => { :id => "new_tweet_form" } do |f| %>
-		<%= f.hidden_field :in_reply_to_status_id %>
-		<%= f.text_area :status, :id => :new_tweet %>
-		<span id="remaining_characters">140</span>
-		<%= f.submit "Post to Twitter" %>
-	<% end %>
-</div>
+#post_tweet
+	- form_for :tweet, :html => { :id => "new_tweet_form" } do |f|
+		= f.hidden_field :in_reply_to_status_id
+		= f.text_area :status, :id => :new_tweet
+		%span#remaining_characters 140
+		= f.submit "Post to Twitter"
 
-<% javascript_tag do %>
+:javascript
 	$("new_tweet").observe("keyup", function() {
 		var tl = this.value.length;
 		$("remaining_characters").update(140 - tl);
@@ -25,4 +23,3 @@
 			post_tweet.stop();
 		}
 	});
-<% end %>
