@@ -1,8 +1,0 @@
-<ul>
-<% for spoiler in user.spoilers %>
-  <li>
-		<%= spoiler.name %>
-  	<small><%= link_to "remove", [user,spoiler], :method => :delete, :confirm => "really delete \"#{spoiler.name}\"?" %></small>
-	</li>
-<% end %>
-</ul>
