@@ -23,7 +23,7 @@
             Logged in as 
             %strong="@#{current_user.login}."
             %br
-            = "#{link_to_unless_current "My Timeline", timeline_path} | "
+            = "#{link_to "My Timeline", timeline_path} | "
             = link_to 'Log out', '/logout'
           - else
             = link_to 'Login via Twitter', '/login'

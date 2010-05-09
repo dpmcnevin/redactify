@@ -1,11 +1,18 @@
-#post_tweet
-	- form_for :tweet, :html => { :id => "new_tweet_form" } do |f|
-		= f.hidden_field :in_reply_to_status_id
-		= f.text_area :status, :id => :new_tweet
-		%span#remaining_characters 140
-		= f.submit "Post to Twitter"
+<div id="post_tweet">
+	<% form_for :tweet, :html => { :id => "new_tweet_form" } do |f| %>
+		<%= f.hidden_field :in_reply_to_status_id %>
+		<%= f.text_area :status, :id => :new_tweet %>
+		<span id="remaining_characters">140</span>
+		<%= f.submit "Post to Twitter" %>
+	<% end %>
+	<div id="post_tweet_loading" style="display: none;">
+    <%= image_tag "ajax-loader.gif" %>
+    Sending update to Twitter
+  </div>
+</div>
 
-:javascript
+
+<% javascript_tag do %>
 	$("new_tweet").observe("keyup", function() {
 		var tl = this.value.length;
 		$("remaining_characters").update(140 - tl);
@@ -21,5 +28,8 @@
 		if ($("new_tweet").value.length > 140) { 
 			alert("Status update is too long"); 
 			post_tweet.stop();
+		} else {
+		  $("post_tweet_loading").show();
 		}
 	});
+<% end %>
