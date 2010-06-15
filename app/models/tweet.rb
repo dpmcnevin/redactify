@@ -3,10 +3,11 @@ require "cgi"
 class Tweet
   
   attr_reader :tweet
-  
+    
   def initialize(tweet, type = :normal)
     @tweet = tweet
     @type = type
+    @css_classes = ["tweet"]
   end
   
   def search?
@@ -53,6 +54,15 @@ class Tweet
   
   def in_reply_to_status_id
     @tweet["in_reply_to_status_id"]
+  end
+  
+  def css_classes
+    return @css_classes if @css_classes.is_a? String
+    @css_classes.join(" ")
+  end
+  
+  def css_classes=(val)
+    @css_classes = val
   end
   
 end

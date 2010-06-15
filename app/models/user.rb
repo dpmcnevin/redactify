@@ -45,9 +45,10 @@ class User < TwitterAuth::GenericUser
   end
   
   def trends
-    url = "http://search.twitter.com/trends.json"
-    puts "TWITTER: Getting URL: #{url}"
-    twitter.get(url)["trends"]
+    # url = "http://search.twitter.com/trends.json"
+    # puts "TWITTER: Getting URL: #{url}"
+    # twitter.get(url)["trends"]
+    return []
   end
   
   def rate_limit_status
@@ -121,10 +122,10 @@ class User < TwitterAuth::GenericUser
     
     puts "TWITTER: Getting URL: #{url}"
         
-    # tweets = File.open("#{RAILS_ROOT}/db/test_tweets.yml") { |file| YAML.load(file) }
-    # tweets.first["text"] = url
-    # return tweets            
-    twitter.get(url)
+    tweets = File.open("#{RAILS_ROOT}/db/test_tweets.yml") { |file| YAML.load(file) }
+    tweets.first["text"] = url
+    return tweets          
+    # twitter.get(url)
 
   end
   

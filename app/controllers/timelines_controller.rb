@@ -28,6 +28,7 @@ class TimelinesController < ApplicationController
   
   def update
     @new_tweets = @user.spoiler_free_timeline(:since_id => session[:latest_id])
+    @new_tweets.map {|tweet| tweet.css_classes = "tweet new"}
     load_new_tweets(@new_tweets)
   end
 

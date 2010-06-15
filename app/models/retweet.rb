@@ -3,9 +3,11 @@ class Retweet < Tweet
   attr_accessor :original_tweet
   
   def initialize(tweet,type = :normal)
+    super
     @original_tweet = tweet
     @tweet = @original_tweet["retweeted_status"]
     @type = type
+    @css_classes = ["tweet", "retweet"]
   end
   
   def id

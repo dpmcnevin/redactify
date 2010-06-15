@@ -1,3 +1,3 @@
-page.insert_html :top, 'updated_tweets', :partial => @new_tweets
+page.insert_html :top, 'updated_tweets', :partial => @new_tweets, :locals => {:css_classes => "new"}
 page["timeline"].highlight
 page << update_rate_limit

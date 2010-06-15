@@ -1,4 +1,4 @@
-%div{:id => "tweet_#{retweet.id}", :class => "tweet retweet"}
+%div{:id => "tweet_#{retweet.id}", :class => retweet.css_classes}
   %span.user_info
     = link_to image_tag(retweet.profile_image_url, :size => "50x50"), "http://twitter.com/#{retweet.screen_name}", :target => "_blank" 
     = link_to image_tag(retweet.original_profile_image_url, :size => "50x50"), "http://twitter.com/#{retweet.original_screen_name}", :target => "_blank" 

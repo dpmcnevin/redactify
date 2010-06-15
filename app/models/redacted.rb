@@ -6,6 +6,7 @@ class Redacted < Tweet
     @tweet = tweet
     @tags = tags
     @type = type
+    @css_classes = ["tweet", "redacted"]
   end
   
 end

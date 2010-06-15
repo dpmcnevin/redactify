@@ -328,6 +328,9 @@ div.notice {
 }
 
 #timeline #updated_tweets .tweet {
+}
+
+#updated_tweets .new {
   border: 1px solid yellow;
 }
 
