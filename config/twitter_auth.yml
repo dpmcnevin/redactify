@@ -20,7 +20,7 @@ test: &TEST
   
 production:
   strategy: oauth
-  oauth_consumer_key: "iYVLRAv7jpEAF0I8kms1PslE71PfSqhDTgUxdD0"
+  oauth_consumer_key: "yhopEyJXlRQEsWCtcvEeqw"
   oauth_consumer_secret: "iYVLRAv7jpEAF0I8kms1PslE71PfSqhDTgUxdD0"
   authorize_path: "/oauth/authenticate"  
   base_url: "http://twitter.com"
