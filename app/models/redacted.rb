@@ -1,5 +1,4 @@
 class Redacted < Tweet
-
   attr_accessor :tweet, :tags
   
   def initialize(tweet,tags,type = :normal)

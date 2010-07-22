@@ -1,6 +1,7 @@
 require "cgi"
 
 class Tweet
+  extend ActiveModel::Naming
   
   attr_reader :tweet
     

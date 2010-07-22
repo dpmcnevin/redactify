@@ -1,4 +1,5 @@
 class Retweet < Tweet
+  extend ActiveModel::Naming  
   
   attr_accessor :original_tweet
   

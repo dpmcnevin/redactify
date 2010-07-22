@@ -1,4 +1,7 @@
 class ApplicationController < ActionController::Base
+  protect_from_forgery
+  layout 'application'
+
   helper :all
       
   rescue_from Net::HTTPFatalError do |exception|
@@ -47,5 +50,6 @@ class ApplicationController < ActionController::Base
       render "timelines/update", :format => :js
     end
   end
-  
+
+
 end

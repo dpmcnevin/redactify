@@ -29,7 +29,8 @@ class User < TwitterAuth::GenericUser
   
   def get_lists
     begin
-      twitter.get("/1/#{login}/lists.json")["lists"]
+      # twitter.get("/1/#{login}/lists.json")["lists"]
+      return []
     rescue
       return File.open("#{RAILS_ROOT}/db/test_lists.yml") { |file| YAML.load(file) } if RAILS_ENV == "development"
       return []

@@ -10,7 +10,7 @@
     %br
     %small
       = link_to(retweet.created_at, "http://twitter.com/#{retweet.screen_name}/status/#{retweet.id}", :target => "_blank")
-      = "using #{retweet.source}"
+      = "using #{retweet.source}".html_safe
       = link_to("in reply to #{retweet.in_reply_to_screen_name}", "http://twitter.com/#{retweet.in_reply_to_screen_name}/status/#{retweet.in_reply_to_status_id}", :target => "_blank") unless retweet.in_reply_to_status_id.nil? 
 
     %div.hidden_controls{:style => "display: none;"}

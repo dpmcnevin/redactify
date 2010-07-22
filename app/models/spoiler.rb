@@ -1,4 +1,5 @@
 class Spoiler < ActiveRecord::Base
+  extend ActiveModel::Naming
   
   MAX_TAGS = 50
   

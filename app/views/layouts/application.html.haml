@@ -23,8 +23,9 @@
             Logged in as 
             %strong="@#{current_user.login}."
             %br
-            = "#{link_to "My Timeline", timeline_path} | "
-            = link_to 'Log out', '/logout'
+            = link_to "My Timeline", timeline_path
+            |
+            = link_to 'Log out', logout_path
           - else
             = link_to 'Login via Twitter', '/login'
         %div.clearfix
@@ -39,7 +40,8 @@
 
       #footer
         Copyright &copy; 2010
-        = "#{link_to "redactify", "mailto:dpmcnevin@redactify.com"} |"
+        = link_to "redactify", "mailto:dpmcnevin@redactify.com"
+        |
         = link_to_unless_current "about", static_url("about")
     
     - if RAILS_ENV == "production"

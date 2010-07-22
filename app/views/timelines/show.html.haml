@@ -13,12 +13,12 @@
           %h3 Add New Spoiler Tag
           = render "timelines/form", :user => @user
 
-          #lists.side_content
-            %h3 Lists
-            %ul
-              %li= link_to "@#{current_user.login}", timeline_path
-              - for list in @user.get_lists
-                %li= link_to list["full_name"], list_path(list["id"])
+          / #lists.side_content
+          /   %h3 Lists
+          /   %ul
+          /     %li= link_to "@#{current_user.login}", timeline_path
+          /     - for list in @user.get_lists
+          /       %li= link_to list["full_name"], list_path(list["id"])
 
           #spoiler_tags.side_content
             %h3 Your Spoiler Tags
