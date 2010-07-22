@@ -23,7 +23,7 @@ group :test do
 end
 
 # gem 'twitter-auth', :require => 'twitter_auth'
-gem "twitter-auth", :git => "git://github.com/dpmcnevin/twitter-auth.git", :require => "twitter_auth/engine"
+gem "twitter-auth", :git => "git://github.com/dpmcnevin/twitter-auth.git", :branch => "rails3", :require => "twitter_auth/engine"
 gem 'oauth', ">= 0.3.1"
 gem 'haml', "3.0.9"
 gem "json"
