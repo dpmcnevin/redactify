@@ -6,7 +6,7 @@
     = image_tag("lock.png") if redacted.protected? 
     = link_to redacted.screen_name, timeline_path(:screen_name => redacted.screen_name)
     %span.redacted REDACTED
-    = link_to "show", :url => tweet_path(redacted.id), :method => :get, :remote => true, :html => { :class => :action } 
+    = link_to "show", tweet_path(redacted.id), :method => :get, :remote => true, :html => { :class => :action } 
     %br
     %small
       %strong matched tags: 
