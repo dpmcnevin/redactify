@@ -3,8 +3,8 @@ var currentPage = 1;
 
 function checkScroll() {
   if (nearBottomOfPage()) {
-		if ($("get_more_link")) { 
-			$("get_more_link").onclick();
+		if ($("#get_more_link")) { 
+			$("#get_more_link").onclick();
 			// alert("going to load more!" + $("get_more_link").getAttribute("onclick"));
 		}
   }
@@ -23,4 +23,4 @@ function pageHeight() {
   return Math.max(document.body.scrollHeight, document.body.offsetHeight);
 }
 
-document.observe('dom:loaded', checkScroll);
+$(document).load(checkScroll);

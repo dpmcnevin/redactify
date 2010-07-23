@@ -13,23 +13,23 @@
 
 
 <%= javascript_tag do %>
-	$("new_tweet").observe("keyup", function() {
+	$("#new_tweet").keyup(function() {
 		var tl = this.value.length;
-		$("remaining_characters").update(140 - tl);
+		$("#remaining_characters").text(140 - tl);
 		
 		if (tl > 140) {
-			$("remaining_characters").addClassName("over");
-		} else if (tl <= 140 && $("remaining_characters").hasClassName("over")) {
-				$("remaining_characters").removeClassName("over");
+			$("#remaining_characters").addClass("over");
+		} else if (tl <= 140 && $("#remaining_characters").hasClass("over")) {
+				$("#remaining_characters").removeClass("over");
 		}
 	});
 	
-	$("new_tweet_form").observe("submit", function(post_tweet) { 
-		if ($("new_tweet").value.length > 140) { 
+	$("#new_tweet_form").submit(function(post_tweet) { 
+		if ($("#new_tweet").value.length > 140) { 
 			alert("Status update is too long"); 
 			post_tweet.stop();
 		} else {
-		  $("post_tweet_loading").show();
+		  $("#post_tweet_loading").show();
 		}
 	});
 <% end %>

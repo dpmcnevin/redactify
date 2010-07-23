@@ -16,5 +16,5 @@
       = link_to_function "reply", "reply_to_tweet('#{tweet.screen_name}', '#{tweet.id}')"
 
 - unless tweet.screen_name == @user.login
-  = javascript_tag "$('tweet_#{tweet.id}').observe('mouseover', function() { $$('#tweet_#{tweet.id} .hidden_controls').invoke('show')})"
-  = javascript_tag "$('tweet_#{tweet.id}').observe('mouseout', function() { $$('#tweet_#{tweet.id} .hidden_controls').invoke('hide')})"
+  = javascript_tag "$('#tweet_#{tweet.id}').mouseover(function() { $('#tweet_#{tweet.id} .hidden_controls').show()})"
+  = javascript_tag "$('#tweet_#{tweet.id}').mouseout(function() { $('#tweet_#{tweet.id} .hidden_controls').hide()})"
