@@ -3,7 +3,7 @@
     %tr
       %td#timeline
         = render "timelines/post_tweet"
-        = link_to_remote "update", :url => @update_tweets_url, :method => :put if @update_tweets_url && RAILS_ENV == "development"
+        = link_to "update", :url => @update_tweets_url, :remote => true, :method => :put if @update_tweets_url && RAILS_ENV == "development"
         #updated_tweets
         = render "timelines/tweets"
         = periodically_call_remote(:url => @update_tweets_url, :frequency => '90', :method => :put) if @update_tweets_url && RAILS_ENV == "production"

@@ -1,6 +1,6 @@
 %h3
   Trends
-  = link_to_remote "update", :url => trends_path, :method => :put
+  = link_to "update", :url => trends_path, :remote => true, :method => :put
 
 %ul
   - for trend in @trends
