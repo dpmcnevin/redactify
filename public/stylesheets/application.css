@@ -59,6 +59,13 @@ div.notice {
 	font-size: 1.2em;
 }
 
+/* Loading */
+.loading {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
 /* Global page elements */
 
 #wrapper {

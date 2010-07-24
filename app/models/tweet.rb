@@ -57,6 +57,11 @@ class Tweet
     @tweet["in_reply_to_status_id"]
   end
   
+  def add_css_classes(classes)
+    @css_classes ||= ""
+    @css_classes << " #{classes}"
+  end
+  
   def css_classes
     return @css_classes if @css_classes.is_a? String
     @css_classes.join(" ")

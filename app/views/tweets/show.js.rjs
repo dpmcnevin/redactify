@@ -1,3 +1,0 @@
-page["tweet_#{@tweet.id}"].replace :partial => @tweet
-page["tweet_#{@tweet.id}"].highlight
-page << update_rate_limit

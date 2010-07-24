@@ -11,7 +11,7 @@ class TimelinesController < ApplicationController
     @timeline = @user.spoiler_free_timeline(:page => @page)
     respond_to do |format|
       format.html
-      format.js
+      format.js { render :partial => "timelines/tweets" }
       format.json { render :json => @timeline.to_json }
     end
   end
@@ -28,8 +28,14 @@ class TimelinesController < ApplicationController
   
   def update
     @new_tweets = @user.spoiler_free_timeline(:since_id => session[:latest_id])
-    @new_tweets.map {|tweet| tweet.css_classes = "tweet new"}
-    load_new_tweets(@new_tweets)
+    @new_tweets.map {|tweet| tweet.add_css_classes "new"}
+
+    respond_to do |format|
+      format.js do
+        session[:latest_id] = @new_tweets.first.id unless @new_tweets.empty?
+        render :partial => @new_tweets, :locals => {:css_classes => "new"}
+      end
+    end
   end
 
 end

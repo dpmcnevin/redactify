@@ -3,12 +3,12 @@ var currentPage = 1;
 
 function checkScroll() {
   if (nearBottomOfPage()) {
-		if ($("#get_more_link")) { 
-			$("#get_more_link").onclick();
-			// alert("going to load more!" + $("get_more_link").getAttribute("onclick"));
+		if ($("#get_more a")) {
+			$("#get_more a").callRemote();
+			// alert("going to load more!");
 		}
   }
- 	setTimeout("checkScroll()", 500);
+ setTimeout("checkScroll()", 3000);
 }
 
 function nearBottomOfPage() {
@@ -23,4 +23,7 @@ function pageHeight() {
   return Math.max(document.body.scrollHeight, document.body.offsetHeight);
 }
 
-$(document).load(checkScroll);
+$(function() {
+  // Disable this for now.
+  // checkScroll(); 
+});

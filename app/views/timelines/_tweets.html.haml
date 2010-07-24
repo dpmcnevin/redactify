@@ -2,4 +2,4 @@
   = render tweet
 
 #get_more
-  = link_to "get more", @get_more_url, :remote => true, :html => {:id => "get_more_link" }, :method => :get if @get_more_url && @page.to_i <= 10
+  = link_to "get more", @get_more_url, :remote => true, :id => "get_more_link" , :method => :get if @get_more_url && @page.to_i <= 10

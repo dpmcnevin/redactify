@@ -5,31 +5,12 @@
 		<span id="remaining_characters">140</span>
 		<%= f.submit "Post to Twitter" %>
 	<% end %>
-	<div id="post_tweet_loading" style="display: none;">
+	<div id="post_tweet_loading" class="loading" style="display: none;">
     <%= image_tag "ajax-loader.gif" %>
     Sending update to Twitter
   </div>
+  <div id="new_tweets_loading" class="loading" style="display: none;">
+    <%= image_tag "ajax-loader.gif" %>
+    Loading New Tweets
+  </div>
 </div>
-
-
-<%= javascript_tag do %>
-	$("#new_tweet").keyup(function() {
-		var tl = this.value.length;
-		$("#remaining_characters").text(140 - tl);
-		
-		if (tl > 140) {
-			$("#remaining_characters").addClass("over");
-		} else if (tl <= 140 && $("#remaining_characters").hasClass("over")) {
-				$("#remaining_characters").removeClass("over");
-		}
-	});
-	
-	$("#new_tweet_form").submit(function(post_tweet) { 
-		if ($("#new_tweet").value.length > 140) { 
-			alert("Status update is too long"); 
-			post_tweet.stop();
-		} else {
-		  $("#post_tweet_loading").show();
-		}
-	});
-<% end %>

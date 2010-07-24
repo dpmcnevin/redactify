@@ -38,18 +38,6 @@ class ApplicationController < ActionController::Base
   def update_latest_tweet
     session[:latest_id] = @timeline.first.id if !@timeline.empty? && params[:page] == 1
   end
-  
-  def load_new_tweets(new_tweets)
-    if new_tweets.empty?
-      render :update do |page|
-        # page << update_trends
-        page << update_rate_limit
-      end
-    else
-      session[:latest_id] = new_tweets.first.id
-      render "timelines/update", :format => :js
-    end
-  end
 
 
 end
