@@ -12,7 +12,7 @@ class SpoilersController < ApplicationController
     if @spoiler.save
       flash[:notice] = "Tag Created for: #{@spoiler.name}"
     else
-      flash[:error] = "There was a problem creating the tag<br />#{@spoiler.errors.full_messages.join("<br />")}"
+      flash[:error] = "There was a problem creating the tag: #{@spoiler.errors.full_messages.join("<br />")}"
     end
             
     respond_to do |format|

@@ -141,7 +141,6 @@ div.notice {
 
 .static_page {
   background: white;
-  border: 1px solid #bbb;
 }
 
 .static_page h3 {
@@ -252,6 +251,7 @@ div.notice {
 #side #side_container {
   background: #f1f1f1;
   border-radius: 4px;
+  margin-left: 3px;
   padding: 0px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -322,6 +322,9 @@ div.notice {
 	font-size: 1.25em;
 	width: 210px;
 	border: 1px solid #888;
+	border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
 }
 
 #side input[type=text].default_input {
@@ -349,13 +352,9 @@ div.notice {
   width: 640px;
   padding: 0px 10px 5px 10px;
   margin-bottom: 10px;
-/*  border-color: #bbb;
-  border-style: solid solid solid solid;
-  border-width: 1px 1px 1px 1px;*/
 }
 
 #timeline #post_tweet {
-  background: #f8f8f8;
   margin-bottom: 20px;
   padding: 0 5px 5px 5px;
 }
@@ -369,6 +368,9 @@ div.notice {
   overflow: auto;
   font-family: sans-serif;
   margin-bottom: 5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
 }
 
 #timeline #post_tweet #remaining_characters {
@@ -384,6 +386,9 @@ div.notice {
   float: right;
   border: 1px solid #888;
   font-size: 18px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
 }
 
 #timeline #updated_tweets .tweet {
@@ -396,9 +401,13 @@ div.notice {
 .tweet {
   /*border-bottom: 1px solid #ccc;*/
 	padding: 10px 0px;
-	width: 575px;
+	width: 620px;
 	overflow: hidden;
 	margin-bottom: 2px;
+}
+
+.tweet:hover {
+  background: #eee;
 }
 
 .tweet .user_info {
@@ -445,6 +454,9 @@ div.notice {
   background: #fee;
   border-color: #fbb;
   color: #311;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
 }
 
 .tweet.redacted a.action {

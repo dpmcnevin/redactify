@@ -147,10 +147,13 @@ class User < TwitterAuth::GenericUser
     url << "?#{options.to_query}" unless options.empty?
     
     puts "TWITTER: Getting URL: #{url}"
-        
+    
+    ## Test from local files    
     # tweets = File.open("#{RAILS_ROOT}/db/test_tweets.yml") { |file| YAML.load(file) }
     # tweets.first["text"] = url
     # return tweets          
+    
+    ## Get data from twitter
     twitter.get(url)
 
   end
