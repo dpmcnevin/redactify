@@ -113,10 +113,19 @@ div.notice {
 
 #header #user_bar img {
   vertical-align: middle; 
+  margin-bottom: 5px;
+}
+
+#header #user_bar small {
+  margin-top: 5px;
 }
 
 #header #user_bar small * {
   color: #888;
+}
+
+#header #user_bar small a {
+  margin-left: 10px;
 }
 
 /* Non-timeline page classes */
