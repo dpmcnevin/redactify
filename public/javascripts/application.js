@@ -102,22 +102,23 @@ function update_rate_limit() {
 }
 
 // Load new tweets every 90 seconds
-function load_new_tweets (url) {
-  setTimeout(
-    function() {
-      $.ajax({
-        url: url,
-        beforeSend: function() {  $("#new_tweets_loading").show(); },
-        complete: function() {  $("#new_tweets_loading").hide(); },
-        type: 'PUT', 
-        success: function(html) {
-          $("#updated_tweets").append(html); 
-          update_rate_limit();
-          set_page_title();
-        } 
-      })
-    }, 
-    3000)
+function check_new_tweets (url) {
+  setInterval("load_new_tweets('"+url+"')", 90000)
+  // setTimeout("load_new_tweets('"+url+"')", 2000)
+}
+
+function load_new_tweets(url) {
+  $.ajax({
+    url: url,
+    beforeSend: function() {  $("#new_tweets_loading").show(); },
+    complete: function() {  $("#new_tweets_loading").hide(); },
+    type: 'PUT', 
+    success: function(html) {
+      $("#updated_tweets").append(html); 
+      update_rate_limit();
+      set_page_title();
+    } 
+  })
 }
 
 function set_page_title() {

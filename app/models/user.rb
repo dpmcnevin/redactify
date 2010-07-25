@@ -151,7 +151,7 @@ class User < TwitterAuth::GenericUser
     # tweets = File.open("#{RAILS_ROOT}/db/test_tweets.yml") { |file| YAML.load(file) }
     # tweets.first["text"] = url
     # return tweets          
-    # twitter.get(url)
+    twitter.get(url)
 
   end
   
