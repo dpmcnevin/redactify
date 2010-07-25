@@ -1,2 +1,3 @@
 = form_tag searches_path do
-	= text_field_tag :q
+	= text_field_tag :q, "search twitter", :class => :default_input
+	= javascript_tag "blurInput('#q', 'search twitter')"

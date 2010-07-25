@@ -129,3 +129,36 @@ function set_page_title() {
     document.title = "Redactify"
   }
 }
+
+function blurInput(selector, default_text) {
+
+  // Remove defalt text and highlight box when selected
+  $(selector).focus(function() {
+    if (this.value == default_text) {
+      $(selector).removeClass("default_input");
+      this.value = "";
+    }
+  });
+
+  // put default textback and lighten the box when de-selected
+  $(selector).blur(function() {
+    if (this.value == "") {
+      $(selector).addClass("default_input");
+      this.value = default_text;
+    }
+  });
+}
+
+function show_spoiler_action() {
+  // Hover actions for saved searches list.
+
+  $("#spoiler_tags li").hover(
+    function() {
+      $(this).find(".spoiler_action").show();
+    },
+    function() {
+      $(this).find(".spoiler_action").hide();
+    }
+  );
+  
+}

@@ -79,7 +79,8 @@ div.notice {
   text-align: center;
   font-size: 0.8em;
   color: #666;
-  padding-bottom: 1.5em; }
+  padding-bottom: 1.5em; 
+}
 
 #header {
   background: white;
@@ -98,8 +99,8 @@ div.notice {
 }
   
 #header h1 a {
-    color: #057;
-    text-decoration: none; 
+  color: #057;
+  text-decoration: none; 
 }
 
 #header #sub_heading {
@@ -116,6 +117,12 @@ div.notice {
   margin-bottom: 5px;
 }
 
+#header #user_bar #user_actions {
+  background: #eee;
+  border-radius: 2px;
+  padding: 3px;
+}
+
 #header #user_bar small {
   margin-top: 5px;
 }
@@ -125,7 +132,7 @@ div.notice {
 }
 
 #header #user_bar small a {
-  margin-left: 10px;
+  margin: 0 5px;
 }
 
 /* Non-timeline page classes */
@@ -241,11 +248,12 @@ div.notice {
 /* Side content */
 
 #side {
-  background: #E2E2D6;
-  padding: 15px 0 0 10px;
-  border-color: #bbb;
+  /*background: #E2E2D6;*/
+  background: #f1f1f1;
+  padding: 0px;
+/*  border-color: #bbb;
   border-style: solid solid solid none;
-  border-width: 1px 1px 1px 0;
+  border-width: 1px 1px 1px 0;*/
 }
 
 #side a {
@@ -257,6 +265,7 @@ div.notice {
 }
 
 #side h3 {
+  color: #666;
   margin: 5px 0;
 }
 
@@ -275,8 +284,18 @@ div.notice {
   margin-bottom: 4px;
 }
 
+#side #spoiler_tags {
+  background: #D9EFFA;
+  margin-bottom: 10px;
+}
+
+#side #spoiler_tags a[data-method=delete] {
+  color: #FC8383;
+  font-size: 0.8em;
+}
+
 #side #new_spoiler {
-  padding: 5px;
+  margin-bottom: 10px;
 }
 
 #side #lists a {
@@ -285,10 +304,27 @@ div.notice {
   font-weight: normal;
 }
 
+#side #twitter_trends a {
+  font-size: 0.8em;
+  margin-bottom: 3px;
+  font-weight: normal;
+}
+
+#side #twitter_trends #update_trends {
+  color: green;
+  font-size: 0.6em;
+}
+
 #side input[type=text] {
 	font-size: 1.25em;
 	width: 210px;
 	border: 1px solid #888;
+}
+
+#side input[type=text].default_input {
+  border-color: #ccc;
+  color: #888;
+  width: 210px;  
 }
 
 #side #rate_limit {
@@ -308,17 +344,17 @@ div.notice {
 #timeline {
   background: white;
   width: 640px;
-  padding: 5px 10px 5px 10px;
+  padding: 0px 10px 5px 10px;
   margin-bottom: 10px;
-  border-color: #bbb;
+/*  border-color: #bbb;
   border-style: solid solid solid solid;
-  border-width: 1px 1px 1px 1px;
+  border-width: 1px 1px 1px 1px;*/
 }
 
 #timeline #post_tweet {
   background: #f8f8f8;
   margin-bottom: 20px;
-  padding: 5px;
+  padding: 0 5px 5px 5px;
 }
 
 #timeline #post_tweet textarea {
@@ -344,6 +380,7 @@ div.notice {
 #timeline #post_tweet input[type=submit] {
   float: right;
   border: 1px solid #888;
+  font-size: 18px;
 }
 
 #timeline #updated_tweets .tweet {
@@ -405,6 +442,11 @@ div.notice {
   background: #fee;
   border-color: #fbb;
   color: #311;
+}
+
+.tweet.redacted a.action {
+  float: right;
+  margin: 10px;
 }
 
 .tweet small {
