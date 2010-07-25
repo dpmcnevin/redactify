@@ -8,11 +8,11 @@
         = render "timelines/tweets"
         = javascript_tag "check_new_tweets('#{@update_tweets_url}')"
       %td#side
-        #side_container
+        .side_container
           #spoiler_tags.side_content
             = render "timelines/form", :user => @user
             = render "spoilers/user", :user => @user
-
+        .side_container
           #lists.side_content
             %h3 Lists
             %ul
