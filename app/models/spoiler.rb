@@ -7,6 +7,7 @@ class Spoiler < ActiveRecord::Base
   
   attr_accessible :name
   
+  validates_presence_of :name
   validate :maximum_tags, :on => :create
   validates_uniqueness_of :name, :on => :create, :message => "must be unique", :scope => :user_id
   validates_format_of :name, :with => /^.*$/, :on => :create, :message => "is invalid", :allow_blank => false
