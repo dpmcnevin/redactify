@@ -33,6 +33,7 @@ $(function() {
   // Remove the new class for new tweets when hovering over them
   $(".tweet.new").live("hover", function() {
     $(this).removeClass("new");
+    set_page_title();
   });
   
   // Watch for remote calls to "get more"
@@ -102,7 +103,7 @@ function update_rate_limit() {
 
 // Load new tweets every 90 seconds
 function load_new_tweets (url) {
-  setInterval(
+  setTimeout(
     function() {
       $.ajax({
         url: url,
@@ -112,8 +113,18 @@ function load_new_tweets (url) {
         success: function(html) {
           $("#updated_tweets").append(html); 
           update_rate_limit();
+          set_page_title();
         } 
       })
     }, 
-    90000)
+    3000)
+}
+
+function set_page_title() {
+  var new_tweets = $(".tweet.new").size()
+  if (new_tweets > 0) {
+    document.title = "Redactify ("+ new_tweets + ")";
+  } else {
+    document.title = "Redactify"
+  }
 }

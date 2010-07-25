@@ -1,0 +1,15 @@
+- if logged_in?
+  = image_tag(current_user.profile_image_url, :width => 24, :height => 24)
+  Logged in as 
+  %strong="@#{current_user.login}."
+  %br
+  = link_to "My Timeline", timeline_path
+  = link_to 'Log out', logout_path
+  %br
+  %small
+    = link_to "@#{current_user.login}", user_path(:id => current_user.login)
+    = link_to "Mentions", mentions_users_path
+    = link_to "Retweeted by me", retweeted_by_me_users_path
+    = link_to "Retweets of me", retweets_of_me_users_path
+- else
+  = link_to 'Login via Twitter', '/login'

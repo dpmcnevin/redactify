@@ -14,21 +14,11 @@
         #title
           %h1
             = link_to 'redactify', '/'
-            %small
-              %span{:style => "font-size: 0.4em; color: green;"} alpha
           %span#sub_heading twitter without spoilers
 
         #user_bar
-          - if logged_in?
-            = image_tag(current_user.profile_image_url, :width => 24, :height => 24)
-            Logged in as 
-            %strong="@#{current_user.login}."
-            %br
-            = link_to "My Timeline", timeline_path
-            |
-            = link_to 'Log out', logout_path
-          - else
-            = link_to 'Login via Twitter', '/login'
+          = render :partial => "users/bar"
+          
         %div.clearfix
       
       - if flash[:error]

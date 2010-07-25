@@ -85,8 +85,6 @@ div.notice {
   background: white;
   margin-bottom: 10px;
   padding: 5px;
-	border: 1px solid;
-	border-color: #bbb;
 }
 
 #header #title {
@@ -94,7 +92,7 @@ div.notice {
 }
 
 #header h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin: 0;
   padding: 0;
 }
@@ -110,10 +108,15 @@ div.notice {
 
 #header #user_bar {
   float: right;
-  margin-top: 1.2em; }
+  text-align: right;
+}
 
 #header #user_bar img {
   vertical-align: middle; 
+}
+
+#header #user_bar small * {
+  color: #888;
 }
 
 /* Non-timeline page classes */
