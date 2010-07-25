@@ -70,5 +70,5 @@ class Tweet
   def css_classes=(val)
     @css_classes = val
   end
-  
+
 end

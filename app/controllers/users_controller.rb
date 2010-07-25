@@ -28,10 +28,17 @@ class UsersController < ApplicationController
       format.html { render "timelines/show" }
       format.js { render :partial => "timelines/tweets", :locals => { :tweets => @timeline } }
     end
-    
   end
   
   def retweeted_by_me
+    @page = params[:page] ||= 1
+    @get_more_url = retweeted_by_me_users_path(:page => @page.to_i + 1)
+    @update_tweets_url = retweeted_by_me_users_path
+    @timeline = @user.retweeted_by_me(:page => @page)
+    respond_to do |format|
+      format.html { render "timelines/show" }
+      format.js { render :partial => "timelines/tweets", :locals => { :tweets => @timeline } }
+    end
   end
   
   def retweets_of_me
@@ -39,12 +46,9 @@ class UsersController < ApplicationController
     @get_more_url = retweets_of_me_users_path(:page => @page.to_i + 1)
     @update_tweets_url = retweets_of_me_users_path
     @timeline = @user.retweets_of_me(:page => @page)
-    # debugger
-    # @timeline.map {|t| t.tweet["retweeted_by"] = @user.get_retweeted_by(t) }
     @timeline.map {|t| t.tweet["retweeted_by"] = @user.get_retweeted_by(t.tweet) }
     respond_to do |format|
       format.html { render "timelines/show" }
-      # format.html { render :inline => "<pre>#{@timeline.to_yaml}</pre>"}
       format.js { render :partial => "timelines/tweets", :locals => { :tweets => @timeline } }
     end
   end

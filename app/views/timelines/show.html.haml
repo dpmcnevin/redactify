@@ -18,9 +18,9 @@
           #user.side_content
             %h3 User
             %ul
-              %li= link_to "@#{current_user.login}", timeline_path
+              %li= link_to "@#{current_user.login}", user_path(:id => current_user.login)
               %li= link_to "Mentions", mentions_users_path
-              %li= link_to "Retweeted by me"
+              %li= link_to "Retweeted by me", retweeted_by_me_users_path
               %li= link_to "Retweets of me", retweets_of_me_users_path
 
           #lists.side_content

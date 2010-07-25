@@ -36,9 +36,13 @@ class User < TwitterAuth::GenericUser
     assign_tweets(tweets, :normal)
   end
   
+  def retweeted_by_me(options = {})
+    tweets = twitter.get("http://api.twitter.com/1/statuses/retweeted_by_me.json")
+    assign_tweets(tweets, :normal)
+  end
+  
   def retweets_of_me(options = {})
     tweets = twitter.get("http://api.twitter.com/1/statuses/retweets_of_me.json")
-    # get_retweeted_by(tweets)
     assign_tweets(tweets, :normal)
   end
   

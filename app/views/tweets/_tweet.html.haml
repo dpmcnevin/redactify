@@ -13,9 +13,8 @@
       = link_to("in reply to #{tweet.in_reply_to_screen_name}", "http://twitter.com/#{tweet.in_reply_to_screen_name}/status/#{tweet.in_reply_to_status_id}", :target => "_blank") unless tweet.in_reply_to_status_id.nil?
       - if tweet.tweet["retweeted_by"]
         <br />
-        Retweetd by:
-        - rt_links = tweet.tweet["retweeted_by"].map { |r| link_to r["screen_name"], "http://twitter.com/users/#{r["screen_name"]}" }
-        = raw rt_links.join(", ")
+        Retweeted by:
+        = retweeted_by_links(tweet)
         
     %div.hidden_controls{:style => "display: none;"}
       - unless tweet.screen_name == @user.login

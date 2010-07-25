@@ -10,18 +10,13 @@ module ApplicationHelper
   	end
   	txt.html_safe
   end
-  
-  def update_rate_limit
-    # update_page do |page|
-    #   page["#rate_limit"].replace_html :partial => "users/rate_limit", :locals => { :rate_limit => @user.rate_limit_status }
-    # end
-    "$('#rate_limit').html('#{render :partial => "users/rate_limit", :locals => { :rate_limit => @user.rate_limit_status }}');"
-  end
-  
-  def update_trends
-    update_page do |page|
-      page["twitter_trends"].replace_html :partial => "users/trends"
+
+  def retweeted_by_links(tweet)
+    links = tweet.tweet["retweeted_by"].map do |t|
+      link_to t["screen_name"], "http://twitter.com/#{t["screen_name"]}"
     end
+    
+    links.join(", ").html_safe
   end
   
 end
