@@ -13,9 +13,40 @@ class UsersController < ApplicationController
     render "timelines/show"
   end
   
+  ## FIXME
   def update
     @new_tweets = @user.spoiler_free_timeline(:screen_name => params[:id], :since_id => session[:latest_id])
     load_new_tweets(@new_tweets)
+  end
+  
+  def mentions
+    @page = params[:page] ||= 1
+    @get_more_url = mentions_users_path(:page => @page.to_i + 1)
+    @update_tweets_url = mentions_users_path
+    @timeline = @user.mentions(:page => @page)
+    respond_to do |format|
+      format.html { render "timelines/show" }
+      format.js { render :partial => "timelines/tweets", :locals => { :tweets => @timeline } }
+    end
+    
+  end
+  
+  def retweeted_by_me
+  end
+  
+  def retweets_of_me
+    @page = params[:page] ||= 1
+    @get_more_url = retweets_of_me_users_path(:page => @page.to_i + 1)
+    @update_tweets_url = retweets_of_me_users_path
+    @timeline = @user.retweets_of_me(:page => @page)
+    # debugger
+    # @timeline.map {|t| t.tweet["retweeted_by"] = @user.get_retweeted_by(t) }
+    @timeline.map {|t| t.tweet["retweeted_by"] = @user.get_retweeted_by(t.tweet) }
+    respond_to do |format|
+      format.html { render "timelines/show" }
+      # format.html { render :inline => "<pre>#{@timeline.to_yaml}</pre>"}
+      format.js { render :partial => "timelines/tweets", :locals => { :tweets => @timeline } }
+    end
   end
   
 end

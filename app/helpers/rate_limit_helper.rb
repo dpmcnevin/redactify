@@ -1,0 +1,2 @@
+module RateLimitHelper
+end

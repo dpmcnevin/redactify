@@ -1,6 +1,11 @@
 Redactify::Application.routes.draw do |map|
 
-  resources :users, :only => [:show, :updte] do
+  resources :users, :only => [:show, :update] do
+    collection do
+      get :mentions
+      get :retweeted_by_me
+      get :retweets_of_me
+    end
     resources :spoilers
   end
   
@@ -11,6 +16,7 @@ Redactify::Application.routes.draw do |map|
   resources :lists, :only => [:show, :update]
   resources :searches, :only => [:index, :create]
   resource :trends, :only => [:show, :update]
+  resource :rate_limit, :only => [:update]
   
   resource :session
   

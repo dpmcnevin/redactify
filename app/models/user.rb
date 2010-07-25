@@ -6,16 +6,7 @@ class User < TwitterAuth::GenericUser
 
   has_many :spoilers
 
-  def spoiler_free_timeline(options = {})
-    
-    if options[:search]
-      tweets = search(options)["results"]
-      type = :search
-    else
-      tweets = timeline(options)
-      type = :normal
-    end
-            
+  def assign_tweets(tweets, type)
     tweets.map do |tweet|
       if spoiler?(tweet["text"])
         Redacted.new(tweet,spoiled_on(tweet["text"]), type)
@@ -26,13 +17,42 @@ class User < TwitterAuth::GenericUser
       end
     end
   end
+
+  def spoiler_free_timeline(options = {})
+    
+    if options[:search]
+      tweets = search(options)["results"]
+      type = :search
+    else
+      tweets = timeline(options)
+      type = :normal
+    end
+            
+    assign_tweets(tweets, type)
+  end
+  
+  def mentions(options = {})
+    tweets = twitter.get("http://api.twitter.com/1/statuses/mentions.json?page=#{options[:page]}")
+    assign_tweets(tweets, :normal)
+  end
+  
+  def retweets_of_me(options = {})
+    tweets = twitter.get("http://api.twitter.com/1/statuses/retweets_of_me.json")
+    # get_retweeted_by(tweets)
+    assign_tweets(tweets, :normal)
+  end
+  
+  def get_retweeted_by(tweet)
+    twitter.get("http://api.twitter.com/1/statuses/#{tweet["id"]}/retweeted_by.json")
+  end
   
   def get_lists
     begin
       # twitter.get("/1/#{login}/lists.json")["lists"]
-      return []
+      twitter.get("http://api.twitter.com/1/#{login}/lists.json")["lists"]
+      # return []
     rescue
-      return File.open("#{RAILS_ROOT}/db/test_lists.yml") { |file| YAML.load(file) } if RAILS_ENV == "development"
+      # return File.open("#{RAILS_ROOT}/db/test_lists.yml") { |file| YAML.load(file) } if RAILS_ENV == "development"
       return []
     end
   end

@@ -43,6 +43,7 @@ $(function() {
     })
     .live("ajax:success", function(status, data, xhr) {
       $("#get_more").replaceWith(data);
+      update_rate_limit();
     });
   
   // Show controls when hovering over a tweet  
@@ -58,7 +59,8 @@ $(function() {
   // Show a redacted tweet
   $(".show_redacted_tweet")
     .live("ajax:success", function(status, data, xhr) {
-      $(this).parents("div.tweet").replaceWith(data)
+      $(this).parents("div.tweet").replaceWith(data);
+      update_rate_limit();
     });
       
   // Update trends
@@ -88,11 +90,15 @@ function reply_to_tweet(screen_name, tweet_id) {
 }
 
 // TODO update the rate limit status
-// function update_rate_limit() {
-//   $.ajax({
-//     url: ""
-//   })
-// }
+function update_rate_limit() {
+   $.ajax({
+     url: "/rate_limit",
+     type: "PUT",
+     success: function(data) {
+       $("#rate_limit").html(data);
+     }
+   })
+}
 
 // Load new tweets every 90 seconds
 function load_new_tweets (url) {
@@ -105,6 +111,7 @@ function load_new_tweets (url) {
         type: 'PUT', 
         success: function(html) {
           $("#updated_tweets").append(html); 
+          update_rate_limit();
         } 
       })
     }, 
