@@ -27,8 +27,8 @@
             %h3 Search Twitter
             = render "searches/form"
           
-          / #twitter_trends.side_content
-          /   = render "users/trends"
+          #twitter_trends.side_content
+            = render "users/trends"
     
           #rate_limit.side_content
             = render "users/rate_limit", :rate_limit => @user.rate_limit_status
