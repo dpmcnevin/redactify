@@ -103,9 +103,9 @@ function update_rate_limit() {
 
 // Load new tweets every 90 seconds
 function check_new_tweets (url) {
-  setInterval("load_new_tweets('"+url+"')", 90000)
+  // setInterval("load_new_tweets('"+url+"')", 90000)
   // setInterval("load_new_tweets('"+url+"')", 5000)  
-  // setTimeout("load_new_tweets('"+url+"')", 2000)
+  setTimeout("load_new_tweets('"+url+"')", 2000)
 }
 
 function load_new_tweets(url) {

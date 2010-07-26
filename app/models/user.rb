@@ -31,30 +31,13 @@ class User < TwitterAuth::GenericUser
     assign_tweets(tweets, type)
   end
   
-  def mentions(options = {})
-    tweets = twitter.get("http://api.twitter.com/1/statuses/mentions.json?page=#{options[:page]}")
-    assign_tweets(tweets, :normal)
-  end
-  
-  def retweeted_by_me(options = {})
-    tweets = twitter.get("http://api.twitter.com/1/statuses/retweeted_by_me.json")
-    assign_tweets(tweets, :normal)
-  end
-  
-  def retweets_of_me(options = {})
-    tweets = twitter.get("http://api.twitter.com/1/statuses/retweets_of_me.json")
-    assign_tweets(tweets, :normal)
-  end
-  
   def get_retweeted_by(tweet)
     twitter.get("http://api.twitter.com/1/statuses/#{tweet["id"]}/retweeted_by.json")
   end
   
   def get_lists
     begin
-      # twitter.get("/1/#{login}/lists.json")["lists"]
       twitter.get("http://api.twitter.com/1/#{login}/lists.json")["lists"]
-      # return []
     rescue
       # return File.open("#{RAILS_ROOT}/db/test_lists.yml") { |file| YAML.load(file) } if RAILS_ENV == "development"
       return []
@@ -136,12 +119,19 @@ class User < TwitterAuth::GenericUser
     
     options = HashWithIndifferentAccess.new(options)
     
-    if options["list_id"]
-      url = "/1/#{login}/lists/#{options["list_id"]}/statuses.json"
-    elsif options["screen_name"]
-      url = "/statuses/user_timeline/#{options["screen_name"]}.json"
-    else
-      url = "/statuses/home_timeline.json"
+    url = case
+      when options["list_id"] 
+        "/1/#{login}/lists/#{options["list_id"]}/statuses.json"
+      when options["screen_name"] 
+        "/statuses/user_timeline/#{options["screen_name"]}.json"
+      when options[:section] == "mentions"
+        "http://api.twitter.com/1/statuses/mentions.json"
+      when options[:section] == "retweeted_by_me"
+        "http://api.twitter.com/1/statuses/retweeted_by_me.json"
+      when options[:section] == "retweets_of_me"
+        "http://api.twitter.com/1/statuses/retweets_of_me.json"
+      else 
+        "/statuses/home_timeline.json"
     end
     
     url << "?#{options.to_query}" unless options.empty?

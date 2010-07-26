@@ -250,7 +250,9 @@ div.notice {
 
 #side .side_container {
   background-color: #f1f1f1;
+  border: 1px solid #e5e5e5;
   border-radius: 4px;
+  margin-bottom: 10px;
   margin-left: 3px;
   padding: 0px;
   -webkit-border-radius: 4px;
@@ -287,10 +289,6 @@ div.notice {
 
 #side .side_container #spoiler_tags {
   background-color: #D9EFFA;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
 }
 
 #side #spoiler_tags a[data-method=delete] {

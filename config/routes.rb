@@ -1,13 +1,12 @@
 Redactify::Application.routes.draw do |map|
 
   resources :users, :only => [:show, :update] do
-    collection do
-      get :mentions
-      get :retweeted_by_me
-      get :retweets_of_me
-    end
     resources :spoilers
   end
+  
+  get "/mentions" => "users#show", :section => "mentions", :as => "mentions"
+  get "/retweeted_by_me" => "users#show", :section => "retweeted_by_me", :as => "retweeted_by_me"
+  get "/retweets_of_me" => "users#show", :section => "retweets_of_me", :as => "retweets_of_me"  
   
   resources :tweets, :only => [:show]
 

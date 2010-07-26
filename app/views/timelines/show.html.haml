@@ -6,7 +6,7 @@
         = link_to "update", @update_tweets_url, :remote => true, :method => :put if @update_tweets_url && RAILS_ENV == "development"
         #updated_tweets
         = render "timelines/tweets"
-        = javascript_tag "check_new_tweets('#{@update_tweets_url}')"
+        / = javascript_tag "check_new_tweets('#{@update_tweets_url}')"
       %td#side
         .side_container
           #spoiler_tags.side_content
