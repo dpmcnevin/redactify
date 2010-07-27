@@ -115,7 +115,7 @@ function load_new_tweets(url) {
     complete: function() {  $("#new_tweets_loading").hide(); },
     type: 'PUT', 
     success: function(html) {
-      $("#updated_tweets").append(html); 
+      $("#tweet_list").prepend(html); 
       update_rate_limit();
       set_page_title();
     } 

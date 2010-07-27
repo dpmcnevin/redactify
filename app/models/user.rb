@@ -39,7 +39,7 @@ class User < TwitterAuth::GenericUser
     begin
       twitter.get("http://api.twitter.com/1/#{login}/lists.json")["lists"]
     rescue
-      # return File.open("#{RAILS_ROOT}/db/test_lists.yml") { |file| YAML.load(file) } if RAILS_ENV == "development"
+      # return File.open("#{Rails.root}/db/test_lists.yml") { |file| YAML.load(file) } if Rails.env == "development"
       return []
     end
   end
@@ -64,7 +64,7 @@ class User < TwitterAuth::GenericUser
     begin
       twitter.get("http://twitter.com/account/rate_limit_status.json")
     rescue
-      File.open("#{RAILS_ROOT}/db/test_rate_limit.yml") { |file| YAML.load(file) }  if RAILS_ENV == "development"
+      File.open("#{Rails.root}/db/test_rate_limit.yml") { |file| YAML.load(file) }  if Rails.env == "development"
     end
   end
   
@@ -139,7 +139,7 @@ class User < TwitterAuth::GenericUser
     puts "TWITTER: Getting URL: #{url}"
     
     ## Test from local files    
-    # tweets = File.open("#{RAILS_ROOT}/db/test_tweets.yml") { |file| YAML.load(file) }
+    # tweets = File.open("#{Rails.root}/db/test_tweets.yml") { |file| YAML.load(file) }
     # tweets.first["text"] = url
     # return tweets          
     

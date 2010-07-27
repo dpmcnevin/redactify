@@ -395,12 +395,12 @@ input[type=text].default_input {
 #timeline #updated_tweets .tweet {
 }
 
-#updated_tweets .new {
-  border: 1px solid yellow;
+.tweet.new {
+  border-color: yellow;
 }
 
 .tweet {
-  /*border-bottom: 1px solid #ccc;*/
+  border: 1px solid #fff;
 	padding: 10px 0px;
 	width: 620px;
 	overflow: hidden;

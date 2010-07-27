@@ -3,9 +3,10 @@
     <tr>
       <td id="timeline">
         <%= render "timelines/post_tweet" %>
-        <%= link_to "update", @update_tweets_url, :remote => true, :method => :put if @update_tweets_url && RAILS_ENV == "development" %>
-        <div id="updated_tweets"></div>
-        <%= render "timelines/tweets" %>
+        <%= link_to "update", @update_tweets_url, :remote => true, :method => :put if @update_tweets_url && Rails.env == "development" %>
+        <div id="tweet_list">
+          <%= render "timelines/tweets" %>
+        </div>
         <%= javascript_tag "check_new_tweets('#{@update_tweets_url}')" %>
       </td>
       <td id="side">
