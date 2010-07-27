@@ -1,0 +1,10 @@
+<ul>
+  <%- for spoiler in user.spoilers %>
+    <li class="spoiler">
+      <%= spoiler.name %>
+      <small><%= link_to "remove", [user,spoiler], :method => :delete, :confirm => "really delete \"#{spoiler.name}\"?", :class => "spoiler_action", :style => "display: none;" %></small>
+    </li>
+  <% end %>
+</ul>
+
+<%= javascript_tag "show_spoiler_action();" %>

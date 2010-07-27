@@ -1,0 +1,39 @@
+<div id="welcome" class="static_page">
+  <%- if logged_in? %>
+    <div id="add_new_spoiler">
+      <h3>Add New Spoiler</h3>
+      <%= render "timelines/form", :user => current_user %> or
+      <%= link_to "Go To My Timeline", timeline_path %>
+      <div id="spoiler_explination">
+        You can hide tweets in your timeline that match your tags. For example: #lost, MLB, oscars
+      </div>
+    </div>
+
+    <div id="other_tags">
+      <div id="user_tags">
+        <h3>Your Current Tags</h3>
+        <%= render "spoilers/user", :user => current_user %>
+      </div>
+  
+      <div id="public_tags">
+        <h3>Popular Tags</h3>
+        <%= render "spoilers/popular", :user => current_user %>
+      </div>
+    </div>
+
+  <% else %>
+    <p>Redactify is a service that will allow you to view your twitter updates spoiler-free.</p>
+    
+    <p>
+      Simply login through <%= link_to "Twitter", "http://twitter.com" %> and set up tags that you want hidden by default.
+    </p>
+    
+    <p>
+      Example Screenshot of the application:
+      <br />
+      <%= image_tag("sample_screen.png", :class => :example ) %>
+    </p>
+
+  <% end %>
+</div>
+

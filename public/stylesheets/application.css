@@ -318,18 +318,20 @@ div.notice {
 }
 
 #side input[type=text] {
+  width: 210px;
+}
+
+input[type=text] {
 	font-size: 1.25em;
-	width: 210px;
 	border: 1px solid #888;
 	border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
 }
 
-#side input[type=text].default_input {
+input[type=text].default_input {
   border-color: #ccc;
   color: #888;
-  width: 210px;  
 }
 
 #side #rate_limit {

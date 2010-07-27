@@ -1,0 +1,16 @@
+<%- if logged_in? %>
+  <%= image_tag(current_user.profile_image_url, :width => 24, :height => 24) %>
+  <strong><%= link_to "@#{current_user.login}", user_path(:id => current_user.login) %></strong>
+  <br />
+  <div id="user_actions">
+    <small>
+      <%= link_to "timeline", timeline_path %>
+      <%= link_to "mentions", mentions_path %>
+      <%= link_to "retweets by me", retweeted_by_me_path %>
+      <%= link_to "retweets of me", retweets_of_me_path %>
+      <%= link_to 'sign out', logout_path %>
+    </small>
+  </div>
+<%- else %>
+  <%= link_to 'Login via Twitter', '/login' %>
+<% end %>

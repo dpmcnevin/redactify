@@ -1,6 +1,0 @@
-%ul
-  - for spoiler in user.spoilers
-    %li.spoiler
-      = spoiler.name
-      %small= link_to "remove", [user,spoiler], :method => :delete, :confirm => "really delete \"#{spoiler.name}\"?", :class => "spoiler_action", :style => "display: none;"
-= javascript_tag "show_spoiler_action();"      

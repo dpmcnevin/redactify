@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title><%= @title || "Redactify" %></title>
+    <%= csrf_meta_tag %>
+    <%= stylesheet_link_tag 'application' %>
+    <%= javascript_include_tag "jquery", "rails", "application", "endless_page" %>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="title">
+          <h1><%= link_to 'redactify', '/' %></h1>
+          <span id="sub_heading"> twitter without spoilers </span>
+        </div>
+
+        <div id="user_bar">
+          <%= render :partial => "users/bar" %>
+        </div>
+          
+        <div class="clearfix"></div>
+      </div>
+
+      <% flash.map do |name, message| %>
+        <%= content_tag :div, message, :class => "flash #{name}" %>
+      <% end %>
+      
+      <div id="contents">
+        <%= yield %>
+      </div>
+
+      <div id="footer">
+        Copyright &copy; 2010
+        <%= link_to "redactify", "mailto:dpmcnevin@redactify.com" %> |
+        <%= link_to_unless_current "about", static_url("about") %>
+      </div>
+    </div>
+    
+    <%- if RAILS_ENV == "production" %>
+      <%= render "static/google_analytics" %>
+      <%= render "static/user_voice" %>
+    <% end %>
+  </body>
+</html>

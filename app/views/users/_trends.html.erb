@@ -1,0 +1,10 @@
+<h3>
+  Trends
+  <%= link_to "update", trends_path, :remote => true, :method => :put, :id => "update_trends" %>
+</h3>
+
+<ul>
+  <% for trend in @trends %>
+    <li><%= link_to("#{trend["name"]}", searches_path(:q => trend["name"]), :method => :post) %></li>
+  <% end %>
+</ul>
