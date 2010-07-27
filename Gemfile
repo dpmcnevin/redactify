@@ -17,9 +17,9 @@ group :production do
 end
 
 group :test do
-  gem "cucumber-rails"
-  gem "webrat"
-  gem "fakeweb"
+  # gem "cucumber-rails"
+  # gem "webrat"
+  # gem "fakeweb"
   gem "redgreen"
 end
 

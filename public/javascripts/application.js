@@ -3,9 +3,9 @@
 $(function() {
   
   // Remove and hide the flash after 3.5 seconds
-  if ($("#flash") && !$("#flash").hasClass("error")) {
-    var fade=setTimeout("$('#flash').fadeOut()",3500);
-    var hide=setTimeout("$('#flash').hide()",4800);
+  if ($(".flash") && !$(".flash").hasClass("error")) {
+    var fade=setTimeout("$('.flash').fadeOut()",3500);
+    var hide=setTimeout("$('.flash').hide()",4800);
   }
   
   // Watch the post tweet input and update the character count

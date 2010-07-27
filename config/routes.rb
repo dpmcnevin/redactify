@@ -1,4 +1,4 @@
-Redactify::Application.routes.draw do |map|
+Redactify::Application.routes.draw do
 
   resources :users, :only => [:show, :update] do
     resources :spoilers
@@ -6,7 +6,7 @@ Redactify::Application.routes.draw do |map|
   
   get "/mentions" => "users#show", :section => "mentions", :as => "mentions"
   get "/retweeted_by_me" => "users#show", :section => "retweeted_by_me", :as => "retweeted_by_me"
-  get "/retweets_of_me" => "users#show", :section => "retweets_of_me", :as => "retweets_of_me"  
+  get "/retweets_of_me" => "users#show", :section => "retweets_of_me", :as => "retweets_of_me"
   
   resources :tweets, :only => [:show]
 
@@ -17,14 +17,8 @@ Redactify::Application.routes.draw do |map|
   resource :trends, :only => [:show, :update]
   resource :rate_limit, :only => [:update]
   
-  resource :session
-  
-  match '/login', :to => 'sessions#new', :as => :login
-  match '/logout', :to => 'sessions#destroy', :as => :logout
-  match '/oauth_callback', :to => 'sessions#oauth_callback', :as => 'oauth_callback'
+  get "/about" => 'static#about', :as => "about"
 
   root :to => "static#index"
-
-  match "/:action", :controller => 'static', :as => "static"
 
 end
