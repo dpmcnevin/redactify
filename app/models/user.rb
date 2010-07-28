@@ -55,7 +55,7 @@ class User < TwitterAuth::GenericUser
   
   def trends
     url = "http://search.twitter.com/trends.json"
-    puts "TWITTER: Getting URL: #{url}"
+    puts "TWITTER: Getting URL: #{url}" if Rails.env == "development"
     twitter.get(url)["trends"]
     # return []
   end
@@ -64,7 +64,7 @@ class User < TwitterAuth::GenericUser
     begin
       twitter.get("http://twitter.com/account/rate_limit_status.json")
     rescue
-      File.open("#{Rails.root}/db/test_rate_limit.yml") { |file| YAML.load(file) }  if Rails.env == "development"
+      {}
     end
   end
   
@@ -111,7 +111,7 @@ class User < TwitterAuth::GenericUser
     url = "http://search.twitter.com/search.json?rpp=50&q=#{CGI.escape(options[:q])}"
     # url << "?#{options.to_query}" unless options.empty?
     
-    puts "TWITTER: Getting URL: #{url}"
+    puts "TWITTER: Getting URL: #{url}" if Rails.env == "development"
     twitter.get(url)
   end
   
@@ -136,8 +136,8 @@ class User < TwitterAuth::GenericUser
     
     url << "?#{options.to_query}" unless options.empty?
     
-    puts "TWITTER: Getting URL: #{url}"
-    
+    puts "TWITTER: Getting URL: #{url}" if Rails.env == "development"
+     
     ## Test from local files    
     # tweets = File.open("#{Rails.root}/db/test_tweets.yml") { |file| YAML.load(file) }
     # tweets.first["text"] = url

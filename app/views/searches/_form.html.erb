@@ -1,4 +1,5 @@
 <%= form_tag searches_path do %>
 	<%= text_field_tag :q, "search twitter", :class => :default_input %>
+	<%= submit_tag "search", :id => "search_submit", :style => "display: none;" %>
 	<%= javascript_tag "blurInput('#q', 'search twitter')" %>
 <% end %>

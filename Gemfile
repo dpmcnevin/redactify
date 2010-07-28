@@ -17,9 +17,16 @@ group :production do
 end
 
 group :test do
-  # gem "cucumber-rails"
-  # gem "webrat"
-  # gem "fakeweb"
+  gem "cucumber-rails"
+  gem "shoulda"
+  gem "factory_girl_rails"
+  gem "mocha"
+  gem "capybara"
+  gem "launchy"
+  gem "database_cleaner"
+  gem "fakeweb"
+  gem "ZenTest"
+  gem "autotest-rails"
   gem "redgreen"
 end
 
