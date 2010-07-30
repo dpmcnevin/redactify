@@ -6,20 +6,16 @@ class UsersController < ApplicationController
   before_filter :load_trends, :only => [:show]
   after_filter :update_latest_tweet, :only => [:show]
   
-  def show
+  def show   
+    @page = params[:page] ||= 1
+     
     case params[:section]
       when "mentions"
-        @get_more_url = mentions_path(:page => @page.to_i + 1)
-        @update_tweets_url = mentions_path
-        @timeline = @user.spoiler_free_timeline(:page => @page, :section => "mentions")
+        get_timeline("mentions", :section => "mentions")
       when "retweeted_by_me"
-        @get_more_url = retweeted_by_me_path(:page => @page.to_i + 1)
-        @update_tweets_url = retweeted_by_me_path
-        @timeline = @user.spoiler_free_timeline(:page => @page, :section => "retweeted_by_me")
+        get_timeline("retweeted_by_me", :section => "retweeted_by_me")
       when "retweets_of_me"
-        @get_more_url = retweets_of_me_path(:page => @page.to_i + 1)
-        @update_tweets_url = retweets_of_me_path
-        @timeline = @user.spoiler_free_timeline(:page => @page, :section => "retweets_of_me")
+        get_timeline("retweets_of_me", :section => "retweets_of_me")
         @timeline.map {|t| t.tweet["retweeted_by"] = @user.get_retweeted_by(t.tweet) }
       else
         @get_more_url = user_path(:id => params[:id], :page => @page.to_i + 1)
@@ -41,10 +37,11 @@ class UsersController < ApplicationController
   
   private
   
-  def set_urls(section = "user")
-    @page = params[:page] ||= 1
-    @get_more_url = mentions_path(:page => @page.to_i + 1)
-    @update_tweets_url = mentions_path
+  def get_timeline(section, options = {})
+    path = "#{section}_path"
+    @get_more_url = self.send(path, options.merge(:page => @page.to_i + 1))
+    @update_tweets_url = self.send(path)
+    @timeline = @user.spoiler_free_timeline(:page => @page, :section => section)
   end
   
 end
