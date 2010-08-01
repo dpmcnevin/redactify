@@ -121,7 +121,7 @@ class User < TwitterAuth::GenericUser
     
     url = case
       when options["list_id"] 
-        "/1/#{login}/lists/#{options["list_id"]}/statuses.json"
+        "http://api.twitter.com/1/#{login}/lists/#{options["list_id"]}/statuses.json"
       when options["screen_name"] 
         "/statuses/user_timeline/#{options["screen_name"]}.json"
       when options[:section] == "mentions"

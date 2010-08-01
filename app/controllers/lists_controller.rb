@@ -10,7 +10,11 @@ class ListsController < ApplicationController
     @get_more_url = list_path(:id => params[:id], :page => @page.to_i + 1)
     @update_tweets_url = list_path(params[:id])
     @timeline = @user.spoiler_free_timeline(:list_id => params[:id], :page => @page)
-    render "timelines/show"
+    respond_to do |format|
+      format.html { render "timelines/show" }
+      format.js { render :partial => "timelines/tweets" }
+      format.json { render :json => @timeline.to_json }
+    end
   end
   
   def update
