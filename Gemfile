@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 # gem 'rails', '3.0.0.rc'
-gem 'rails', '3.0.0.beta4'
+gem 'rails', '3.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -35,3 +35,4 @@ gem "twitter-auth", :git => "git://github.com/dpmcnevin/twitter-auth.git", :bran
 # gem "twitter-auth", :path => "../twitter-auth", :require => "twitter_auth/engine"
 gem 'oauth', ">= 0.3.1"
 gem "json"
+gem "jquery-rails"

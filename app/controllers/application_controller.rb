@@ -38,6 +38,4 @@ class ApplicationController < ActionController::Base
   def update_latest_tweet
     session[:latest_id] = @timeline.first.id if !@timeline.empty? && params[:page] == 1
   end
-
-
 end

@@ -1,5 +1,4 @@
 module ApplicationHelper
-  
   def auto_link_twitter(txt, options = {})
   	txt.scan(/(^|\W|\s+)(#|@)(\w{1,40})/).each do |match|
   	  if match[1] == "#"
@@ -18,5 +17,4 @@ module ApplicationHelper
     
     links.join(", ").html_safe
   end
-  
 end
